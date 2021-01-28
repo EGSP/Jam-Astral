@@ -7,6 +7,13 @@
       <e p="Assembly-CSharp-firstpass.csproj" t="IncludeRecursive" />
       <e p="Assembly-CSharp.csproj" t="IncludeRecursive" />
       <e p="Assets" t="Include">
+        <e p="_ProjectFiles" t="Include">
+          <e p="Scripts" t="Include">
+            <e p="FollowCamera.cs" t="Include" />
+            <e p="Player.cs" t="Include" />
+            <e p="PlayerController.cs" t="Include" />
+          </e>
+        </e>
         <e p="Plugins" t="Include">
           <e p="DOTween" t="Include">
             <e p="Modules" t="Include">
@@ -30,13 +37,19 @@
               <e p="Sirenix.Utilities.xml" t="Include" />
             </e>
             <e p="Odin Inspector" t="Include">
+              <e p="Modules" t="Include">
+                <e p="Unity.Mathematics" t="Include">
+                  <e p="manifest.txt" t="Include" />
+                  <e p="MathematicsDrawers.cs" t="Include" />
+                  <e p="Sirenix.OdinInspector.Modules.UnityMathematics.asmdef" t="Include" />
+                </e>
+              </e>
               <e p="Scripts" t="Include">
                 <e p="Editor" t="Include">
                   <e p="AssemblyImportSettingsAutomation.cs" t="Include" />
                   <e p="BuildAOTAutomation.cs" t="Include" />
                   <e p="EnsureOdinInspectorDefine.cs" t="Include" />
                   <e p="FixBrokenUnityObjectWrapperDrawer.cs" t="Include" />
-                  <e p="OdinUpgrader.cs" t="Include" />
                   <e p="Sirenix.OdinInspector.CompatibilityLayer.Editor.asmdef" t="Include" />
                   <e p="SyncListDrawer.cs" t="Include" />
                   <e p="SyncVarAttributeDrawer.cs" t="Include" />
@@ -229,6 +242,7 @@
       <e p="Packages" t="ExcludeRecursive" />
       <e p="Sirenix.OdinInspector.CompatibilityLayer.csproj" t="IncludeRecursive" />
       <e p="Sirenix.OdinInspector.CompatibilityLayer.Editor.csproj" t="IncludeRecursive" />
+      <e p="Sirenix.OdinInspector.Modules.UnityMathematics.csproj" t="IncludeRecursive" />
       <e p="Temp\bin" t="ExcludeRecursive" />
     </e>
   </component>
