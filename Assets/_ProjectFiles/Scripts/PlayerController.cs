@@ -19,10 +19,13 @@ namespace Game
         {
             var horizontal = Input.GetAxisRaw("Horizontal");
 
+            player.Move(horizontal);
+            
             if(Input.GetKeyDown(KeyCode.Space))
                 player.Jump();
             
-            player.Move(horizontal);
+            if(Input.GetKeyDown(KeyCode.Mouse0))
+                player.UseAbility();
         }
     }
 }

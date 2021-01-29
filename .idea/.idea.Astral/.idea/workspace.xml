@@ -22,19 +22,10 @@
     <list default="true" id="52a2c8e9-c056-44b6-b833-90f660bc5b6d" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/.idea.Astral/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Astral/.idea/contentModel.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.Astral/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Astral/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Plugins/DOTween/Editor/DOTweenUpgradeManager.XML" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Plugins/DOTween/Editor/DOTweenUpgradeManager.XML.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Plugins/DOTween/Editor/DOTweenUpgradeManager.dll" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Plugins/DOTween/Editor/DOTweenUpgradeManager.dll.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Sirenix/Odin Inspector/Config/Editor/OdinModuleConfig.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Plugins/Sirenix/Odin Inspector/Config/Editor/OdinModuleConfig.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Sirenix/Odin Inspector/Scripts/Editor/OdinUpgrader.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Sirenix/Odin Inspector/Scripts/Editor/OdinUpgrader.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/SampleScene.unity" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/SampleScene.unity.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/SubModules/Package-Unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/SubModules/Package-Unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_ProjectFiles/Scenes/SampleScene.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_ProjectFiles/Scenes/SampleScene.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_ProjectFiles/Scripts/Player.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_ProjectFiles/Scripts/Player.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_ProjectFiles/Scripts/PlayerController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_ProjectFiles/Scripts/PlayerController.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ProjectSettings/Physics2DSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/Physics2DSettings.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProjectSettings/TagManager.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/TagManager.asset" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -45,6 +36,7 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="HighlightingSettingsPerFile">
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/8691AD70-05ED-4755-A182-8378FF0B52B1/df/61af6bd9/Vector3.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/65CAB14A-C59E-4552-B77F-98A4AED18F9E/00/449366cc/ContactFilter2D.cs" root0="SKIP_HIGHLIGHTING" />
   </component>
   <component name="IdeDocumentHistory">
@@ -53,9 +45,14 @@
         <option value="$PROJECT_DIR$/Assets/SubModules/Package-Unity/Ui/Visuals/Odin/SerializedContextVisual.cs" />
         <option value="$PROJECT_DIR$/Assets/_ProjectFiles/PlayerController.cs" />
         <option value="$PROJECT_DIR$/Assets/_ProjectFiles/Player.cs" />
-        <option value="$PROJECT_DIR$/Assets/_ProjectFiles/Scripts/Player.cs" />
         <option value="$PROJECT_DIR$/Assets/_ProjectFiles/Scripts/FollowCamera.cs" />
+        <option value="$PROJECT_DIR$/Assets/_ProjectFiles/Scripts/IPhysicsEntity.cs" />
+        <option value="$PROJECT_DIR$/Assets/_ProjectFiles/Scripts/AttackVisual.cs" />
+        <option value="$PROJECT_DIR$/Assets/SubModules/Package-Unity/Engine/Input/InputExtensions.cs" />
+        <option value="$PROJECT_DIR$/Assets/SubModules/Package-Unity/Extensions/QuaternionExtensions.cs" />
+        <option value="$PROJECT_DIR$/Assets/_ProjectFiles/Scripts/PlayerAttackVisual.cs" />
         <option value="$PROJECT_DIR$/Assets/_ProjectFiles/Scripts/PlayerController.cs" />
+        <option value="$PROJECT_DIR$/Assets/_ProjectFiles/Scripts/Player.cs" />
       </list>
     </option>
   </component>
@@ -104,7 +101,8 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1611830063640</updated>
-      <workItem from="1611830087003" duration="12826000" />
+      <workItem from="1611830087003" duration="13493000" />
+      <workItem from="1611916151779" duration="9908000" />
     </task>
     <servers />
   </component>
@@ -123,8 +121,15 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="507" y="228" width="672" height="678" key="search.everywhere.popup" timestamp="1611918176250">
+      <screen x="0" y="0" width="1858" height="1080" />
+    </state>
+    <state x="507" y="228" width="672" height="678" key="search.everywhere.popup/0.0.1858.1080@0.0.1858.1080" timestamp="1611918176250" />
   </component>
 </project>

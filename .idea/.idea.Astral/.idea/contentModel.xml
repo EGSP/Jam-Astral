@@ -10,7 +10,9 @@
         <e p="_ProjectFiles" t="Include">
           <e p="Scripts" t="Include">
             <e p="FollowCamera.cs" t="Include" />
+            <e p="IPhysicsEntity.cs" t="Include" />
             <e p="Player.cs" t="Include" />
+            <e p="PlayerAttackVisual.cs" t="Include" />
             <e p="PlayerController.cs" t="Include" />
           </e>
         </e>
@@ -71,6 +73,9 @@
               <e p="LazyInstanceAttribute.cs" t="Include" />
             </e>
             <e p="Engine" t="Include">
+              <e p="Input" t="Include">
+                <e p="InputExtensions.cs" t="Include" />
+              </e>
               <e p="Scene" t="Include">
                 <e p="Core" t="Include">
                   <e p="Exceptions" t="Include">
@@ -141,6 +146,7 @@
               <e p="Mono" t="Include">
                 <e p="ComponentExtensions.cs" t="Include" />
               </e>
+              <e p="QuaternionExtensions.cs" t="Include" />
             </e>
             <e p="Files" t="Include">
               <e p="Storage" t="Include">
