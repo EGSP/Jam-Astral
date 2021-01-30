@@ -1,8 +1,7 @@
 ﻿
-using System;
 using DG.Tweening;
 using Egsp.Core.Inputs;
-using Egsp.Extensions.Primitives;
+using Egsp.Core;
 using Sirenix.OdinInspector;
 using Sirenix.Serialization;
 using UnityEngine;
@@ -16,9 +15,6 @@ namespace Game
         public const float MovementBlockTime = 0.2f;
         
         [TitleGroup("Move")] [OdinSerialize] public float Speed { get; private set; }
-        [TitleGroup("Jump")] [OdinSerialize] public float JumpHeight { get; private set; }
-        [TitleGroup("Jump")] [SerializeField] private float jumpDelay;
-
         [TitleGroup("Ability")] [OdinSerialize] public float AbilityDistance { get; private set; }
         [TitleGroup("Ability")] [OdinSerialize] public float AbilityPower { get; private set; }
         [TitleGroup("Ability")] [OdinSerialize] public float AbilityDelay { get; private set; }
@@ -31,9 +27,6 @@ namespace Game
         private Vector3 moveVelocity;
 
         private ContactFilter2D filter;
-
-        private bool allowJump = true;
-        private Tween jumpDelayTween;
 
         private bool allowAbility = true;
         private Tween abilityDelayTween;
@@ -84,7 +77,7 @@ namespace Game
             if (!IsGrounded)
                 return;
             
-            if (!DetectGround(moveVelocity.normalized, moveVelocity.magnitude))
+            if (!DetectGround(moveVelocity.normalized, moveVelocity.magnitude, Time.fixedDeltaTime))
             {
                 if (moveVelocity != Vector3.zero)
                 {
@@ -98,23 +91,6 @@ namespace Game
 
         public void StopMove() => moveVelocity = Vector3.zero;
 
-        public void Jump() => Jump(Vector3.up);
-        
-        public void Jump(Vector3 direction)
-        {
-            if (!allowJump || !onGround)
-                return;
-            
-            allowJump = false;
-            ApplyForce(new Force(Vector3.up * JumpHeight, ForceMode.VelocityChange));
-
-            jumpDelayTween = DOVirtual.DelayedCall(jumpDelay, () =>
-            {
-                allowJump = true;
-                jumpDelayTween = null;
-            });
-        }
-        
         // Position
         
         // Узнаем о наличии препятствия перед объектом.
@@ -152,10 +128,6 @@ namespace Game
 
         private void OnGround()
         {
-            if (jumpDelayTween != null)
-            {
-                jumpDelayTween.Complete(true);
-            }
         }
 
         private void OnAir()
@@ -179,11 +151,20 @@ namespace Game
             var raycastHit2D = Physics2D.Raycast(transform.position, LookDirection, AbilityDistance);
             if (raycastHit2D.collider != null)
             {
+
                 var abilityEndPower = (1 - raycastHit2D.distance / AbilityDistance) * AbilityPower;
 
-                ApplyForce(new Force(-LookDirection * abilityEndPower, ForceMode.VelocityChange));
-
-                Debug.Log($"{raycastHit2D.collider.name} + {abilityEndPower.ToString(1)}");
+                IPhysicsEntity physicsEntity;
+                if (raycastHit2D.collider.IsPhysicsEntity(out physicsEntity))
+                {
+                    physicsEntity.ApplyForce(
+                        new Force(LookDirection * abilityEndPower, ForceMode.VelocityChange), this);
+                }
+                else
+                {
+                    ApplyForce(
+                        new Force(-LookDirection * abilityEndPower, ForceMode.VelocityChange)); 
+                }
             }
         }
 
@@ -215,39 +196,7 @@ namespace Game
         private void OnDrawGizmos()
         {
             Gizmos.color = Color.red;
-            Gizmos.DrawLine(transform.position, transform.position+Vector3.right * AbilityDistance);
-        }
-    }
-
-    public static class PhysicsExtensions
-    {
-       
-    }
-    
-    public static class Physics2DExtensions
-    {
-        public static void AddForce(this Rigidbody2D rigidbody2D, Force force)
-            => AddForce(rigidbody2D, force.vector, force.mode);
-        
-        public static void AddForce (this Rigidbody2D rigidbody2D, Vector2 force, ForceMode mode = ForceMode.Force) {
-            switch (mode) {
-                case ForceMode.Force:
-                    rigidbody2D.AddForce (force);
-                    break;
-                case ForceMode.Impulse:
-                    rigidbody2D.AddForce (force / Time.fixedDeltaTime);
-                    break;
-                case ForceMode.Acceleration:
-                    rigidbody2D.AddForce (force * rigidbody2D.mass);
-                    break;
-                case ForceMode.VelocityChange:
-                    rigidbody2D.AddForce (force * rigidbody2D.mass / Time.fixedDeltaTime);
-                    break;
-            }
-        }
-     
-        public static void AddForce (this Rigidbody2D rigidbody2D, float x, float y, ForceMode mode = ForceMode.Force) {
-            rigidbody2D.AddForce (new Vector2 (x, y), mode);
+            Gizmos.DrawLine(transform.position, transform.position + Vector3.right * AbilityDistance);
         }
     }
 }

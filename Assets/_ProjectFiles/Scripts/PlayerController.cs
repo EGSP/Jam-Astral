@@ -21,9 +21,6 @@ namespace Game
 
             player.Move(horizontal);
             
-            if(Input.GetKeyDown(KeyCode.Space))
-                player.Jump();
-            
             if(Input.GetKeyDown(KeyCode.Mouse0))
                 player.UseAbility();
         }

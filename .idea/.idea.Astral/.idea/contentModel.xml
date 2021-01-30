@@ -10,7 +10,6 @@
         <e p="_ProjectFiles" t="Include">
           <e p="Scripts" t="Include">
             <e p="FollowCamera.cs" t="Include" />
-            <e p="IPhysicsEntity.cs" t="Include" />
             <e p="Player.cs" t="Include" />
             <e p="PlayerAttackVisual.cs" t="Include" />
             <e p="PlayerController.cs" t="Include" />
@@ -188,6 +187,23 @@
                   <e p="PathResponse.cs" t="Include" />
                   <e p="PathResponseSync.cs" t="Include" />
                 </e>
+              </e>
+            </e>
+            <e p="Physics" t="Include">
+              <e p="Entities" t="Include">
+                <e p="IPhysicsEntity.cs" t="Include" />
+                <e p="PhysicsObstacle2D.cs" t="Include" />
+              </e>
+              <e p="Force.cs" t="Include" />
+              <e p="Physics2DExtensions.cs" t="Include" />
+              <e p="Triggers" t="Include">
+                <e p="2D" t="Include">
+                  <e p="BoxTrigger2D.cs" t="Include" />
+                  <e p="Trigger2D.cs" t="Include" />
+                </e>
+                <e p="ITrigger.cs" t="Include" />
+                <e p="Trigg.cs" t="Include" />
+                <e p="TriggerBase.cs" t="Include" />
               </e>
             </e>
             <e p="Pooling" t="Include">

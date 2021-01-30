@@ -23,9 +23,10 @@
       <change beforePath="$PROJECT_DIR$/.idea/.idea.Astral/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Astral/.idea/contentModel.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.Astral/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Astral/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/_ProjectFiles/Scenes/SampleScene.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_ProjectFiles/Scenes/SampleScene.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_ProjectFiles/Scripts/IPhysicsEntity.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_ProjectFiles/Scripts/IPhysicsEntity.cs.meta" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/_ProjectFiles/Scripts/Player.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_ProjectFiles/Scripts/Player.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/_ProjectFiles/Scripts/PlayerController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_ProjectFiles/Scripts/PlayerController.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProjectSettings/Physics2DSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/Physics2DSettings.asset" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -37,6 +38,7 @@
   </component>
   <component name="HighlightingSettingsPerFile">
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/8691AD70-05ED-4755-A182-8378FF0B52B1/df/61af6bd9/Vector3.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/65CAB14A-C59E-4552-B77F-98A4AED18F9E/ab/c4a59bf7/Collider2D.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/65CAB14A-C59E-4552-B77F-98A4AED18F9E/00/449366cc/ContactFilter2D.cs" root0="SKIP_HIGHLIGHTING" />
   </component>
   <component name="IdeDocumentHistory">
@@ -51,8 +53,20 @@
         <option value="$PROJECT_DIR$/Assets/SubModules/Package-Unity/Engine/Input/InputExtensions.cs" />
         <option value="$PROJECT_DIR$/Assets/SubModules/Package-Unity/Extensions/QuaternionExtensions.cs" />
         <option value="$PROJECT_DIR$/Assets/_ProjectFiles/Scripts/PlayerAttackVisual.cs" />
+        <option value="$PROJECT_DIR$/Assets/_ProjectFiles/Scripts/Physics/PhysicsObstacle.cs" />
+        <option value="$PROJECT_DIR$/Assets/_ProjectFiles/Scripts/Physics/PhysicsObstacle2D.cs" />
+        <option value="$PROJECT_DIR$/Assets/_ProjectFiles/Scripts/Physics/IPhysicsEntity.cs" />
         <option value="$PROJECT_DIR$/Assets/_ProjectFiles/Scripts/PlayerController.cs" />
+        <option value="$PROJECT_DIR$/Assets/_ProjectFiles/Scripts/Physics/Entities/IPhysicsEntity.cs" />
+        <option value="$PROJECT_DIR$/Assets/_ProjectFiles/Scripts/Physics/Entities/PhysicsObstacle2D.cs" />
+        <option value="$PROJECT_DIR$/Assets/_ProjectFiles/Scripts/Physics/Physics2DExtensions.cs" />
+        <option value="$PROJECT_DIR$/Assets/_ProjectFiles/Scripts/Physics/Force.cs" />
         <option value="$PROJECT_DIR$/Assets/_ProjectFiles/Scripts/Player.cs" />
+        <option value="$PROJECT_DIR$/Assets/_ProjectFiles/Scripts/Triggers/Trigger2D.cs" />
+        <option value="$PROJECT_DIR$/Assets/_ProjectFiles/Scripts/Triggers/ITrigger.cs" />
+        <option value="$PROJECT_DIR$/Assets/_ProjectFiles/Scripts/Triggers/2D/BoxTrigger2D.cs" />
+        <option value="$PROJECT_DIR$/Assets/_ProjectFiles/Scripts/Triggers/2D/Trigger2D.cs" />
+        <option value="$PROJECT_DIR$/Assets/_ProjectFiles/Scripts/Triggers/TriggerBase.cs" />
       </list>
     </option>
   </component>
@@ -102,7 +116,8 @@
       <option name="presentableId" value="Default" />
       <updated>1611830063640</updated>
       <workItem from="1611830087003" duration="13493000" />
-      <workItem from="1611916151779" duration="9908000" />
+      <workItem from="1611916151779" duration="15241000" />
+      <workItem from="1612004569536" duration="9301000" />
     </task>
     <servers />
   </component>
@@ -127,6 +142,10 @@
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
   </component>
   <component name="WindowStateProjectService">
+    <state x="625" y="167" key="RiderGenerateDialog" timestamp="1612010343894">
+      <screen x="0" y="0" width="1858" height="1080" />
+    </state>
+    <state x="625" y="167" key="RiderGenerateDialog/0.0.1858.1080@0.0.1858.1080" timestamp="1612010343894" />
     <state x="507" y="228" width="672" height="678" key="search.everywhere.popup" timestamp="1611918176250">
       <screen x="0" y="0" width="1858" height="1080" />
     </state>
