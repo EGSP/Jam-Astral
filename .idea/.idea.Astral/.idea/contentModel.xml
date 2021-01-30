@@ -10,6 +10,9 @@
         <e p="_ProjectFiles" t="Include">
           <e p="Scripts" t="Include">
             <e p="FollowCamera.cs" t="Include" />
+            <e p="Obstacles" t="Include">
+              <e p="Spike.cs" t="Include" />
+            </e>
             <e p="Player.cs" t="Include" />
             <e p="PlayerAttackVisual.cs" t="Include" />
             <e p="PlayerController.cs" t="Include" />
@@ -146,6 +149,7 @@
                 <e p="ComponentExtensions.cs" t="Include" />
               </e>
               <e p="QuaternionExtensions.cs" t="Include" />
+              <e p="TransformExtensions.cs" t="Include" />
             </e>
             <e p="Files" t="Include">
               <e p="Storage" t="Include">
@@ -191,11 +195,13 @@
             </e>
             <e p="Physics" t="Include">
               <e p="Entities" t="Include">
+                <e p="IMonoPhysicsEntity.cs" t="Include" />
                 <e p="IPhysicsEntity.cs" t="Include" />
                 <e p="PhysicsObstacle2D.cs" t="Include" />
               </e>
               <e p="Force.cs" t="Include" />
               <e p="Physics2DExtensions.cs" t="Include" />
+              <e p="PhysicsEntityExtensions.cs" t="Include" />
               <e p="Triggers" t="Include">
                 <e p="2D" t="Include">
                   <e p="BoxTrigger2D.cs" t="Include" />

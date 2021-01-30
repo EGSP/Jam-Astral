@@ -10,7 +10,7 @@ namespace Game
 {
     [RequireComponent(typeof(Rigidbody2D))]
     [RequireComponent(typeof(Collider2D))]
-    public class Player : SerializedMonoBehaviour, IPhysicsEntity
+    public class Player : SerializedMonoBehaviour, IMonoPhysicsEntity
     {
         public const float MovementBlockTime = 0.2f;
         
@@ -40,6 +40,8 @@ namespace Game
         public bool IsMovementBlocked => movementBlock != null;
 
         public bool IsGrounded => onGround;
+
+        public GameObject GameObject => gameObject;
         
         private void Awake()
         {
@@ -162,7 +164,7 @@ namespace Game
                 }
                 else
                 {
-                    ApplyForce(
+                    ApplyForceInternal(
                         new Force(-LookDirection * abilityEndPower, ForceMode.VelocityChange)); 
                 }
             }
@@ -190,6 +192,14 @@ namespace Game
 
         public void ApplyForce(Force force, IPhysicsEntity actor = null)
         {
+            ApplyForceInternal(force, true);
+        }
+
+        private void ApplyForceInternal(Force force, bool blockMovement = false, IPhysicsEntity actor = null)
+        {
+            if(blockMovement)
+                BlockMovement();
+            
             rig.AddForce(force);
         }
 

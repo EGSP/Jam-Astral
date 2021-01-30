@@ -22,11 +22,13 @@
     <list default="true" id="52a2c8e9-c056-44b6-b833-90f660bc5b6d" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/.idea.Astral/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Astral/.idea/contentModel.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.Astral/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Astral/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/SubModules/Package-Unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/SubModules/Package-Unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/SubModules/Package-Unity/Physics/Entities/PhysicsObstacle2D.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/SubModules/Package-Unity/Physics/Entities/PhysicsObstacle2D.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/SubModules/Package-Unity/Physics/Physics2DExtensions.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/SubModules/Package-Unity/Physics/Physics2DExtensions.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/SubModules/Package-Unity/Physics/Triggers/ITrigger.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/SubModules/Package-Unity/Physics/Triggers/ITrigger.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/SubModules/Package-Unity/Physics/Triggers/TriggerBase.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/SubModules/Package-Unity/Physics/Triggers/TriggerBase.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/_ProjectFiles/Scenes/SampleScene.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_ProjectFiles/Scenes/SampleScene.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_ProjectFiles/Scripts/IPhysicsEntity.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_ProjectFiles/Scripts/IPhysicsEntity.cs.meta" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/_ProjectFiles/Scripts/Player.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_ProjectFiles/Scripts/Player.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_ProjectFiles/Scripts/PlayerController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_ProjectFiles/Scripts/PlayerController.cs" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -37,6 +39,7 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="HighlightingSettingsPerFile">
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/8691AD70-05ED-4755-A182-8378FF0B52B1/3e/375ef069/GameObject.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/8691AD70-05ED-4755-A182-8378FF0B52B1/df/61af6bd9/Vector3.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/65CAB14A-C59E-4552-B77F-98A4AED18F9E/ab/c4a59bf7/Collider2D.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/65CAB14A-C59E-4552-B77F-98A4AED18F9E/00/449366cc/ContactFilter2D.cs" root0="SKIP_HIGHLIGHTING" />
@@ -61,12 +64,20 @@
         <option value="$PROJECT_DIR$/Assets/_ProjectFiles/Scripts/Physics/Entities/PhysicsObstacle2D.cs" />
         <option value="$PROJECT_DIR$/Assets/_ProjectFiles/Scripts/Physics/Physics2DExtensions.cs" />
         <option value="$PROJECT_DIR$/Assets/_ProjectFiles/Scripts/Physics/Force.cs" />
-        <option value="$PROJECT_DIR$/Assets/_ProjectFiles/Scripts/Player.cs" />
         <option value="$PROJECT_DIR$/Assets/_ProjectFiles/Scripts/Triggers/Trigger2D.cs" />
         <option value="$PROJECT_DIR$/Assets/_ProjectFiles/Scripts/Triggers/ITrigger.cs" />
         <option value="$PROJECT_DIR$/Assets/_ProjectFiles/Scripts/Triggers/2D/BoxTrigger2D.cs" />
         <option value="$PROJECT_DIR$/Assets/_ProjectFiles/Scripts/Triggers/2D/Trigger2D.cs" />
         <option value="$PROJECT_DIR$/Assets/_ProjectFiles/Scripts/Triggers/TriggerBase.cs" />
+        <option value="$PROJECT_DIR$/Assets/SubModules/Package-Unity/Physics/Entities/IMonoPhysicsEntity.cs" />
+        <option value="$PROJECT_DIR$/Assets/SubModules/Package-Unity/Physics/Entities/PhysicsObstacle2D.cs" />
+        <option value="$PROJECT_DIR$/Assets/SubModules/Package-Unity/Physics/Triggers/TriggerBase.cs" />
+        <option value="$PROJECT_DIR$/Assets/SubModules/Package-Unity/Physics/Triggers/PhysicsEntityExtensions.cs" />
+        <option value="$PROJECT_DIR$/Assets/SubModules/Package-Unity/Physics/Physics2DExtensions.cs" />
+        <option value="$PROJECT_DIR$/Assets/SubModules/Package-Unity/Extensions/TransformExtensions.cs" />
+        <option value="$PROJECT_DIR$/Assets/SubModules/Package-Unity/Physics/PhysicsEntityExtensions.cs" />
+        <option value="$PROJECT_DIR$/Assets/_ProjectFiles/Scripts/Obstacles/Spike.cs" />
+        <option value="$PROJECT_DIR$/Assets/_ProjectFiles/Scripts/Player.cs" />
       </list>
     </option>
   </component>
@@ -117,7 +128,7 @@
       <updated>1611830063640</updated>
       <workItem from="1611830087003" duration="13493000" />
       <workItem from="1611916151779" duration="15241000" />
-      <workItem from="1612004569536" duration="9301000" />
+      <workItem from="1612004569536" duration="17248000" />
     </task>
     <servers />
   </component>
