@@ -13,6 +13,14 @@
             <e p="Obstacles" t="Include">
               <e p="Spike.cs" t="Include" />
             </e>
+            <e p="Parallax" t="Include">
+              <e p="IParallax.cs" t="Include" />
+              <e p="IParallaxGroup.cs" t="Include" />
+              <e p="Parallax.cs" t="Include" />
+              <e p="Parallax2D.cs" t="Include" />
+              <e p="Parallax2DAuto.cs" t="Include" />
+              <e p="ParallaxGroup.cs" t="Include" />
+            </e>
             <e p="Player.cs" t="Include" />
             <e p="PlayerAttackVisual.cs" t="Include" />
             <e p="PlayerController.cs" t="Include" />
@@ -146,6 +154,7 @@
               </e>
               <e p="LinqExtensions.cs" t="Include" />
               <e p="Mono" t="Include">
+                <e p="CameraExtensions.cs" t="Include" />
                 <e p="ComponentExtensions.cs" t="Include" />
               </e>
               <e p="QuaternionExtensions.cs" t="Include" />
@@ -166,7 +175,7 @@
             </e>
             <e p="Other" t="Include">
               <e p="Coroutiner.cs" t="Include" />
-              <e p="CurveHandler.cs" t="Include" />
+              <e p="Curve.cs" t="Include" />
               <e p="HourTimer.cs" t="Include" />
             </e>
             <e p="Pathfinding" t="Include">

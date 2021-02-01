@@ -1,13 +1,14 @@
 ﻿using System;
 using Egsp.Core;
 using Egsp.Extensions.Primitives;
-using Sirenix.OdinInspector;
 using UnityEngine;
 
 namespace Game.Obstacles
 {
     public class Spike : BoxTrigger2D
     {
+        public static readonly Color SpikeColor = Color.red;  
+        
         [SerializeField] private float punchPower;
 
         protected override void OnEnter(GameObject enteredObject)
@@ -19,5 +20,7 @@ namespace Game.Obstacles
                 physicsEntity.ApplyForceFrom(enteredObject.transform, transform, punchPower);
             }
         }
+
+        protected override Color GetGizmosColor() => SpikeColor;
     }
 }

@@ -86,7 +86,7 @@ namespace Game
                     var velocityChange = moveVelocity - (Vector3) rig.velocity;
                     velocityChange.y = 0;
 
-                    ApplyForce(new Force(velocityChange, ForceMode.VelocityChange));
+                    ApplyForceInternal(new Force(velocityChange, ForceMode.VelocityChange));
                 }
             }
         }
@@ -141,8 +141,6 @@ namespace Game
             if (!allowAbility)
                 return;
             
-            BlockMovement();
-            
             allowAbility = false;
             abilityDelayTween = DOVirtual.DelayedCall(AbilityDelay, () =>
             {
@@ -159,13 +157,14 @@ namespace Game
                 IPhysicsEntity physicsEntity;
                 if (raycastHit2D.collider.IsPhysicsEntity(out physicsEntity))
                 {
+                    BlockMovement();
                     physicsEntity.ApplyForce(
                         new Force(LookDirection * abilityEndPower, ForceMode.VelocityChange), this);
                 }
                 else
                 {
                     ApplyForceInternal(
-                        new Force(-LookDirection * abilityEndPower, ForceMode.VelocityChange)); 
+                        new Force(-LookDirection * abilityEndPower, ForceMode.VelocityChange), true); 
                 }
             }
         }
