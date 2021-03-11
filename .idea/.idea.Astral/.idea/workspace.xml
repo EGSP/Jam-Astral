@@ -20,19 +20,15 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="52a2c8e9-c056-44b6-b833-90f660bc5b6d" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/Assets/SubModules/Package-Unity/Other/Curve.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.Astral/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Astral/.idea/contentModel.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.Astral/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Astral/.idea/modules.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.Astral/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Astral/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/SubModules/Package-Unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/SubModules/Package-Unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/SubModules/Package-Unity/Extensions/FloatExtensions.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/SubModules/Package-Unity/Extensions/FloatExtensions.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/SubModules/Package-Unity/Other/CurveHandler.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/SubModules/Package-Unity/Other/CurveHandler.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/SubModules/Package-Unity/Physics/Triggers/2D/BoxTrigger2D.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/SubModules/Package-Unity/Physics/Triggers/2D/BoxTrigger2D.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/SubModules/Package-Unity/Physics/Triggers/2D/Trigger2D.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/SubModules/Package-Unity/Physics/Triggers/2D/Trigger2D.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/SubModules/Package-Unity/Physics/Triggers/TriggerBase.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/SubModules/Package-Unity/Physics/Triggers/TriggerBase.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/SubModules/Package-Unity/Engine/Scene/Core/GameSceneManager.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/SubModules/Package-Unity/Engine/Scene/Core/GameSceneManager/GameSceneManager.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/SubModules/Package-Unity/Extensions/TransformExtensions.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/SubModules/Package-Unity/Extensions/TransformExtensions.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/SubModules/Package-Unity/Physics/Triggers/2D/CircleTrigger2D.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/SubModules/Package-Unity/Physics/Triggers/2D/CircleTrigger2D.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/_ProjectFiles/Scenes/SampleScene.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_ProjectFiles/Scenes/SampleScene.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_ProjectFiles/Scripts/Obstacles/Spike.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_ProjectFiles/Scripts/Obstacles/Spike.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_ProjectFiles/Scripts/Player.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_ProjectFiles/Scripts/Player.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProjectSettings/EditorBuildSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/EditorBuildSettings.asset" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -40,66 +36,29 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/Assets/SubModules/Package-Unity" />
   </component>
   <component name="HighlightingSettingsPerFile">
-    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/8691AD70-05ED-4755-A182-8378FF0B52B1/3e/375ef069/GameObject.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/_ProjectFiles/Scripts/Parallax/Parallax2DAuto.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/8691AD70-05ED-4755-A182-8378FF0B52B1/df/61af6bd9/Vector3.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/65CAB14A-C59E-4552-B77F-98A4AED18F9E/ab/c4a59bf7/Collider2D.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/65CAB14A-C59E-4552-B77F-98A4AED18F9E/00/449366cc/ContactFilter2D.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/8691AD70-05ED-4755-A182-8378FF0B52B1/3e/375ef069/GameObject.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/8691AD70-05ED-4755-A182-8378FF0B52B1/0e/32fb2d19/Transform.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/14E3453B-740B-4BD6-90E8-D4E5A013A715/ca/27cd38b5/LinkedListNode`1.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/65CAB14A-C59E-4552-B77F-98A4AED18F9E/00/449366cc/ContactFilter2D.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/SubModules/Package-Unity/Events/EventBus/TypedBus.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/8691AD70-05ED-4755-A182-8378FF0B52B1/df/61af6bd9/Vector3.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/_ProjectFiles/Scripts/Parallax/Parallax2DAuto.cs" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="IdeDocumentHistory">
-    <option name="CHANGED_PATHS">
-      <list>
-        <option value="$PROJECT_DIR$/Assets/SubModules/Package-Unity/Ui/Visuals/Odin/SerializedContextVisual.cs" />
-        <option value="$PROJECT_DIR$/Assets/_ProjectFiles/PlayerController.cs" />
-        <option value="$PROJECT_DIR$/Assets/_ProjectFiles/Player.cs" />
-        <option value="$PROJECT_DIR$/Assets/_ProjectFiles/Scripts/FollowCamera.cs" />
-        <option value="$PROJECT_DIR$/Assets/_ProjectFiles/Scripts/IPhysicsEntity.cs" />
-        <option value="$PROJECT_DIR$/Assets/_ProjectFiles/Scripts/AttackVisual.cs" />
-        <option value="$PROJECT_DIR$/Assets/SubModules/Package-Unity/Engine/Input/InputExtensions.cs" />
-        <option value="$PROJECT_DIR$/Assets/SubModules/Package-Unity/Extensions/QuaternionExtensions.cs" />
-        <option value="$PROJECT_DIR$/Assets/_ProjectFiles/Scripts/PlayerAttackVisual.cs" />
-        <option value="$PROJECT_DIR$/Assets/_ProjectFiles/Scripts/Physics/PhysicsObstacle.cs" />
-        <option value="$PROJECT_DIR$/Assets/_ProjectFiles/Scripts/Physics/PhysicsObstacle2D.cs" />
-        <option value="$PROJECT_DIR$/Assets/_ProjectFiles/Scripts/Physics/IPhysicsEntity.cs" />
-        <option value="$PROJECT_DIR$/Assets/_ProjectFiles/Scripts/PlayerController.cs" />
-        <option value="$PROJECT_DIR$/Assets/_ProjectFiles/Scripts/Physics/Entities/IPhysicsEntity.cs" />
-        <option value="$PROJECT_DIR$/Assets/_ProjectFiles/Scripts/Physics/Entities/PhysicsObstacle2D.cs" />
-        <option value="$PROJECT_DIR$/Assets/_ProjectFiles/Scripts/Physics/Physics2DExtensions.cs" />
-        <option value="$PROJECT_DIR$/Assets/_ProjectFiles/Scripts/Physics/Force.cs" />
-        <option value="$PROJECT_DIR$/Assets/_ProjectFiles/Scripts/Triggers/Trigger2D.cs" />
-        <option value="$PROJECT_DIR$/Assets/_ProjectFiles/Scripts/Triggers/ITrigger.cs" />
-        <option value="$PROJECT_DIR$/Assets/_ProjectFiles/Scripts/Triggers/2D/BoxTrigger2D.cs" />
-        <option value="$PROJECT_DIR$/Assets/_ProjectFiles/Scripts/Triggers/2D/Trigger2D.cs" />
-        <option value="$PROJECT_DIR$/Assets/_ProjectFiles/Scripts/Triggers/TriggerBase.cs" />
-        <option value="$PROJECT_DIR$/Assets/SubModules/Package-Unity/Physics/Entities/IMonoPhysicsEntity.cs" />
-        <option value="$PROJECT_DIR$/Assets/SubModules/Package-Unity/Physics/Entities/PhysicsObstacle2D.cs" />
-        <option value="$PROJECT_DIR$/Assets/SubModules/Package-Unity/Physics/Triggers/PhysicsEntityExtensions.cs" />
-        <option value="$PROJECT_DIR$/Assets/SubModules/Package-Unity/Physics/Physics2DExtensions.cs" />
-        <option value="$PROJECT_DIR$/Assets/SubModules/Package-Unity/Extensions/TransformExtensions.cs" />
-        <option value="$PROJECT_DIR$/Assets/SubModules/Package-Unity/Physics/PhysicsEntityExtensions.cs" />
-        <option value="$PROJECT_DIR$/Assets/SubModules/Package-Unity/Physics/Triggers/TriggerBase.cs" />
-        <option value="$PROJECT_DIR$/Assets/SubModules/Package-Unity/Physics/Triggers/2D/Trigger2D.cs" />
-        <option value="$PROJECT_DIR$/Assets/_ProjectFiles/Scripts/Obstacles/Spike.cs" />
-        <option value="$PROJECT_DIR$/Assets/SubModules/Package-Unity/Physics/Triggers/2D/BoxTrigger2D.cs" />
-        <option value="$PROJECT_DIR$/Assets/_ProjectFiles/Scripts/Player.cs" />
-        <option value="$PROJECT_DIR$/Assets/SubModules/Package-Unity/Extensions/Mono/CameraExtensions.cs" />
-        <option value="$PROJECT_DIR$/Assets/SubModules/Package-Unity/Other/Curve.cs" />
-        <option value="$PROJECT_DIR$/Assets/SubModules/Package-Unity/Extensions/FloatExtensions.cs" />
-        <option value="$PROJECT_DIR$/Assets/_ProjectFiles/Scripts/Parallax/ManualParallax.cs" />
-        <option value="$PROJECT_DIR$/Assets/_ProjectFiles/Scripts/Parallax/IParallax.cs" />
-        <option value="$PROJECT_DIR$/Assets/_ProjectFiles/Scripts/Parallax/ParallaxBase.cs" />
-        <option value="$PROJECT_DIR$/Assets/_ProjectFiles/Scripts/Parallax/IParallaxGroup.cs" />
-        <option value="$PROJECT_DIR$/Assets/_ProjectFiles/Scripts/Parallax/AutoParallax.cs" />
-        <option value="$PROJECT_DIR$/Assets/_ProjectFiles/Scripts/Parallax/Parallax.cs" />
-        <option value="$PROJECT_DIR$/Assets/_ProjectFiles/Scripts/Parallax/Parallax2DAuto.cs" />
-        <option value="$PROJECT_DIR$/Assets/_ProjectFiles/Scripts/Parallax/ParallaxGroup.cs" />
-        <option value="$PROJECT_DIR$/Assets/_ProjectFiles/Scripts/Parallax/Parallax2D.cs" />
-      </list>
-    </option>
+    <changedPaths>
+      <option value="$PROJECT_DIR$/Assets/SubModules/Package-Unity/Physics/Triggers/2D/Trigger2D.cs" />
+      <option value="$PROJECT_DIR$/Assets/SubModules/Package-Unity/Physics/Triggers/TriggerBase.cs" />
+      <option value="$PROJECT_DIR$/Assets/SubModules/Package-Unity/Physics/Triggers/2D/CircleTrigger2D.cs" />
+      <option value="$PROJECT_DIR$/Assets/SubModules/Package-Unity/Engine/Scene/Core/GameSceneManager.cs" />
+      <option value="$PROJECT_DIR$/Assets/SubModules/Package-Unity/Engine/Scene/Core/GameSceneManager/GameSceneManagerUtilsPart.cs" />
+      <option value="$PROJECT_DIR$/Assets/_ProjectFiles/Scripts/Scenes/ISceneLoader.cs" />
+      <option value="$PROJECT_DIR$/Assets/_ProjectFiles/Scripts/Scenes/AssignedSceneLoader.cs" />
+      <option value="$PROJECT_DIR$/Assets/SubModules/Package-Unity/Extensions/TransformExtensions.cs" />
+    </changedPaths>
   </component>
   <component name="ProjectId" id="1nh6WxHjpf1Psnz9jTfr1rYEgO0" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
@@ -113,29 +72,29 @@
   </component>
   <component name="PropertiesComponent">
     <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
-    <property name="DebuggerViewTab_PTCS_FirstProportionKey" value="0.34982014" />
-    <property name="DebuggerViewTab_PTCS_LastProportionKey" value="0.30035973" />
+    <property name="DebuggerViewTab_PTCS_FirstProportionKey" value="0.3498818" />
+    <property name="DebuggerViewTab_PTCS_LastProportionKey" value="0.3002364" />
     <property name="Discover.Launch.Via.Unity" value="true" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RunManager" selected="Attach to Unity Editor.Attach to Unity Editor &amp; Play">
-    <configuration name="Attach to Unity Editor &amp; Play" type="UNITY_DEBUG_RUN_CONFIGURATION" factoryName="UNITY_ATTACH_AND_PLAY" show_console_on_std_err="false" show_console_on_std_out="false" port="50000" address="localhost" ignored-value-for-modified-check="17744">
+    <configuration name="Attach to Unity Editor &amp; Play" type="UNITY_DEBUG_RUN_CONFIGURATION" factoryName="UNITY_ATTACH_AND_PLAY" show_console_on_std_err="false" show_console_on_std_out="false" port="50000" address="localhost" ignored-value-for-modified-check="11768">
       <option name="allowRunningInParallel" value="false" />
       <option name="listenPortForConnections" value="false" />
-      <option name="pid" value="17744" />
+      <option name="pid" value="11768" />
       <option name="selectedOptions">
-        <set />
+        <list />
       </option>
       <method v="2" />
     </configuration>
-    <configuration name="Attach to Unity Editor" type="UNITY_DEBUG_RUN_CONFIGURATION" factoryName="Unity Debug" show_console_on_std_err="false" show_console_on_std_out="false" port="50000" address="localhost" ignored-value-for-modified-check="17744">
+    <configuration name="Attach to Unity Editor" type="UNITY_DEBUG_RUN_CONFIGURATION" factoryName="Unity Debug" show_console_on_std_err="false" show_console_on_std_out="false" port="50000" address="localhost">
       <option name="allowRunningInParallel" value="false" />
       <option name="listenPortForConnections" value="false" />
-      <option name="pid" value="17744" />
+      <option name="pid" />
       <option name="selectedOptions">
-        <set />
+        <list />
       </option>
       <method v="2" />
     </configuration>
@@ -153,7 +112,8 @@
       <workItem from="1612004569536" duration="20824000" />
       <workItem from="1612110835931" duration="10863000" />
       <workItem from="1612163643702" duration="8700000" />
-      <workItem from="1612173024402" duration="5292000" />
+      <workItem from="1612173024402" duration="6860000" />
+      <workItem from="1615461943047" duration="6392000" />
     </task>
     <servers />
   </component>
@@ -176,106 +136,5 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
-  </component>
-  <component name="WindowStateProjectService">
-    <state width="405" height="464" key="DebuggerActiveHint" timestamp="1612178418531">
-      <screen x="0" y="0" width="1858" height="1080" />
-    </state>
-    <state width="405" height="464" key="DebuggerActiveHint/0.0.1858.1080@0.0.1858.1080" timestamp="1612178418531" />
-    <state width="1143" height="360" key="GridCell.Tab.0.bottom" timestamp="1612178487963">
-      <screen x="0" y="0" width="1858" height="1080" />
-    </state>
-    <state width="1143" height="360" key="GridCell.Tab.0.bottom/0.0.1858.1080@0.0.1858.1080" timestamp="1612178487963" />
-    <state width="1143" height="360" key="GridCell.Tab.0.center" timestamp="1612178487963">
-      <screen x="0" y="0" width="1858" height="1080" />
-    </state>
-    <state width="1143" height="360" key="GridCell.Tab.0.center/0.0.1858.1080@0.0.1858.1080" timestamp="1612178487963" />
-    <state width="1143" height="360" key="GridCell.Tab.0.left" timestamp="1612178487963">
-      <screen x="0" y="0" width="1858" height="1080" />
-    </state>
-    <state width="1143" height="360" key="GridCell.Tab.0.left/0.0.1858.1080@0.0.1858.1080" timestamp="1612178487963" />
-    <state width="1143" height="360" key="GridCell.Tab.0.right" timestamp="1612178487963">
-      <screen x="0" y="0" width="1858" height="1080" />
-    </state>
-    <state width="1143" height="360" key="GridCell.Tab.0.right/0.0.1858.1080@0.0.1858.1080" timestamp="1612178487963" />
-    <state width="1143" height="360" key="GridCell.Tab.1.bottom" timestamp="1612178487963">
-      <screen x="0" y="0" width="1858" height="1080" />
-    </state>
-    <state width="1143" height="360" key="GridCell.Tab.1.bottom/0.0.1858.1080@0.0.1858.1080" timestamp="1612178487963" />
-    <state width="1143" height="360" key="GridCell.Tab.1.center" timestamp="1612178487963">
-      <screen x="0" y="0" width="1858" height="1080" />
-    </state>
-    <state width="1143" height="360" key="GridCell.Tab.1.center/0.0.1858.1080@0.0.1858.1080" timestamp="1612178487963" />
-    <state width="1143" height="360" key="GridCell.Tab.1.left" timestamp="1612178487963">
-      <screen x="0" y="0" width="1858" height="1080" />
-    </state>
-    <state width="1143" height="360" key="GridCell.Tab.1.left/0.0.1858.1080@0.0.1858.1080" timestamp="1612178487963" />
-    <state width="1143" height="360" key="GridCell.Tab.1.right" timestamp="1612178487963">
-      <screen x="0" y="0" width="1858" height="1080" />
-    </state>
-    <state width="1143" height="360" key="GridCell.Tab.1.right/0.0.1858.1080@0.0.1858.1080" timestamp="1612178487963" />
-    <state width="1143" height="360" key="GridCell.Tab.2.bottom" timestamp="1612178487964">
-      <screen x="0" y="0" width="1858" height="1080" />
-    </state>
-    <state width="1143" height="360" key="GridCell.Tab.2.bottom/0.0.1858.1080@0.0.1858.1080" timestamp="1612178487964" />
-    <state width="1143" height="360" key="GridCell.Tab.2.center" timestamp="1612178487964">
-      <screen x="0" y="0" width="1858" height="1080" />
-    </state>
-    <state width="1143" height="360" key="GridCell.Tab.2.center/0.0.1858.1080@0.0.1858.1080" timestamp="1612178487964" />
-    <state width="1143" height="360" key="GridCell.Tab.2.left" timestamp="1612178487964">
-      <screen x="0" y="0" width="1858" height="1080" />
-    </state>
-    <state width="1143" height="360" key="GridCell.Tab.2.left/0.0.1858.1080@0.0.1858.1080" timestamp="1612178487964" />
-    <state width="1143" height="360" key="GridCell.Tab.2.right" timestamp="1612178487964">
-      <screen x="0" y="0" width="1858" height="1080" />
-    </state>
-    <state width="1143" height="360" key="GridCell.Tab.2.right/0.0.1858.1080@0.0.1858.1080" timestamp="1612178487964" />
-    <state width="1143" height="360" key="GridCell.Tab.3.bottom" timestamp="1612178487964">
-      <screen x="0" y="0" width="1858" height="1080" />
-    </state>
-    <state width="1143" height="360" key="GridCell.Tab.3.bottom/0.0.1858.1080@0.0.1858.1080" timestamp="1612178487964" />
-    <state width="1143" height="360" key="GridCell.Tab.3.center" timestamp="1612178487964">
-      <screen x="0" y="0" width="1858" height="1080" />
-    </state>
-    <state width="1143" height="360" key="GridCell.Tab.3.center/0.0.1858.1080@0.0.1858.1080" timestamp="1612178487964" />
-    <state width="1143" height="360" key="GridCell.Tab.3.left" timestamp="1612178487964">
-      <screen x="0" y="0" width="1858" height="1080" />
-    </state>
-    <state width="1143" height="360" key="GridCell.Tab.3.left/0.0.1858.1080@0.0.1858.1080" timestamp="1612178487964" />
-    <state width="1143" height="360" key="GridCell.Tab.3.right" timestamp="1612178487964">
-      <screen x="0" y="0" width="1858" height="1080" />
-    </state>
-    <state width="1143" height="360" key="GridCell.Tab.3.right/0.0.1858.1080@0.0.1858.1080" timestamp="1612178487964" />
-    <state x="625" y="167" key="RiderGenerateDialog" timestamp="1612171048159">
-      <screen x="0" y="0" width="1858" height="1080" />
-    </state>
-    <state x="625" y="167" key="RiderGenerateDialog/0.0.1858.1080@0.0.1858.1080" timestamp="1612171048159" />
-    <state x="535" y="234" key="run.anything.popup" timestamp="1612124219770">
-      <screen x="0" y="0" width="1858" height="1080" />
-    </state>
-    <state x="535" y="234" key="run.anything.popup/0.0.1858.1080@0.0.1858.1080" timestamp="1612124219770" />
-    <state x="507" y="228" width="672" height="678" key="search.everywhere.popup" timestamp="1611918176250">
-      <screen x="0" y="0" width="1858" height="1080" />
-    </state>
-    <state x="507" y="228" width="672" height="678" key="search.everywhere.popup/0.0.1858.1080@0.0.1858.1080" timestamp="1611918176250" />
-  </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="DotNet Breakpoints">
-          <url>file://$PROJECT_DIR$/Assets/_ProjectFiles/Scripts/Parallax/Parallax.cs</url>
-          <line>49</line>
-          <properties documentPath="D:\UProject\Jams\Astral\Assets\_ProjectFiles\Scripts\Parallax\Parallax.cs" initialLine="49">
-            <startOffsets>
-              <option value="1547" />
-            </startOffsets>
-            <endOffsets>
-              <option value="1653" />
-            </endOffsets>
-          </properties>
-          <option name="timeStamp" value="2" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
   </component>
 </project>
