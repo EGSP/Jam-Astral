@@ -2,53 +2,69 @@
 using DG.Tweening;
 using Egsp.Core.Inputs;
 using Egsp.Core;
+using Egsp.Extensions.Primitives;
 using Sirenix.OdinInspector;
 using Sirenix.Serialization;
 using UnityEngine;
 
 namespace Game
 {
+    [LazyInstance(false)]
     [RequireComponent(typeof(Rigidbody2D))]
     [RequireComponent(typeof(Collider2D))]
-    public class Player : SerializedMonoBehaviour, IMonoPhysicsEntity
+    public class Player : SerializedSingleton<Player>, IMonoPhysicsEntity
     {
         public const float MovementBlockTime = 0.2f;
         
         [TitleGroup("Move")] [OdinSerialize] public float Speed { get; private set; }
+        
         [TitleGroup("Ability")] [OdinSerialize] public float AbilityDistance { get; private set; }
+        [TitleGroup("Ability")] [OdinSerialize] public float AbilityRadius { get; private set; }
         [TitleGroup("Ability")] [OdinSerialize] public float AbilityPower { get; private set; }
         [TitleGroup("Ability")] [OdinSerialize] public float AbilityDelay { get; private set; }
 
         [TitleGroup("Common")][SerializeField] private LayerMask groundMask;
         
-        private Rigidbody2D rig;
-        private Collider2D col;
+        private Rigidbody2D _rig;
+        private Collider2D _col;
 
-        private Vector3 moveVelocity;
+        // Runtime values
+        private Vector3 _moveVelocity;
 
-        private ContactFilter2D filter;
+        // Physics
+        private ContactFilter2D _filter;
 
-        private bool allowAbility = true;
-        private Tween abilityDelayTween;
+        // Tweens
+        private Tween _abilityDelayTween;
+        private Tween _movementBlock;
 
-        private Tween movementBlock;
-
-        private bool onGround;
+        // States
+        private bool _onGround;
+        private bool _allowAbility = true;
         
         public Vector3 LookDirection { get; private set; }
+        
+        /// <summary>
+        /// Этап заморозки способности. 0 - не готова 1 - готова.
+        /// </summary>
+        public float AbilityReadiness { get; private set; }
 
-        public bool IsMovementBlocked => movementBlock != null;
+        public bool IsMovementBlocked => _movementBlock != null;
 
-        public bool IsGrounded => onGround;
+        public bool IsGrounded => _onGround;
 
         public GameObject GameObject => gameObject;
-        
-        private void Awake()
+
+        protected override void Awake()
         {
-            rig = GetComponent<Rigidbody2D>();
-            col = GetComponent<Collider2D>();
-            filter = new ContactFilter2D();
-            filter.SetLayerMask(groundMask);
+            base.Awake();
+            
+            _rig = GetComponent<Rigidbody2D>();
+            _col = GetComponent<Collider2D>();
+            _filter = new ContactFilter2D();
+            _filter.SetLayerMask(groundMask);
+
+            AbilityReadiness = _allowAbility.ToInt();
         }
 
         private void Update()
@@ -68,7 +84,7 @@ namespace Game
         
         public void Move(float horizontal, float speed)
         {
-            moveVelocity = Vector3.right * horizontal * speed;
+            _moveVelocity = Vector3.right * horizontal * speed;
         }
 
         private void ApplyMoveVelocity()
@@ -79,11 +95,11 @@ namespace Game
             if (!IsGrounded)
                 return;
             
-            if (!DetectGround(moveVelocity.normalized, moveVelocity.magnitude, Time.fixedDeltaTime))
+            if (!DetectGround(_moveVelocity.normalized, _moveVelocity.magnitude, Time.fixedDeltaTime))
             {
-                if (moveVelocity != Vector3.zero)
+                if (_moveVelocity != Vector3.zero)
                 {
-                    var velocityChange = moveVelocity - (Vector3) rig.velocity;
+                    var velocityChange = _moveVelocity - (Vector3) _rig.velocity;
                     velocityChange.y = 0;
 
                     ApplyForceInternal(new Force(velocityChange, ForceMode.VelocityChange));
@@ -91,7 +107,7 @@ namespace Game
             }
         }
 
-        public void StopMove() => moveVelocity = Vector3.zero;
+        public void StopMove() => _moveVelocity = Vector3.zero;
 
         // Position
         
@@ -99,7 +115,7 @@ namespace Game
         private bool DetectGround(Vector3 direction, float distance, float deltaTime = 1f)
         {
             var array = new RaycastHit2D[2];
-            if (col.Cast(direction, filter, array, distance * deltaTime, 
+            if (_col.Cast(direction, _filter, array, distance * deltaTime, 
                 true) != 0)
             {
                 return true;
@@ -112,17 +128,17 @@ namespace Game
         {
             if (DetectGround(Vector3.down, 0.1f))
             {
-                if (onGround == false)
+                if (_onGround == false)
                 {
-                    onGround = true;
+                    _onGround = true;
                     OnGround();
                 }
             }
             else
             {
-                if (onGround == true)
+                if (_onGround == true)
                 {
-                    onGround = false;
+                    _onGround = false;
                     OnAir();
                 }
             }
@@ -138,17 +154,22 @@ namespace Game
 
         public void UseAbility()
         {
-            if (!allowAbility)
+            if (!_allowAbility)
                 return;
             
-            allowAbility = false;
-            abilityDelayTween = DOVirtual.DelayedCall(AbilityDelay, () =>
+            _allowAbility = false;
+            _abilityDelayTween = DOVirtual.DelayedCall(AbilityDelay, () =>
             {
-                allowAbility = true;
+                _allowAbility = true;
             });
 
+            var _abilityReadinessTweener = DOVirtual.Float(0, 1, AbilityDelay,
+                f => AbilityReadiness = f);
+
             // Physics
-            var raycastHit2D = Physics2D.Raycast(transform.position, LookDirection, AbilityDistance);
+            var raycastHit2D = Physics2D.CircleCast(transform.position, AbilityRadius,
+                LookDirection, AbilityDistance - AbilityRadius);
+            
             if (raycastHit2D.collider != null)
             {
 
@@ -173,12 +194,12 @@ namespace Game
 
         public void BlockMovement(float time)
         {
-            if(movementBlock != null)
-                movementBlock.Complete(true);
+            if(_movementBlock != null)
+                _movementBlock.Complete(true);
             
-            moveVelocity = Vector3.zero;
+            _moveVelocity = Vector3.zero;
 
-            movementBlock = DOVirtual.DelayedCall(time, () => movementBlock = null);
+            _movementBlock = DOVirtual.DelayedCall(time, () => _movementBlock = null);
         }
 
         private void LookToMouse()
@@ -199,13 +220,14 @@ namespace Game
             if(blockMovement)
                 BlockMovement();
             
-            rig.AddForce(force);
+            _rig.AddForce(force);
         }
 
         private void OnDrawGizmos()
         {
             Gizmos.color = Color.red;
             Gizmos.DrawLine(transform.position, transform.position + Vector3.right * AbilityDistance);
+            Gizmos.DrawWireSphere(transform.position + Vector3.right * (AbilityDistance-AbilityRadius), AbilityRadius);
         }
     }
 }

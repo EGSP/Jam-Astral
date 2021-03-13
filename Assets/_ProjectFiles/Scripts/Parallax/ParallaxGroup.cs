@@ -21,7 +21,6 @@ namespace Game
         {
             var ratio = Ratio;
             
-            Debug.Log(ratio);
             for (var i = 0; i < transform.childCount; i++)
             {
                 var child = transform.GetChild(i);

@@ -1,7 +1,8 @@
-﻿using Game;
+﻿using Egsp.Core;
+using Game;
 using UnityEngine;
 
-namespace Egsp.Core
+namespace Game.Scene
 {
     public class AssignedSceneLoader : CircleTrigger2D, IAssignedSceneLoader
     {

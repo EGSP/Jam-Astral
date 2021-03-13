@@ -1,4 +1,5 @@
 ﻿using System;
+using Game.Visuals;
 using Sirenix.OdinInspector;
 using Sirenix.Serialization;
 using UnityEngine;
@@ -7,22 +8,38 @@ namespace Game
 {
     public class PlayerController : SerializedMonoBehaviour
     {
-        [SerializeField] private Player player;
         [SerializeField] private FollowCamera followCamera;
+        [SerializeField] private PlayerControllerUi controllerUi;
 
+        private Player _player;
+        
         private void Awake()
         {
-            followCamera.Target = new Transform2DPoint(player.transform);
+            Player.OnInstanceCreated.Subscribe(OnPlayerAssigned);
         }
 
         private void Update()
         {
+            if (_player == null)
+                return;
+            
             var horizontal = Input.GetAxisRaw("Horizontal");
 
-            player.Move(horizontal);
+            _player.Move(horizontal);
             
             if(Input.GetKeyDown(KeyCode.Mouse0))
-                player.UseAbility();
+                _player.UseAbility();
+        }
+
+        private void OnPlayerAssigned(Player player)
+        {
+            _player = player;
+
+            if (followCamera != null)
+                followCamera.Target = new Transform2DPoint(_player.transform);
+            
+            if(controllerUi != null)
+                controllerUi.Accept(_player);
         }
     }
 }
