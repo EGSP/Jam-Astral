@@ -9,7 +9,6 @@ namespace Game
     public class PlayerAttackVisual : SerializedMonoBehaviour
     {
         [TitleGroup("Attack")] [SerializeField] private Transform attackVisual;
-        [TitleGroup("Attack")] [SerializeField] private float distanceFromCentre;
 
         [SerializeField] private Player player;
 
@@ -18,15 +17,16 @@ namespace Game
             Rotate(player);
         }
 
-        public void Rotate(Player player)
+        public void Rotate(Player playerParameter)
         {
-            if (player == null)
+            if (playerParameter == null)
                 return;
 
-            var visualPosition = player.transform.position + player.LookDirection * distanceFromCentre;
+            var visualPosition = playerParameter.transform.position + playerParameter.LookDirection *
+                player.AbilityDistance;
             
             attackVisual.position = visualPosition;
-            attackVisual.localRotation = player.LookDirection.LookRotation2D();
+            attackVisual.localRotation = playerParameter.LookDirection.LookRotation2D();
         }
     }
 }

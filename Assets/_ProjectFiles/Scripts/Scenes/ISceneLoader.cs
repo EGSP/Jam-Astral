@@ -2,8 +2,27 @@
 
 namespace Egsp.Core
 {
-    public interface IAssignedSceneLoader
+    /// <summary>
+    /// Этот объект загружает сцену.
+    /// </summary>
+    public interface ISceneLoader
     {
-        void LoadAssignedScene();
+        State State { get; }
+
+        void LoadScene();
+    }
+    
+    public enum State
+    {
+        Loading,
+        WaitingForActivation
+    }
+
+    /// <summary>
+    /// Данный объект может вызвать загрузку сцены. Например объект-игрок.
+    /// </summary>
+    public interface ISceneLoadTrigger
+    {
+        
     }
 }

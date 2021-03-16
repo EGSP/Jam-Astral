@@ -12,7 +12,7 @@ namespace Game
     [LazyInstance(false)]
     [RequireComponent(typeof(Rigidbody2D))]
     [RequireComponent(typeof(Collider2D))]
-    public class Player : SerializedSingleton<Player>, IMonoPhysicsEntity
+    public partial class Player : SerializedSingleton<Player>, IMonoPhysicsEntity, ISceneLoadTrigger
     {
         public const float MovementBlockTime = 0.2f;
         
@@ -65,6 +65,8 @@ namespace Game
             _filter.SetLayerMask(groundMask);
 
             AbilityReadiness = _allowAbility.ToInt();
+            
+            InitHealth();
         }
 
         private void Update()
@@ -156,15 +158,6 @@ namespace Game
         {
             if (!_allowAbility)
                 return;
-            
-            _allowAbility = false;
-            _abilityDelayTween = DOVirtual.DelayedCall(AbilityDelay, () =>
-            {
-                _allowAbility = true;
-            });
-
-            var _abilityReadinessTweener = DOVirtual.Float(0, 1, AbilityDelay,
-                f => AbilityReadiness = f);
 
             // Physics
             var raycastHit2D = Physics2D.CircleCast(transform.position, AbilityRadius,
@@ -173,7 +166,8 @@ namespace Game
             if (raycastHit2D.collider != null)
             {
 
-                var abilityEndPower = (1 - raycastHit2D.distance / AbilityDistance) * AbilityPower;
+                // var abilityEndPower = (1 - raycastHit2D.distance / AbilityDistance) * AbilityPower;
+                var abilityEndPower = AbilityPower;
 
                 IPhysicsEntity physicsEntity;
                 if (raycastHit2D.collider.IsPhysicsEntity(out physicsEntity))
@@ -187,6 +181,16 @@ namespace Game
                     ApplyForceInternal(
                         new Force(-LookDirection * abilityEndPower, ForceMode.VelocityChange), true); 
                 }
+                
+                
+                _allowAbility = false;
+                _abilityDelayTween = DOVirtual.DelayedCall(AbilityDelay, () =>
+                {
+                    _allowAbility = true;
+                });
+
+                var _abilityReadinessTweener = DOVirtual.Float(0, 1, AbilityDelay,
+                    f => AbilityReadiness = f);
             }
         }
 

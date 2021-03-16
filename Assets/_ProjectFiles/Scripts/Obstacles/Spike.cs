@@ -1,6 +1,7 @@
 ﻿using System;
 using Egsp.Core;
 using Egsp.Extensions.Primitives;
+using Game.Entities;
 using UnityEngine;
 
 namespace Game.Obstacles
@@ -10,6 +11,7 @@ namespace Game.Obstacles
         public static readonly Color SpikeColor = Color.red;  
         
         [SerializeField] private float punchPower;
+        [SerializeField] private HitInfo damage;
 
         protected override void OnEnter(GameObject enteredObject)
         {
@@ -17,6 +19,11 @@ namespace Game.Obstacles
             
             if (physicsEntity != null)
             {
+                var health = enteredObject.GetComponent<Health>();
+
+                if (health != null)
+                    health.Damage(damage);
+                
                 physicsEntity.ApplyForceFrom(enteredObject.transform, transform, punchPower);
             }
         }

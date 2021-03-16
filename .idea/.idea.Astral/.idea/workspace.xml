@@ -20,27 +20,35 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="52a2c8e9-c056-44b6-b833-90f660bc5b6d" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/Assets/SubModules/Package-Unity-Odin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gitmodules" beforeDir="false" afterPath="$PROJECT_DIR$/.gitmodules" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.Astral/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Astral/.idea/contentModel.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.Astral/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Astral/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.Astral/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Astral/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Sirenix/Odin Inspector/Config/Resources/Sirenix/GlobalSerializationConfig.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Plugins/Sirenix/Odin Inspector/Config/Resources/Sirenix/GlobalSerializationConfig.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/SubModules/Package-Unity/Extensions/LinkedListExtensions.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/SubModules/Package-Unity/Extensions/LinkedListExtensions.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/SubModules/Package-Unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/SubModules/Package-Unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/SubModules/Package-Unity-Odin/Files/OdinSerializer.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/SubModules/Package-Unity-Odin/Files/OdinSerializer.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/SubModules/Package-Unity-Odin/Singletons/SerializedSingleton.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/SubModules/Package-Unity-Odin/Singletons/SerializedSingleton.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/SubModules/Package-Unity/Files/Storage/DataProfile.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/SubModules/Package-Unity/Files/Storage/DataProfile.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/SubModules/Package-Unity/Files/Storage/DataProvider.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/SubModules/Package-Unity/Files/Storage/DataProvider.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/SubModules/Package-Unity/Files/Storage/Serializers/ISerializer.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/SubModules/Package-Unity/Files/Storage/Serializers/ISerializer.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/SubModules/Package-Unity/Files/Storage/Serializers/UnitySerializer.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/SubModules/Package-Unity/Files/Storage/Serializers/UnitySerializer.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/SubModules/Package-Unity/Files/Storage/Storage.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/SubModules/Package-Unity/Files/Storage/Storage.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/SubModules/Package-Unity/Ui/Containers/IContainer.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/SubModules/Package-Unity/Ui/Containers/IContainer.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/SubModules/Package-Unity/Ui/Containers/TransformContainer.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/SubModules/Package-Unity/Ui/Containers/TransformContainer.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_ProjectFiles/Prefabs/Player.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_ProjectFiles/Prefabs/Player.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_ProjectFiles/Prefabs/[PlayerSystems].prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_ProjectFiles/Prefabs/[PlayerSystems].prefab.meta" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/_ProjectFiles/Scenes/SampleScene.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_ProjectFiles/Scenes/SampleScene.unity" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/_ProjectFiles/Scenes/TestScene.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_ProjectFiles/Scenes/TestScene.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_ProjectFiles/Scripts/Parallax/ParallaxGroup.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_ProjectFiles/Scripts/Parallax/ParallaxGroup.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_ProjectFiles/Scripts/Player.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_ProjectFiles/Scripts/Player.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_ProjectFiles/Scripts/PlayerController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_ProjectFiles/Scripts/PlayerController.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_ProjectFiles/Scripts/Scenes/AssignedSceneLoader.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_ProjectFiles/Scripts/Scenes/AssignedSceneLoader.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_ProjectFiles/Visual/Ningriptzu Art/Ninja/jump.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_ProjectFiles/Visual/Ningriptzu Art/Ninja/jump.png.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_ProjectFiles/Visual/Ningriptzu Art/Ninja/kenneyninja.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_ProjectFiles/Visual/Ningriptzu Art/Ninja/kenneyninja.png.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_ProjectFiles/Visual/Ningriptzu Art/Ninja/ledgegrab.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_ProjectFiles/Visual/Ningriptzu Art/Ninja/ledgegrab.png.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_ProjectFiles/Visual/Ningriptzu Art/Ninja/run1.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_ProjectFiles/Visual/Ningriptzu Art/Ninja/run1.png.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_ProjectFiles/Visual/Ningriptzu Art/Ninja/run2.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_ProjectFiles/Visual/Ningriptzu Art/Ninja/run2.png.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_ProjectFiles/Visual/Ningriptzu Art/Ninja/run3.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_ProjectFiles/Visual/Ningriptzu Art/Ninja/run3.png.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_ProjectFiles/Visual/Ningriptzu Art/Ninja/run4.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_ProjectFiles/Visual/Ningriptzu Art/Ninja/run4.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_ProjectFiles/Scripts/Obstacles/Spike.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_ProjectFiles/Scripts/Obstacles/Spike.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_ProjectFiles/Scripts/Player.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_ProjectFiles/Scripts/Entities/Player/Player.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_ProjectFiles/Scripts/Player.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_ProjectFiles/Scripts/Entities/Player/Player.cs.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_ProjectFiles/Scripts/PlayerAttackVisual.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_ProjectFiles/Scripts/PlayerAttackVisual.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_ProjectFiles/Scripts/Visuals/PlayerControllerUi.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_ProjectFiles/Scripts/Visuals/PlayerControllerUi.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_ProjectFiles/Shaders/AbilityMaterial.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_ProjectFiles/Shaders/AbilityMaterial.mat" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/_ProjectFiles/Visual/Ningriptzu Art/Ninja/run5.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_ProjectFiles/Visual/Ningriptzu Art/Ninja/run5.png.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_ProjectFiles/Visual/Ningriptzu Art/Ninja/wallslide.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_ProjectFiles/Visual/Ningriptzu Art/Ninja/wallslide.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_ProjectFiles/Visual/Ningriptzu Art/Riceball/sushi1.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_ProjectFiles/Visual/Ningriptzu Art/Riceball/sushi1.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_ProjectFiles/Visual/Ningriptzu Art/Riceball/sushi2.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_ProjectFiles/Visual/Ningriptzu Art/Riceball/sushi2.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_ProjectFiles/Visual/Ningriptzu Art/Riceball/sushi3.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_ProjectFiles/Visual/Ningriptzu Art/Riceball/sushi3.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_ProjectFiles/Visual/Ningriptzu Art/Riceball/sushi4.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_ProjectFiles/Visual/Ningriptzu Art/Riceball/sushi4.png.meta" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ProjectSettings/ProjectSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/ProjectSettings.asset" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -51,9 +59,18 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="GitSEFilterConfiguration">
+    <file-type-list>
+      <filtered-out-file-type name="LOCAL_BRANCH" />
+      <filtered-out-file-type name="REMOTE_BRANCH" />
+      <filtered-out-file-type name="TAG" />
+      <filtered-out-file-type name="COMMIT_BY_MESSAGE" />
+    </file-type-list>
+  </component>
   <component name="HighlightingSettingsPerFile">
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/65CAB14A-C59E-4552-B77F-98A4AED18F9E/ab/c4a59bf7/Collider2D.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/8691AD70-05ED-4755-A182-8378FF0B52B1/3e/375ef069/GameObject.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/8691AD70-05ED-4755-A182-8378FF0B52B1/a7/b2adbb99/Object.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/8691AD70-05ED-4755-A182-8378FF0B52B1/0e/32fb2d19/Transform.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/14E3453B-740B-4BD6-90E8-D4E5A013A715/ca/27cd38b5/LinkedListNode`1.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://C:/Program Files/Unity/Hub/Editor/2019.4.11f1/Editor/Data/Resources/PackageManager/BuiltInPackages/com.unity.ugui/Runtime/UI/Core/MaskableGraphic.cs" root0="SKIP_HIGHLIGHTING" />
@@ -77,14 +94,35 @@
       <option value="$PROJECT_DIR$/Assets/SubModules/Package-Unity/Extensions/TransformExtensions.cs" />
       <option value="$PROJECT_DIR$/Assets/_ProjectFiles/Scripts/Parallax/ParallaxGroup.cs" />
       <option value="$PROJECT_DIR$/Assets/_ProjectFiles/Scripts/Scenes/AssignedSceneLoader.cs" />
-      <option value="$PROJECT_DIR$/Assets/_ProjectFiles/Scripts/Visuals/PlayerControllerUi.cs" />
       <option value="$PROJECT_DIR$/Assets/_ProjectFiles/Scripts/Visuals/AbilityVisual.cs" />
-      <option value="$PROJECT_DIR$/Assets/_ProjectFiles/Scripts/Player.cs" />
       <option value="$PROJECT_DIR$/Assets/SubModules/Package-Unity/Extensions/LinkedListExtensions.cs" />
       <option value="$PROJECT_DIR$/Assets/SubModules/Package-Unity/Events/EventBus/EventBus.cs" />
       <option value="$PROJECT_DIR$/Assets/SubModules/Package-Unity/Events/WeakEvent.cs" />
-      <option value="$PROJECT_DIR$/Assets/_ProjectFiles/Scripts/PlayerController.cs" />
       <option value="$PROJECT_DIR$/Assets/SubModules/Package-Unity-Odin/Singletons/SerializedSingleton.cs" />
+      <option value="$PROJECT_DIR$/Assets/_ProjectFiles/Scripts/Player.cs" />
+      <option value="$PROJECT_DIR$/Assets/_ProjectFiles/Scripts/PlayerHealth.cs" />
+      <option value="$PROJECT_DIR$/Assets/_ProjectFiles/Scripts/Entities/Player/PlayerHealth.cs" />
+      <option value="$PROJECT_DIR$/Assets/_ProjectFiles/Scripts/Entities/Player/PlayerHealthLogic.cs" />
+      <option value="$PROJECT_DIR$/Assets/_ProjectFiles/Scripts/Obstacles/Spike.cs" />
+      <option value="$PROJECT_DIR$/Assets/_ProjectFiles/Scripts/Entities/Health.cs" />
+      <option value="$PROJECT_DIR$/Assets/_ProjectFiles/Scripts/Obstacles/CircularSaw.cs" />
+      <option value="$PROJECT_DIR$/Assets/SubModules/Package-Unity/Ui/Containers/IContainer.cs" />
+      <option value="$PROJECT_DIR$/Assets/_ProjectFiles/Scripts/Visuals/HealthVisual.cs" />
+      <option value="$PROJECT_DIR$/Assets/_ProjectFiles/Scripts/Visuals/PlayerControllerUi.cs" />
+      <option value="$PROJECT_DIR$/Assets/SubModules/Package-Unity/Ui/Containers/TransformContainer.cs" />
+      <option value="$PROJECT_DIR$/Assets/_ProjectFiles/Scripts/PlayerAttackVisual.cs" />
+      <option value="$PROJECT_DIR$/Assets/_ProjectFiles/Scripts/Entities/Player/Player.cs" />
+      <option value="$PROJECT_DIR$/Assets/SubModules/Package-Unity/Files/Storage/PropertyFileProxy.cs" />
+      <option value="$PROJECT_DIR$/Assets/SubModules/Package-Unity/Files/Storage/Serializers/ISerializer.cs" />
+      <option value="$PROJECT_DIR$/Assets/SubModules/Package-Unity-Odin/Files/OdinSerializer.cs" />
+      <option value="$PROJECT_DIR$/Assets/SubModules/Package-Unity/Files/Storage/Serializers/UnitySerializer.cs" />
+      <option value="$PROJECT_DIR$/Assets/SubModules/Package-Unity/Files/Storage/DataProfile.cs" />
+      <option value="$PROJECT_DIR$/Assets/SubModules/Package-Unity-Odin/OdinInspectorAndSerializerDefine.cs" />
+      <option value="$PROJECT_DIR$/Assets/SubModules/Package-Unity/Files/Storage/Storage.cs" />
+      <option value="$PROJECT_DIR$/Assets/_ProjectFiles/Scripts/PlayerController.cs" />
+      <option value="$PROJECT_DIR$/Assets/SubModules/Package-Unity/Files/Storage/DataProvider.cs" />
+      <option value="$PROJECT_DIR$/Assets/_ProjectFiles/Scripts/Levels/LevelInfo.cs" />
+      <option value="$PROJECT_DIR$/Assets/_ProjectFiles/Scripts/Levels/LevelInfoLoader.cs" />
     </changedPaths>
   </component>
   <component name="ProjectId" id="1nh6WxHjpf1Psnz9jTfr1rYEgO0" />
@@ -107,10 +145,10 @@
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RunManager" selected="Attach to Unity Editor.Attach to Unity Editor &amp; Play">
-    <configuration name="Attach to Unity Editor &amp; Play" type="UNITY_DEBUG_RUN_CONFIGURATION" factoryName="UNITY_ATTACH_AND_PLAY" show_console_on_std_err="false" show_console_on_std_out="false" port="50000" address="localhost" ignored-value-for-modified-check="15424">
+    <configuration name="Attach to Unity Editor &amp; Play" type="UNITY_DEBUG_RUN_CONFIGURATION" factoryName="UNITY_ATTACH_AND_PLAY" show_console_on_std_err="false" show_console_on_std_out="false" port="50000" address="localhost" ignored-value-for-modified-check="1412">
       <option name="allowRunningInParallel" value="false" />
       <option name="listenPortForConnections" value="false" />
-      <option name="pid" value="15424" />
+      <option name="pid" value="1412" />
       <option name="selectedOptions">
         <list />
       </option>
@@ -141,7 +179,9 @@
       <workItem from="1612163643702" duration="8700000" />
       <workItem from="1612173024402" duration="6860000" />
       <workItem from="1615461943047" duration="6991000" />
-      <workItem from="1615622111447" duration="11138000" />
+      <workItem from="1615622111447" duration="19468000" />
+      <workItem from="1615710719099" duration="3873000" />
+      <workItem from="1615899808397" duration="6515000" />
     </task>
     <servers />
   </component>
@@ -164,5 +204,24 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="DotNet Breakpoints">
+          <url>file://$PROJECT_DIR$/Assets/_ProjectFiles/Scripts/Levels/LevelInfoLoader.cs</url>
+          <line>10</line>
+          <properties documentPath="D:\UProject\Jams\Astral\Assets\_ProjectFiles\Scripts\Levels\LevelInfoLoader.cs" initialLine="10" containingFunctionPresentation="method 'Awake'">
+            <startOffsets>
+              <option value="194" />
+            </startOffsets>
+            <endOffsets>
+              <option value="195" />
+            </endOffsets>
+          </properties>
+          <option name="timeStamp" value="2" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>

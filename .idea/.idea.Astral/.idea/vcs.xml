@@ -3,5 +3,6 @@
   <component name="VcsDirectoryMappings">
     <mapping directory="$PROJECT_DIR$" vcs="Git" />
     <mapping directory="$PROJECT_DIR$/Assets/SubModules/Package-Unity" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/Assets/SubModules/Package-Unity-Odin" vcs="Git" />
   </component>
 </project>

@@ -2,26 +2,26 @@
 using Game;
 using UnityEngine;
 
-namespace Game.Scene
+namespace Egsp.Core
 {
-    public class AssignedSceneLoader : CircleTrigger2D, IAssignedSceneLoader
+    public class AssignedSceneLoader : CircleTrigger2D, ISceneLoader
     {
         [Tooltip("Case insensitive and empty-safe")]
         [SerializeField] private string nextSceneName;
 
-        public State state { get; private set; } = State.WaitingForActivation;
+        public State State { get; private set; } = State.WaitingForActivation;
         
         public string NextSceneName => nextSceneName;
 
         protected override void OnEnter(GameObject enteredObject)
         {
-            if (enteredObject.GetComponent<Player>())
-                LoadAssignedScene();
+            if (enteredObject.GetComponent<ISceneLoadTrigger>() != null)
+                LoadScene();
         }
 
-        public void LoadAssignedScene()
+        public void LoadScene()
         {
-            if (state == State.Loading)
+            if (State == State.Loading)
                 return;
             
             switch (GameSceneManager.SceneExistInBuild(NextSceneName))
@@ -30,7 +30,7 @@ namespace Game.Scene
                     GameSceneManager.Instance.LoadSceneSingle(NextSceneName, true,
                         null, null);
 
-                    state = State.Loading;
+                    State = State.Loading;
                     break;
                 
                 case GameSceneManager.SceneExistInBuildResult.NotExist:
@@ -41,12 +41,6 @@ namespace Game.Scene
                     Debug.Log($"Incorrect scene name : {NextSceneName}");
                     break;
             }
-        }
-
-        public enum State
-        {
-            Loading,
-            WaitingForActivation
         }
     }
 }

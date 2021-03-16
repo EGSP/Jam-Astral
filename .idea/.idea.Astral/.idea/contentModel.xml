@@ -10,8 +10,20 @@
       <e p="Assets" t="Include">
         <e p="_ProjectFiles" t="Include">
           <e p="Scripts" t="Include">
+            <e p="Entities" t="Include">
+              <e p="Health.cs" t="Include" />
+              <e p="Player" t="Include">
+                <e p="Player.cs" t="Include" />
+                <e p="PlayerHealthLogic.cs" t="Include" />
+              </e>
+            </e>
             <e p="FollowCamera.cs" t="Include" />
+            <e p="Levels" t="Include">
+              <e p="LevelInfo.cs" t="Include" />
+              <e p="LevelInfoLoader.cs" t="Include" />
+            </e>
             <e p="Obstacles" t="Include">
+              <e p="CircularSaw.cs" t="Include" />
               <e p="Spike.cs" t="Include" />
             </e>
             <e p="Parallax" t="Include">
@@ -22,7 +34,6 @@
               <e p="Parallax2DAuto.cs" t="Include" />
               <e p="ParallaxGroup.cs" t="Include" />
             </e>
-            <e p="Player.cs" t="Include" />
             <e p="PlayerAttackVisual.cs" t="Include" />
             <e p="PlayerController.cs" t="Include" />
             <e p="Scenes" t="Include">
@@ -31,6 +42,7 @@
             </e>
             <e p="Visuals" t="Include">
               <e p="AbilityVisual.cs" t="Include" />
+              <e p="HealthVisual.cs" t="Include" />
               <e p="PlayerControllerUi.cs" t="Include" />
             </e>
           </e>
@@ -1040,6 +1052,7 @@
               <e p="GraphAdapter.cs" t="Include" />
               <e p="VertexAdapter.cs" t="Include" />
             </e>
+            <e p="OdinInspectorAndSerializerDefine.cs" t="Include" />
             <e p="Scenes" t="Include">
               <e p="SceneInspectorParamsInjector.cs" t="Include" />
             </e>

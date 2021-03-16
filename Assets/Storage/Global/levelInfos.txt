@@ -1,0 +1,12 @@
+{
+    "$id": 0,
+    "$type": "0|System.Collections.Generic.List`1[[Game.Levels.LevelInfo, Assembly-CSharp]], mscorlib",
+    "$rlength": 1,
+    "$rcontent": [
+        {
+            "$type": "1|Game.Levels.LevelInfo, Assembly-CSharp",
+            "LevelName": "levelInfoTest",
+            "Completed": false
+        }
+    ]
+}
