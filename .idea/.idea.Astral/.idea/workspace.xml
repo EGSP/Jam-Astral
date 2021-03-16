@@ -20,36 +20,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="52a2c8e9-c056-44b6-b833-90f660bc5b6d" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.Astral/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Astral/.idea/contentModel.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.Astral/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Astral/.idea/vcs.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.Astral/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Astral/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/SubModules/Package-Unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/SubModules/Package-Unity" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/SubModules/Package-Unity-Odin/Files/OdinSerializer.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/SubModules/Package-Unity-Odin/Files/OdinSerializer.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/SubModules/Package-Unity-Odin/Singletons/SerializedSingleton.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/SubModules/Package-Unity-Odin/Singletons/SerializedSingleton.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/SubModules/Package-Unity/Files/Storage/DataProfile.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/SubModules/Package-Unity/Files/Storage/DataProfile.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/SubModules/Package-Unity/Files/Storage/DataProvider.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/SubModules/Package-Unity/Files/Storage/DataProvider.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/SubModules/Package-Unity/Files/Storage/Serializers/ISerializer.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/SubModules/Package-Unity/Files/Storage/Serializers/ISerializer.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/SubModules/Package-Unity/Files/Storage/Serializers/UnitySerializer.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/SubModules/Package-Unity/Files/Storage/Serializers/UnitySerializer.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/SubModules/Package-Unity/Files/Storage/Storage.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/SubModules/Package-Unity/Files/Storage/Storage.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/SubModules/Package-Unity/Ui/Containers/IContainer.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/SubModules/Package-Unity/Ui/Containers/IContainer.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/SubModules/Package-Unity/Ui/Containers/TransformContainer.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/SubModules/Package-Unity/Ui/Containers/TransformContainer.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_ProjectFiles/Prefabs/Player.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_ProjectFiles/Prefabs/Player.prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_ProjectFiles/Prefabs/[PlayerSystems].prefab" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_ProjectFiles/Prefabs/[PlayerSystems].prefab.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_ProjectFiles/Scenes/SampleScene.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_ProjectFiles/Scenes/SampleScene.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_ProjectFiles/Scenes/TestScene.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_ProjectFiles/Scenes/TestScene.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_ProjectFiles/Scripts/Obstacles/Spike.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_ProjectFiles/Scripts/Obstacles/Spike.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_ProjectFiles/Scripts/Player.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_ProjectFiles/Scripts/Entities/Player/Player.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_ProjectFiles/Scripts/Player.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_ProjectFiles/Scripts/Entities/Player/Player.cs.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_ProjectFiles/Scripts/PlayerAttackVisual.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_ProjectFiles/Scripts/PlayerAttackVisual.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_ProjectFiles/Scripts/Visuals/PlayerControllerUi.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_ProjectFiles/Scripts/Visuals/PlayerControllerUi.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_ProjectFiles/Shaders/AbilityMaterial.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_ProjectFiles/Shaders/AbilityMaterial.mat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_ProjectFiles/Visual/Ningriptzu Art/Ninja/run5.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_ProjectFiles/Visual/Ningriptzu Art/Ninja/run5.png.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_ProjectFiles/Visual/Ningriptzu Art/Riceball/sushi1.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_ProjectFiles/Visual/Ningriptzu Art/Riceball/sushi1.png.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_ProjectFiles/Visual/Ningriptzu Art/Riceball/sushi2.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_ProjectFiles/Visual/Ningriptzu Art/Riceball/sushi2.png.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_ProjectFiles/Visual/Ningriptzu Art/Riceball/sushi3.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_ProjectFiles/Visual/Ningriptzu Art/Riceball/sushi3.png.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_ProjectFiles/Visual/Ningriptzu Art/Riceball/sushi4.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_ProjectFiles/Visual/Ningriptzu Art/Riceball/sushi4.png.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProjectSettings/ProjectSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/ProjectSettings.asset" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -57,7 +29,7 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/Assets/SubModules/Package-Unity" />
   </component>
   <component name="GitSEFilterConfiguration">
     <file-type-list>
@@ -211,14 +183,7 @@
         <line-breakpoint enabled="true" type="DotNet Breakpoints">
           <url>file://$PROJECT_DIR$/Assets/_ProjectFiles/Scripts/Levels/LevelInfoLoader.cs</url>
           <line>10</line>
-          <properties documentPath="D:\UProject\Jams\Astral\Assets\_ProjectFiles\Scripts\Levels\LevelInfoLoader.cs" initialLine="10" containingFunctionPresentation="method 'Awake'">
-            <startOffsets>
-              <option value="194" />
-            </startOffsets>
-            <endOffsets>
-              <option value="195" />
-            </endOffsets>
-          </properties>
+          <properties documentPath="D:\UProject\Jams\Astral\Assets\_ProjectFiles\Scripts\Levels\LevelInfoLoader.cs" initialLine="10" containingFunctionPresentation="method 'Awake'" />
           <option name="timeStamp" value="2" />
         </line-breakpoint>
       </breakpoints>
