@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ContentModelStore">
     <e p="C:\Users\User\AppData\Local\JetBrains\Rider2020.3\extResources" t="IncludeRecursive" />
-    <e p="C:\Users\User\AppData\Local\JetBrains\Rider2020.3\resharper-host\Local\Transient\Rider\v203\SolutionCaches\_Astral.-98743319.00" t="ExcludeRecursive" />
+    <e p="C:\Users\User\AppData\Local\JetBrains\Rider2020.3\resharper-host\Local\Transient\Rider\v203\SolutionCaches\_Astral.-98743319.01" t="ExcludeRecursive" />
     <e p="D:\UProject\Jams\Astral" t="IncludeRecursive">
       <e p="AmplifyShaderEditor.csproj" t="IncludeRecursive" />
       <e p="Assembly-CSharp-firstpass.csproj" t="IncludeRecursive" />
@@ -20,7 +20,6 @@
             <e p="FollowCamera.cs" t="Include" />
             <e p="Levels" t="Include">
               <e p="LevelInfo.cs" t="Include" />
-              <e p="LevelInfoLoader.cs" t="Include" />
             </e>
             <e p="Obstacles" t="Include">
               <e p="CircularSaw.cs" t="Include" />
@@ -38,11 +37,17 @@
             <e p="PlayerController.cs" t="Include" />
             <e p="Scenes" t="Include">
               <e p="AssignedSceneLoader.cs" t="Include" />
+              <e p="ByCallSceneLoader.cs" t="Include" />
               <e p="ISceneLoader.cs" t="Include" />
             </e>
             <e p="Visuals" t="Include">
               <e p="AbilityVisual.cs" t="Include" />
               <e p="HealthVisual.cs" t="Include" />
+              <e p="Level" t="Include">
+                <e p="LevelBoard.cs" t="Include" />
+                <e p="LevelIcon.cs" t="Include" />
+                <e p="TestLevelBoard.cs" t="Include" />
+              </e>
               <e p="PlayerControllerUi.cs" t="Include" />
             </e>
           </e>
@@ -844,6 +849,42 @@
               </e>
             </e>
             <e p="readme.txt" t="Include" />
+          </e>
+          <e p="TextMesh Pro" t="Include">
+            <e p="Fonts" t="Include">
+              <e p="LiberationSans - OFL.txt" t="Include" />
+            </e>
+            <e p="Resources" t="Include">
+              <e p="LineBreaking Following Characters.txt" t="Include" />
+              <e p="LineBreaking Leading Characters.txt" t="Include" />
+            </e>
+            <e p="Shaders" t="Include">
+              <e p="TMP_Bitmap-Custom-Atlas.shader" t="Include" />
+              <e p="TMP_Bitmap-Mobile.shader" t="Include" />
+              <e p="TMP_Bitmap.shader" t="Include" />
+              <e p="TMP_SDF Overlay.shader" t="Include" />
+              <e p="TMP_SDF SSD.shader" t="Include" />
+              <e p="TMP_SDF-Mobile Masking.shader" t="Include" />
+              <e p="TMP_SDF-Mobile Overlay.shader" t="Include" />
+              <e p="TMP_SDF-Mobile SSD.shader" t="Include" />
+              <e p="TMP_SDF-Mobile.shader" t="Include" />
+              <e p="TMP_SDF-Surface-Mobile.shader" t="Include" />
+              <e p="TMP_SDF-Surface.shader" t="Include" />
+              <e p="TMP_SDF.shader" t="Include" />
+              <e p="TMP_Sprite.shader" t="Include" />
+              <e p="TMPro.cginc" t="Include" />
+              <e p="TMPro_Mobile.cginc" t="Include" />
+              <e p="TMPro_Properties.cginc" t="Include" />
+              <e p="TMPro_Surface.cginc" t="Include" />
+            </e>
+            <e p="Sprites" t="Include">
+              <e p="EmojiOne Attribution.txt" t="Include" />
+            </e>
+          </e>
+        </e>
+        <e p="Storage" t="Include">
+          <e p="Global" t="Include">
+            <e p="levelInfos.txt" t="Include" />
           </e>
         </e>
         <e p="SubModules" t="Include">
