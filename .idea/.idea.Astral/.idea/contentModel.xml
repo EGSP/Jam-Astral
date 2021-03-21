@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ContentModelStore">
     <e p="C:\Users\User\AppData\Local\JetBrains\Rider2020.3\extResources" t="IncludeRecursive" />
-    <e p="C:\Users\User\AppData\Local\JetBrains\Rider2020.3\resharper-host\Local\Transient\Rider\v203\SolutionCaches\_Astral.-98743319.01" t="ExcludeRecursive" />
+    <e p="C:\Users\User\AppData\Local\JetBrains\Rider2020.3\resharper-host\Local\Transient\Rider\v203\SolutionCaches\_Astral.-98743319.00" t="ExcludeRecursive" />
     <e p="D:\UProject\Jams\Astral" t="IncludeRecursive">
       <e p="AmplifyShaderEditor.csproj" t="IncludeRecursive" />
       <e p="Assembly-CSharp-firstpass.csproj" t="IncludeRecursive" />
@@ -50,6 +50,7 @@
               </e>
               <e p="PlayerControllerUi.cs" t="Include" />
             </e>
+            <e p="WeakEventTest.cs" t="Include" />
           </e>
           <e p="Shaders" t="Include">
             <e p="OpacityUpDown.shader" t="Include" />
@@ -937,7 +938,11 @@
                   <e p="ContextMonoBehaviour.cs" t="Include" />
                 </e>
               </e>
-              <e p="WeakEvent.cs" t="Include" />
+              <e p="WeakEvent" t="Include">
+                <e p="Closure.cs" t="Include" />
+                <e p="WeakDelegateHandle.cs" t="Include" />
+                <e p="WeakEvent.cs" t="Include" />
+              </e>
             </e>
             <e p="Exceptions" t="Include">
               <e p="LazyInstanceException.cs" t="Include" />
@@ -1073,6 +1078,7 @@
                 </e>
                 <e p="IVisual.cs" t="Include" />
                 <e p="Visual.cs" t="Include" />
+                <e p="VisualElement.cs" t="Include" />
               </e>
             </e>
             <e p="Utilities" t="Include">

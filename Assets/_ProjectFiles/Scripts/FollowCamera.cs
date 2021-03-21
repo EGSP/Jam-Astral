@@ -1,6 +1,4 @@
-﻿using System;
-using JetBrains.Annotations;
-using Sirenix.Serialization;
+﻿using JetBrains.Annotations;
 using UnityEngine;
 
 namespace Game

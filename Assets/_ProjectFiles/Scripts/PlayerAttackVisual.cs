@@ -1,6 +1,4 @@
-﻿using System;
-using Egsp.Core.Inputs;
-using Egsp.Extensions.Primitives;
+﻿using Egsp.Extensions.Primitives;
 using Sirenix.OdinInspector;
 using UnityEngine;
 

@@ -1,6 +1,4 @@
-﻿using System;
-using Egsp.Core;
-using Egsp.Extensions.Primitives;
+﻿using Egsp.Core;
 using Game.Entities;
 using UnityEngine;
 

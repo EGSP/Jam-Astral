@@ -1,8 +1,4 @@
-﻿using System;
-using System.Collections;
-using System.Collections.Generic;
-using Egsp.Core.Ui;
-using Sirenix.OdinInspector;
+﻿using Egsp.Core.Ui;
 using UnityEngine;
 using UnityEngine.UI;
 

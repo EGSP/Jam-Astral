@@ -1,6 +1,4 @@
-﻿using Egsp.Core;
-using Game;
-using UnityEngine;
+﻿using UnityEngine;
 
 namespace Egsp.Core
 {

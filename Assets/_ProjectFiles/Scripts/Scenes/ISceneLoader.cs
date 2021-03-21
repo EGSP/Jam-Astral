@@ -1,6 +1,4 @@
-﻿using UnityEngine.SceneManagement;
-
-namespace Egsp.Core
+﻿namespace Egsp.Core
 {
     /// <summary>
     /// Этот объект загружает сцену.

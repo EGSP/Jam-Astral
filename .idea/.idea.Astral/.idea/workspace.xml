@@ -21,10 +21,36 @@
   <component name="ChangeListManager">
     <list default="true" id="52a2c8e9-c056-44b6-b833-90f660bc5b6d" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/.idea.Astral/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Astral/.idea/contentModel.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.Astral/.idea/indexLayout.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Astral/.idea/indexLayout.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.Astral/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Astral/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/SubModules/Package-Unity/Events/WeakEvent.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/SubModules/Package-Unity/Events/WeakEvent.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/SubModules/Package-Unity/Ui/Containers/IContainer.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/SubModules/Package-Unity/Ui/Containers/IContainer.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/DOTween/Modules/DOTweenModuleAudio.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Plugins/DOTween/Modules/DOTweenModuleAudio.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/DOTween/Modules/DOTweenModulePhysics.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Plugins/DOTween/Modules/DOTweenModulePhysics.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/DOTween/Modules/DOTweenModulePhysics2D.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Plugins/DOTween/Modules/DOTweenModulePhysics2D.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/DOTween/Modules/DOTweenModuleSprite.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Plugins/DOTween/Modules/DOTweenModuleSprite.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/DOTween/Modules/DOTweenModuleUI.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Plugins/DOTween/Modules/DOTweenModuleUI.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/DOTween/Modules/DOTweenModuleUnityVersion.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Plugins/DOTween/Modules/DOTweenModuleUnityVersion.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Sirenix/Odin Inspector/Scripts/Editor/BuildAOTAutomation.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Plugins/Sirenix/Odin Inspector/Scripts/Editor/BuildAOTAutomation.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Sirenix/Odin Inspector/Scripts/Editor/Vector2IntMinMaxAttributeDrawer.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Plugins/Sirenix/Odin Inspector/Scripts/Editor/Vector2IntMinMaxAttributeDrawer.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/SubModules/Package-Unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/SubModules/Package-Unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/SubModules/Package-Unity-Odin/Graph/GraphAdapter.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/SubModules/Package-Unity-Odin/Graph/GraphAdapter.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/SubModules/Package-Unity-Odin/Singletons/SerializedSingleton.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/SubModules/Package-Unity-Odin/Singletons/SerializedSingleton.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/SubModules/Package-Unity-Odin/Visual/SerializedVisual.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/SubModules/Package-Unity-Odin/Visual/SerializedVisual.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/SubModules/Package-Unity/Events/WeakEvent/WeakDelegateHandle.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/SubModules/Package-Unity/Events/WeakEvent/WeakDelegateHandle.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/SubModules/Package-Unity/Events/WeakEvent/WeakEvent.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/SubModules/Package-Unity/Events/WeakEvent/WeakEvent.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/SubModules/Package-Unity/Ui/Visuals/Odin.meta" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/_ProjectFiles/Scenes/MainMenu.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_ProjectFiles/Scenes/MainMenu.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_ProjectFiles/Scripts/FollowCamera.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_ProjectFiles/Scripts/FollowCamera.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_ProjectFiles/Scripts/Obstacles/Spike.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_ProjectFiles/Scripts/Obstacles/Spike.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_ProjectFiles/Scripts/Parallax/Parallax.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_ProjectFiles/Scripts/Parallax/Parallax.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_ProjectFiles/Scripts/Parallax/Parallax2D.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_ProjectFiles/Scripts/Parallax/Parallax2D.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_ProjectFiles/Scripts/PlayerAttackVisual.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_ProjectFiles/Scripts/PlayerAttackVisual.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_ProjectFiles/Scripts/PlayerController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_ProjectFiles/Scripts/PlayerController.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_ProjectFiles/Scripts/Scenes/AssignedSceneLoader.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_ProjectFiles/Scripts/Scenes/AssignedSceneLoader.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_ProjectFiles/Scripts/Scenes/ISceneLoader.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_ProjectFiles/Scripts/Scenes/ISceneLoader.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_ProjectFiles/Scripts/Visuals/AbilityVisual.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_ProjectFiles/Scripts/Visuals/AbilityVisual.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_ProjectFiles/Scripts/Visuals/Level/LevelIcon.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_ProjectFiles/Scripts/Visuals/Level/LevelIcon.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_ProjectFiles/Scripts/Visuals/Level/TestLevelBoard.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_ProjectFiles/Scripts/Visuals/Level/TestLevelBoard.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_ProjectFiles/Scripts/Visuals/PlayerControllerUi.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_ProjectFiles/Scripts/Visuals/PlayerControllerUi.cs" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -43,22 +69,28 @@
     </file-type-list>
   </component>
   <component name="HighlightingSettingsPerFile">
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/BA0DAC83-1D00-4D16-ABB3-DA2D502DBBD8/9b/b79241ec/MethodInfo.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/65CAB14A-C59E-4552-B77F-98A4AED18F9E/ab/c4a59bf7/Collider2D.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/FB001E01-371B-4ADC-A200-13E0AC763896/14/0c58f934/String.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/8691AD70-05ED-4755-A182-8378FF0B52B1/3e/375ef069/GameObject.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/8691AD70-05ED-4755-A182-8378FF0B52B1/a7/b2adbb99/Object.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/8691AD70-05ED-4755-A182-8378FF0B52B1/0e/32fb2d19/Transform.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/14E3453B-740B-4BD6-90E8-D4E5A013A715/ca/27cd38b5/LinkedListNode`1.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/FB001E01-371B-4ADC-A200-13E0AC763896/b6/0a5d0283/Action`1.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://C:/Program Files/Unity/Hub/Editor/2019.4.11f1/Editor/Data/Resources/PackageManager/BuiltInPackages/com.unity.ugui/Runtime/UI/Core/MaskableGraphic.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/FB001E01-371B-4ADC-A200-13E0AC763896/0b/d1677a14/Delegate.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/FB001E01-371B-4ADC-A200-13E0AC763896/c6/5ec63530/MulticastDelegate.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/_ProjectFiles/Scripts/Parallax/Parallax2DAuto.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://C:/Program Files/Unity/Hub/Editor/2019.4.11f1/Editor/Data/Resources/PackageManager/BuiltInPackages/com.unity.ugui/Runtime/UI/Core/Graphic.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/4AF5BEA1-B7B2-4424-94FD-73F6F9B3D7F4/28/0712ef50/CanvasRenderer.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://C:/Program Files/Unity/Hub/Editor/2019.4.11f1/Editor/Data/Resources/PackageManager/BuiltInPackages/com.unity.ugui/Runtime/EventSystem/ExecuteEvents.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://C:/Program Files/Unity/Hub/Editor/2019.4.11f1/Editor/Data/Resources/PackageManager/BuiltInPackages/com.unity.ugui/Runtime/UI/Core/Image.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/_ProjectFiles/Scripts/Visuals/AbilityVisual.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/FB001E01-371B-4ADC-A200-13E0AC763896/2d/f319f8be/DelegateData.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/65CAB14A-C59E-4552-B77F-98A4AED18F9E/00/449366cc/ContactFilter2D.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/SubModules/Package-Unity/Events/EventBus/TypedBus.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/8691AD70-05ED-4755-A182-8378FF0B52B1/df/61af6bd9/Vector3.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/BA0DAC83-1D00-4D16-ABB3-DA2D502DBBD8/5d/5f7e27bc/Delegate.cs" root0="SKIP_HIGHLIGHTING" />
   </component>
   <component name="IdeDocumentHistory">
     <changedPaths>
@@ -94,7 +126,6 @@
       <option value="$PROJECT_DIR$/Assets/SubModules/Package-Unity/Files/Storage/DataProfile.cs" />
       <option value="$PROJECT_DIR$/Assets/SubModules/Package-Unity-Odin/OdinInspectorAndSerializerDefine.cs" />
       <option value="$PROJECT_DIR$/Assets/SubModules/Package-Unity/Files/Storage/Storage.cs" />
-      <option value="$PROJECT_DIR$/Assets/_ProjectFiles/Scripts/PlayerController.cs" />
       <option value="$PROJECT_DIR$/Assets/SubModules/Package-Unity/Files/Storage/DataProvider.cs" />
       <option value="$PROJECT_DIR$/Assets/_ProjectFiles/Scripts/Levels/LevelInfo.cs" />
       <option value="$PROJECT_DIR$/Assets/_ProjectFiles/Scripts/Levels/LevelInfoLoader.cs" />
@@ -102,7 +133,15 @@
       <option value="$PROJECT_DIR$/Assets/_ProjectFiles/Scripts/Visuals/Level/LevelIcon.cs" />
       <option value="$PROJECT_DIR$/Assets/_ProjectFiles/Scripts/Visuals/Level/LevelBoard.cs" />
       <option value="$PROJECT_DIR$/Assets/_ProjectFiles/Scripts/Visuals/Level/TestLevelBoard.cs" />
+      <option value="$PROJECT_DIR$/Assets/SubModules/Package-Unity/Events/CallBack.cs" />
+      <option value="$PROJECT_DIR$/Assets/SubModules/Package-Unity/Events/WeakDelegate.cs" />
       <option value="$PROJECT_DIR$/Assets/SubModules/Package-Unity/Events/WeakEvent.cs" />
+      <option value="$PROJECT_DIR$/Assets/_ProjectFiles/Scripts/WeakEventTest.cs" />
+      <option value="$PROJECT_DIR$/Assets/SubModules/Package-Unity/Events/WeakEvent/WeakDelegateHandle.cs" />
+      <option value="$PROJECT_DIR$/Assets/SubModules/Package-Unity/Events/WeakEvent/Closure.cs" />
+      <option value="$PROJECT_DIR$/Assets/SubModules/Package-Unity/Events/WeakEvent/WeakEvent.cs" />
+      <option value="$PROJECT_DIR$/Assets/_ProjectFiles/Scripts/PlayerController.cs" />
+      <option value="$PROJECT_DIR$/Assets/SubModules/Package-Unity/Ui/Visuals/Visual.cs" />
     </changedPaths>
   </component>
   <component name="ProjectId" id="1nh6WxHjpf1Psnz9jTfr1rYEgO0" />
@@ -126,10 +165,10 @@
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RunManager" selected="Attach to Unity Editor.Attach to Unity Editor &amp; Play">
-    <configuration name="Attach to Unity Editor &amp; Play" type="UNITY_DEBUG_RUN_CONFIGURATION" factoryName="UNITY_ATTACH_AND_PLAY" show_console_on_std_err="false" show_console_on_std_out="false" port="50000" address="localhost" ignored-value-for-modified-check="1412">
+    <configuration name="Attach to Unity Editor &amp; Play" type="UNITY_DEBUG_RUN_CONFIGURATION" factoryName="UNITY_ATTACH_AND_PLAY" show_console_on_std_err="false" show_console_on_std_out="false" port="50000" address="localhost">
       <option name="allowRunningInParallel" value="false" />
       <option name="listenPortForConnections" value="false" />
-      <option name="pid" value="1412" />
+      <option name="pid" />
       <option name="selectedOptions">
         <list />
       </option>
@@ -163,7 +202,9 @@
       <workItem from="1615622111447" duration="19468000" />
       <workItem from="1615710719099" duration="3873000" />
       <workItem from="1615899808397" duration="6515000" />
-      <workItem from="1616000696351" duration="7080000" />
+      <workItem from="1616000696351" duration="15189000" />
+      <workItem from="1616156793817" duration="11997000" />
+      <workItem from="1616333567512" duration="1050000" />
     </task>
     <servers />
   </component>

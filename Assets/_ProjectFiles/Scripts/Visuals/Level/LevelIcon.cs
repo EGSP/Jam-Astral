@@ -1,5 +1,4 @@
-﻿using System;
-using Egsp.Core;
+﻿using Egsp.Core;
 using Egsp.Core.Ui;
 using Game.Levels;
 using TMPro;

@@ -1,5 +1,4 @@
-﻿using System;
-using Game.Levels;
+﻿using Game.Levels;
 using Sirenix.OdinInspector;
 using UnityEngine;
 

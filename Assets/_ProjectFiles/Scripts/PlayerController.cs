@@ -1,7 +1,5 @@
-﻿using System;
-using Game.Visuals;
+﻿using Game.Visuals;
 using Sirenix.OdinInspector;
-using Sirenix.Serialization;
 using UnityEngine;
 
 namespace Game
