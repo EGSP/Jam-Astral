@@ -22,12 +22,12 @@ namespace Game.Visuals.Level
             container.Clear();
             
             var levels = LevelInfo.LevelInfos;
-
-            for (var i = 0; i < levels.Count; i++)
+            
+            foreach (var levelInfo in levels)
             {
                 var icon = container.PutPrefab(iconPrefab);
 
-                icon.LevelInfo = levels[i];
+                icon.LevelInfo = levelInfo;
                 icon.Clicked.Subscribe(OnIconClicked);
             }
         }

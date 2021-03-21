@@ -885,7 +885,9 @@
         </e>
         <e p="Storage" t="Include">
           <e p="Global" t="Include">
-            <e p="levelInfos.txt" t="Include" />
+            <e p="Levels" t="Include">
+              <e p="levelInfos.txt" t="Include" />
+            </e>
           </e>
         </e>
         <e p="SubModules" t="Include">
@@ -894,6 +896,10 @@
               <e p="LazyInstanceAttribute.cs" t="Include" />
             </e>
             <e p="Engine" t="Include">
+              <e p="Application" t="Include">
+                <e p="ApplicationManager.cs" t="Include" />
+                <e p="ApplicationManagerReflection.cs" t="Include" />
+              </e>
               <e p="Input" t="Include">
                 <e p="InputExtensions.cs" t="Include" />
               </e>

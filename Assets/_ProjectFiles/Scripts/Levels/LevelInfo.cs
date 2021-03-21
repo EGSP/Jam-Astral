@@ -1,6 +1,7 @@
 ﻿using System.Collections.Generic;
 using System.Linq;
 using Egsp.Core;
+using Egsp.Extensions.Collections;
 using Egsp.Files;
 
 namespace Game.Levels
@@ -9,7 +10,7 @@ namespace Game.Levels
     {
         public string LevelName;
         public bool Completed;
-        
+
         public bool IsDefault => string.IsNullOrWhiteSpace(LevelName);
 
         public LevelInfo(string levelName)
@@ -17,14 +18,22 @@ namespace Game.Levels
             LevelName = levelName;
             Completed = false;
         }
-        
+
         //------------- STATIC
 
-        public static List<LevelInfo> LevelInfos { get; private set; }
+        private static LinkedList<LevelInfo> _levelInfos;
+        public static LinkedList<LevelInfo> LevelInfos
+        {
+            get => _levelInfos;
+            private set => _levelInfos = value;
+        }
+        
+
+        private static bool AlreadyLoaded { get; set; }
         
         static LevelInfo()
         {
-            LevelInfos = new List<LevelInfo>();
+            LevelInfos = new LinkedList<LevelInfo>();
             ReloadLevelInfos();
         }
 
@@ -37,14 +46,52 @@ namespace Game.Levels
             return levelInfo;
         }
 
-        public static List<LevelInfo> ReloadLevelInfos()
+        public enum LoadMode
         {
-            var levelInfos = Storage.Global.LoadObjects<LevelInfo>("levelInfos");
+            Add,
+            Overwrite
+        }
 
-            if (levelInfos.IsSome)
-                return LevelInfos = levelInfos.Value;
+        public abstract class LevelsSource
+        {
+            public abstract LinkedList<LevelInfo> LoadLevels();
+
+            public class LevelsFromDictionary : LevelsSource
+            {
+                private readonly string _dictionary;
+
+                public LevelsFromDictionary(string dictionary)
+                {
+                    _dictionary = dictionary;
+                }
+                
+                public override LinkedList<LevelInfo> LoadLevels()
+                {
+                    var linkedList = Storage.Global.LoadObjectsFromDirectory<LevelInfo>("Levels");
+
+                    return linkedList;
+                }
+            }
+        }
+        
+        public static void LoadLevelInfos(LevelsSource source, LoadMode loadMode = LoadMode.Overwrite)
+        {
+            var linkedList = source.LoadLevels();
+
+            if (loadMode == LoadMode.Add)
+                LevelInfos.Join(linkedList);
             else
-                return LevelInfos = new List<LevelInfo>();
+                LevelInfos = linkedList;
+        }
+
+        public static void ReloadLevelInfos(bool forceReload = false)
+        {
+            if (AlreadyLoaded && !forceReload)
+                return;
+            
+            LoadLevelInfos(new LevelsSource.LevelsFromDictionary("Levels"));
+
+            AlreadyLoaded = true;
         }
 
         public static void SaveLevelInfos(IEnumerable<LevelInfo> levelInfos)
