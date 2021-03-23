@@ -20,6 +20,7 @@
             <e p="FollowCamera.cs" t="Include" />
             <e p="Levels" t="Include">
               <e p="LevelInfo.cs" t="Include" />
+              <e p="LevelLoader.cs" t="Include" />
             </e>
             <e p="Obstacles" t="Include">
               <e p="CircularSaw.cs" t="Include" />
@@ -46,6 +47,7 @@
               <e p="Level" t="Include">
                 <e p="LevelBoard.cs" t="Include" />
                 <e p="LevelIcon.cs" t="Include" />
+                <e p="LevelInfoEvent.cs" t="Include" />
                 <e p="TestLevelBoard.cs" t="Include" />
               </e>
               <e p="PlayerControllerUi.cs" t="Include" />

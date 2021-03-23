@@ -2,6 +2,7 @@
 using Egsp.Core.Ui;
 using Game.Levels;
 using UnityEngine;
+using UnityEngine.Events;
 
 namespace Game.Visuals.Level
 {
@@ -9,9 +10,11 @@ namespace Game.Visuals.Level
     {
         [SerializeField] private LevelIcon iconPrefab;
         [SerializeField] private IContainer container;
+        [SerializeField] private LevelInfoEvent onLevelChoosedEvent;
 
         public WeakEvent<LevelInfo> LevelChoosed = new WeakEvent<LevelInfo>();
         
+
         private void Awake()
         {
             container = GetComponentInChildren<IContainer>();
@@ -36,6 +39,7 @@ namespace Game.Visuals.Level
         {
             Debug.Log(x.LevelInfo.IsDefault);
             LevelChoosed.Raise(x.LevelInfo);
+            onLevelChoosedEvent.Invoke(x.LevelInfo);
         }
     }
 }

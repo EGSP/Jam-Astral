@@ -54,7 +54,6 @@ namespace Game.Visuals.Level
 
         public void OnPointerDown(PointerEventData eventData)
         { 
-            Debug.Log("clicked");
             Clicked.Raise(this);
         }
     }

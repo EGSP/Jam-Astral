@@ -21,19 +21,18 @@
   <component name="ChangeListManager">
     <list default="true" id="52a2c8e9-c056-44b6-b833-90f660bc5b6d" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/.idea.Astral/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Astral/.idea/contentModel.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.Astral/.idea/indexLayout.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Astral/.idea/indexLayout.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.Astral/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Astral/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Storage/Global/levelInfos.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Storage/Global/levelInfos.txt.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/SubModules/Package-Unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/SubModules/Package-Unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Storage/Global/Levels/levelInfos.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Storage/Global/Levels/levelInfos.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/SubModules/Package-Unity-Odin/Graph/GraphAdapter.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/SubModules/Package-Unity-Odin/Graph/GraphAdapter.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/SubModules/Package-Unity-Odin/Singletons/SerializedSingleton.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/SubModules/Package-Unity-Odin/Singletons/SerializedSingleton.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/SubModules/Package-Unity-Odin/Visual/SerializedVisual.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/SubModules/Package-Unity-Odin/Visual/SerializedVisual.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/SubModules/Package-Unity/Extensions/LinkedListExtensions.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/SubModules/Package-Unity/Extensions/LinkedListExtensions.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/SubModules/Package-Unity/Files/Storage/DataProvider.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/SubModules/Package-Unity/Files/Storage/DataProvider.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/SubModules/Package-Unity/Engine/Scene/Core/GameSceneManager/GameSceneManager.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/SubModules/Package-Unity/Engine/Scene/Core/GameSceneManager/GameSceneManager.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/_ProjectFiles/Scenes/MainMenu.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_ProjectFiles/Scenes/MainMenu.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_ProjectFiles/Scripts/Levels/LevelInfo.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_ProjectFiles/Scripts/Levels/LevelInfo.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/_ProjectFiles/Scripts/Visuals/Level/LevelBoard.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_ProjectFiles/Scripts/Visuals/Level/LevelBoard.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_ProjectFiles/Scripts/Visuals/Level/LevelIcon.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_ProjectFiles/Scripts/Visuals/Level/LevelIcon.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_ProjectFiles/Visual/Ningriptzu Art/Sensei/spr_boss_1.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_ProjectFiles/Visual/Ningriptzu Art/Sensei/spr_boss_1.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Packages/manifest.json" beforeDir="false" afterPath="$PROJECT_DIR$/Packages/manifest.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Packages/packages-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/Packages/packages-lock.json" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -41,7 +40,7 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/Assets/SubModules/Package-Unity" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="GitSEFilterConfiguration">
     <file-type-list>
@@ -77,11 +76,8 @@
   </component>
   <component name="IdeDocumentHistory">
     <changedPaths>
-      <option value="$PROJECT_DIR$/Assets/SubModules/Package-Unity/Physics/Triggers/2D/Trigger2D.cs" />
-      <option value="$PROJECT_DIR$/Assets/SubModules/Package-Unity/Physics/Triggers/TriggerBase.cs" />
       <option value="$PROJECT_DIR$/Assets/SubModules/Package-Unity/Physics/Triggers/2D/CircleTrigger2D.cs" />
       <option value="$PROJECT_DIR$/Assets/SubModules/Package-Unity/Engine/Scene/Core/GameSceneManager.cs" />
-      <option value="$PROJECT_DIR$/Assets/SubModules/Package-Unity/Engine/Scene/Core/GameSceneManager/GameSceneManagerUtilsPart.cs" />
       <option value="$PROJECT_DIR$/Assets/_ProjectFiles/Scripts/Scenes/ISceneLoader.cs" />
       <option value="$PROJECT_DIR$/Assets/SubModules/Package-Unity/Extensions/TransformExtensions.cs" />
       <option value="$PROJECT_DIR$/Assets/_ProjectFiles/Scripts/Parallax/ParallaxGroup.cs" />
@@ -110,7 +106,6 @@
       <option value="$PROJECT_DIR$/Assets/SubModules/Package-Unity/Files/Storage/Storage.cs" />
       <option value="$PROJECT_DIR$/Assets/_ProjectFiles/Scripts/Levels/LevelInfoLoader.cs" />
       <option value="$PROJECT_DIR$/Assets/SubModules/Package-Unity/Ui/Containers/IContainer.cs" />
-      <option value="$PROJECT_DIR$/Assets/_ProjectFiles/Scripts/Visuals/Level/LevelIcon.cs" />
       <option value="$PROJECT_DIR$/Assets/_ProjectFiles/Scripts/Visuals/Level/TestLevelBoard.cs" />
       <option value="$PROJECT_DIR$/Assets/SubModules/Package-Unity/Events/CallBack.cs" />
       <option value="$PROJECT_DIR$/Assets/SubModules/Package-Unity/Events/WeakDelegate.cs" />
@@ -121,12 +116,17 @@
       <option value="$PROJECT_DIR$/Assets/SubModules/Package-Unity/Events/WeakEvent/WeakEvent.cs" />
       <option value="$PROJECT_DIR$/Assets/_ProjectFiles/Scripts/PlayerController.cs" />
       <option value="$PROJECT_DIR$/Assets/SubModules/Package-Unity/Ui/Visuals/Visual.cs" />
-      <option value="$PROJECT_DIR$/Assets/Storage/Global/Levels/levelInfos.txt" />
       <option value="$PROJECT_DIR$/Assets/SubModules/Package-Unity/Files/Storage/DataProvider.cs" />
       <option value="$PROJECT_DIR$/Assets/SubModules/Package-Unity/Extensions/LinkedListExtensions.cs" />
-      <option value="$PROJECT_DIR$/Assets/_ProjectFiles/Scripts/Visuals/Level/LevelBoard.cs" />
       <option value="$PROJECT_DIR$/Assets/_ProjectFiles/Scripts/Levels/LevelInfo.cs" />
       <option value="$PROJECT_DIR$/Assets/SubModules/Package-Unity/Engine/ApplicationManager.cs" />
+      <option value="$PROJECT_DIR$/Assets/_ProjectFiles/Scripts/Visuals/Level/LevelInfoEvent.cs" />
+      <option value="$PROJECT_DIR$/Assets/_ProjectFiles/Scripts/Visuals/Level/LevelBoard.cs" />
+      <option value="$PROJECT_DIR$/Assets/SubModules/Package-Unity/Engine/Scene/Core/GameSceneManager/GameSceneManagerUtilsPart.cs" />
+      <option value="$PROJECT_DIR$/Assets/_ProjectFiles/Scripts/Levels/LevelLoader.cs" />
+      <option value="$PROJECT_DIR$/Assets/SubModules/Package-Unity/Engine/Scene/Core/GameSceneManager/GameSceneManager.cs" />
+      <option value="$PROJECT_DIR$/Assets/Storage/Global/Levels/levelInfos.txt" />
+      <option value="$PROJECT_DIR$/Assets/_ProjectFiles/Scripts/Visuals/Level/LevelIcon.cs" />
     </changedPaths>
   </component>
   <component name="ProjectId" id="1nh6WxHjpf1Psnz9jTfr1rYEgO0" />
@@ -151,10 +151,10 @@
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RunManager" selected="Attach to Unity Editor.Attach to Unity Editor &amp; Play">
-    <configuration name="Attach to Unity Editor &amp; Play" type="UNITY_DEBUG_RUN_CONFIGURATION" factoryName="UNITY_ATTACH_AND_PLAY" show_console_on_std_err="false" show_console_on_std_out="false" port="50000" address="localhost" ignored-value-for-modified-check="13036">
+    <configuration name="Attach to Unity Editor &amp; Play" type="UNITY_DEBUG_RUN_CONFIGURATION" factoryName="UNITY_ATTACH_AND_PLAY" show_console_on_std_err="false" show_console_on_std_out="false" port="50000" address="localhost">
       <option name="allowRunningInParallel" value="false" />
       <option name="listenPortForConnections" value="false" />
-      <option name="pid" value="13036" />
+      <option name="pid" />
       <option name="selectedOptions">
         <list />
       </option>
@@ -191,7 +191,8 @@
       <workItem from="1616000696351" duration="15189000" />
       <workItem from="1616156793817" duration="11997000" />
       <workItem from="1616333567512" duration="1663000" />
-      <workItem from="1616341482094" duration="6274000" />
+      <workItem from="1616341482094" duration="6752000" />
+      <workItem from="1616500963378" duration="2596000" />
     </task>
     <servers />
   </component>
