@@ -5964,6 +5964,11 @@ MonoBehaviour:
   offset: {x: 0, y: 0}
   size: 1
   punchPower: 20
+  damage:
+    damagePoint:
+      count: 0
+    kill: 0
+    ignoreImmune: 0
 --- !u!212 &1111990240
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -6259,6 +6264,11 @@ MonoBehaviour:
   offset: {x: 0, y: 0}
   size: 1
   punchPower: 20
+  damage:
+    damagePoint:
+      count: 0
+    kill: 0
+    ignoreImmune: 0
 --- !u!212 &1829430813
 SpriteRenderer:
   m_ObjectHideFlags: 0

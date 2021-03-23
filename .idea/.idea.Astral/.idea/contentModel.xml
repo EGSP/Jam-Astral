@@ -5,11 +5,24 @@
     <e p="C:\Users\User\AppData\Local\JetBrains\Rider2020.3\resharper-host\Local\Transient\Rider\v203\SolutionCaches\_Astral.-98743319.00" t="ExcludeRecursive" />
     <e p="D:\UProject\Jams\Astral" t="IncludeRecursive">
       <e p="AmplifyShaderEditor.csproj" t="IncludeRecursive" />
+      <e p="Assembly-CSharp-Editor.csproj" t="IncludeRecursive" />
       <e p="Assembly-CSharp-firstpass.csproj" t="IncludeRecursive" />
       <e p="Assembly-CSharp.csproj" t="IncludeRecursive" />
       <e p="Assets" t="Include">
         <e p="_ProjectFiles" t="Include">
+          <e p="Scenes" t="Include">
+            <e p="Levels" t="Include">
+              <e p="Meta" t="Include">
+                <e p="SampleScene_lvl.txt" t="Include" />
+                <e p="test_lvl.txt" t="Include" />
+              </e>
+            </e>
+          </e>
           <e p="Scripts" t="Include">
+            <e p="Editor" t="Include">
+              <e p="LevelInfoAssetManager.cs" t="Include" />
+              <e p="LevelInfoAssetManagerMenu.cs" t="Include" />
+            </e>
             <e p="Entities" t="Include">
               <e p="Health.cs" t="Include" />
               <e p="Player" t="Include">
@@ -965,6 +978,7 @@
                 <e p="LinkedGrid.cs" t="Include" />
               </e>
               <e p="ColorExtensions.cs" t="Include" />
+              <e p="FileSystemExtensions.cs" t="Include" />
               <e p="FloatExtensions.cs" t="Include" />
               <e p="Graphs" t="Include">
                 <e p="2D" t="Include">
@@ -1001,6 +1015,7 @@
                 <e p="MinMaxInt.cs" t="Include" />
                 <e p="Operation.cs" t="Include" />
                 <e p="Option.cs" t="Include" />
+                <e p="Promise.cs" t="Include" />
               </e>
             </e>
             <e p="Other" t="Include">

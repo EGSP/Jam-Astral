@@ -1,0 +1,5 @@
+{
+    "$type": "0|Game.Levels.LevelInfo, Assembly-CSharp",
+    "LevelName": "SampleScene_lvl",
+    "Completed": false
+}

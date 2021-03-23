@@ -1,8 +1,13 @@
 ﻿using System.Collections.Generic;
 using System.Linq;
+using System.Runtime.Remoting.Messaging;
+using System.Threading.Tasks;
 using Egsp.Core;
 using Egsp.Extensions.Collections;
 using Egsp.Files;
+using UnityEngine;
+using UnityEngine.AddressableAssets;
+using UnityEngine.ResourceManagement.AsyncOperations;
 
 namespace Game.Levels
 {
@@ -54,29 +59,51 @@ namespace Game.Levels
 
         public abstract class LevelsSource
         {
-            public abstract LinkedList<LevelInfo> LoadLevels();
+            public abstract Task<LinkedList<LevelInfo>> LoadLevels();
 
             public class LevelsFromDictionary : LevelsSource
             {
-                private readonly string _dictionary;
+                private readonly string _directory;
 
-                public LevelsFromDictionary(string dictionary)
+                public LevelsFromDictionary(string directory)
                 {
-                    _dictionary = dictionary;
+                    _directory = directory;
                 }
                 
-                public override LinkedList<LevelInfo> LoadLevels()
+                public override async Task<LinkedList<LevelInfo>> LoadLevels()
                 {
-                    var linkedList = Storage.Global.LoadObjectsFromDirectory<LevelInfo>("Levels");
-
+                    var linkedList = Storage.Global.LoadObjectsFromDirectory<LevelInfo>(_directory);
                     return linkedList;
+                }
+            }
+
+            public class LevelsFromAddressables : LevelsSource
+            {
+                private LinkedList<LevelInfo> _levelInfos = new LinkedList<LevelInfo>();
+                
+                public override async Task<LinkedList<LevelInfo>> LoadLevels()
+                {
+                    var ao =
+                        Addressables.LoadAssetsAsync<TextAsset>("level_meta", OnTextLoaded);
+
+                    await ao.Task;
+
+                    return _levelInfos;
+                }
+
+                public void OnTextLoaded(TextAsset asset)
+                {
+                    var levelInfo = Storage.DefaultSerializer.Deserialize<LevelInfo>(asset.bytes);
+
+                    if (levelInfo.IsSome)
+                        _levelInfos.AddLast(levelInfo.Value);
                 }
             }
         }
         
-        public static void LoadLevelInfos(LevelsSource source, LoadMode loadMode = LoadMode.Overwrite)
+        public static void LoadLevelInfosToExisting(LevelsSource source, LoadMode loadMode = LoadMode.Overwrite)
         {
-            var linkedList = source.LoadLevels();
+            var linkedList = LoadLevelInfos(source);
 
             if (loadMode == LoadMode.Add)
                 LevelInfos.Join(linkedList);
@@ -84,19 +111,26 @@ namespace Game.Levels
                 LevelInfos = linkedList;
         }
 
+        public static LinkedList<LevelInfo> LoadLevelInfos(LevelsSource source)
+        {
+            var task = source.LoadLevels();
+            return task;
+        }
+
         public static void ReloadLevelInfos(bool forceReload = false)
         {
             if (AlreadyLoaded && !forceReload)
                 return;
             
-            LoadLevelInfos(new LevelsSource.LevelsFromDictionary("Levels"));
+            LoadLevelInfosToExisting(new LevelsSource.LevelsFromDictionary("Levels"));
 
             AlreadyLoaded = true;
         }
 
         public static void SaveLevelInfos(IEnumerable<LevelInfo> levelInfos)
         {
-            Storage.Global.SaveObjects("levelInfos", levelInfos);
+            Storage.Global.SaveObjectsByFiles("Levels", levelInfos,
+                x => x.LevelName);
         }
     }
 }
