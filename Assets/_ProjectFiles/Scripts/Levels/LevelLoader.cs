@@ -10,7 +10,6 @@ namespace Game.Levels
         
         public void LoadLevel(LevelInfo levelInfo)
         {
-            Debug.Log("Load call");
             GameSceneManager.Instance.LoadScene(levelInfo.LevelName, mode);
         }
         

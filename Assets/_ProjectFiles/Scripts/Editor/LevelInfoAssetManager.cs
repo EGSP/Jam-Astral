@@ -18,7 +18,6 @@ public partial class LevelInfoAssetManager
     
     static LevelInfoAssetManager()
     {
-        Debug.Log("Init LIAM.");
         EditorSceneManager.sceneSaved += EditorSceneManagerOnSceneSaved;
     }
 

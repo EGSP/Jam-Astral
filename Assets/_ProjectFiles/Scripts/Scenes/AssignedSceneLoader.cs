@@ -32,7 +32,7 @@ namespace Egsp.Core
                     break;
                 
                 case GameSceneManager.SceneExistInBuildResult.NotExist:
-                    Debug.Log("Scene does not exist!");
+                    Debug.Log($"Scene: {nextSceneName} - does not exist!");
                     break;
                 
                 case GameSceneManager.SceneExistInBuildResult.IncorrectName:

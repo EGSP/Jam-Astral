@@ -2826,7 +2826,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 717165646}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 12ad624752a24b178761046faa19543c, type: 3}
+  m_Script: {fileID: 11500000, guid: 3cdb65f483cd4aafb2603b7710c7de42, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   onEnter:
@@ -2837,7 +2837,6 @@ MonoBehaviour:
       m_Calls: []
   offset: {x: 0, y: 0}
   size: 1
-  nextSceneName: testscene
 --- !u!1 &799047539
 GameObject:
   m_ObjectHideFlags: 0
@@ -3267,6 +3266,14 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 2073374750}
     m_Modifications:
+    - target: {fileID: 487581063, guid: 5e603360ba1e33646b76a84f256b99fd, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1005406245, guid: 5e603360ba1e33646b76a84f256b99fd, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 686845031529063461, guid: 5e603360ba1e33646b76a84f256b99fd,
         type: 3}
       propertyPath: serializationData.Prefab

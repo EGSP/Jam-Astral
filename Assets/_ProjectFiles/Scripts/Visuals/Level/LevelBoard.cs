@@ -37,7 +37,6 @@ namespace Game.Visuals.Level
 
         private void OnIconClicked(LevelIcon x)
         {
-            Debug.Log(x.LevelInfo.IsDefault);
             LevelChoosed.Raise(x.LevelInfo);
             onLevelChoosedEvent.Invoke(x.LevelInfo);
         }

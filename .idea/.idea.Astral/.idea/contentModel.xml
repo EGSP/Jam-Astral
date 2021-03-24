@@ -33,7 +33,10 @@
             <e p="FollowCamera.cs" t="Include" />
             <e p="Levels" t="Include">
               <e p="LevelInfo.cs" t="Include" />
+              <e p="LevelInfoRuntime.cs" t="Include" />
+              <e p="LevelInfoStatic.cs" t="Include" />
               <e p="LevelLoader.cs" t="Include" />
+              <e p="NextLevelLoader.cs" t="Include" />
             </e>
             <e p="Obstacles" t="Include">
               <e p="CircularSaw.cs" t="Include" />
@@ -1010,12 +1013,14 @@
               </e>
             </e>
             <e p="Objects" t="Include">
+              <e p="Classes" t="Include">
+                <e p="Promise.cs" t="Include" />
+              </e>
               <e p="Structs" t="Include">
                 <e p="MinMaxFloat.cs" t="Include" />
                 <e p="MinMaxInt.cs" t="Include" />
                 <e p="Operation.cs" t="Include" />
                 <e p="Option.cs" t="Include" />
-                <e p="Promise.cs" t="Include" />
               </e>
             </e>
             <e p="Other" t="Include">
