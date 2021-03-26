@@ -59,6 +59,7 @@
             </e>
             <e p="Visuals" t="Include">
               <e p="AbilityVisual.cs" t="Include" />
+              <e p="CameraOrtoFitter.cs" t="Include" />
               <e p="HealthVisual.cs" t="Include" />
               <e p="Level" t="Include">
                 <e p="LevelBoard.cs" t="Include" />
