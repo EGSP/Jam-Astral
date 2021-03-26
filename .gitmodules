@@ -1,6 +1,6 @@
-[submodule "Assets/SubModules/Package-Unity"]
-	path = Assets/SubModules/Package-Unity
+[submodule "Assets/SubModules/Package-EGSP/Package-Unity"]
+	path = Assets/SubModules/Package-EGSP/Package-Unity
 	url = https://github.com/EveryGameSPlay/Package-Unity
-[submodule "Assets/SubModules/Package-Unity-Odin"]
-	path = Assets/SubModules/Package-Unity-Odin
+[submodule "Assets/SubModules/Package-EGSP/Package-Unity-Odin"]
+	path = Assets/SubModules/Package-EGSP/Package-Unity-Odin
 	url = https://github.com/EveryGameSPlay/Package-Unity-Odin

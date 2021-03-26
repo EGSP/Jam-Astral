@@ -909,236 +909,216 @@
           </e>
         </e>
         <e p="SubModules" t="Include">
-          <e p="Package-Unity" t="Include">
-            <e p="Attributes" t="Include">
-              <e p="LazyInstanceAttribute.cs" t="Include" />
-            </e>
-            <e p="Engine" t="Include">
-              <e p="Application" t="Include">
-                <e p="ApplicationManager.cs" t="Include" />
-                <e p="ApplicationManagerReflection.cs" t="Include" />
+          <e p="Package-EGSP" t="Include">
+            <e p="Package-Unity" t="Include">
+              <e p="Attributes" t="Include">
+                <e p="LazyInstanceAttribute.cs" t="Include" />
               </e>
-              <e p="Input" t="Include">
-                <e p="InputExtensions.cs" t="Include" />
+              <e p="Engine" t="Include">
+                <e p="Application" t="Include">
+                  <e p="ApplicationManager.cs" t="Include" />
+                  <e p="ApplicationManagerReflection.cs" t="Include" />
+                </e>
+                <e p="Input" t="Include">
+                  <e p="InputExtensions.cs" t="Include" />
+                </e>
+                <e p="Scene" t="Include">
+                  <e p="Core" t="Include">
+                    <e p="Exceptions" t="Include">
+                      <e p="SceneParamsException.cs" t="Include" />
+                    </e>
+                    <e p="GameSceneManager" t="Include">
+                      <e p="GameSceneManager.cs" t="Include" />
+                      <e p="GameSceneManagerUtilsPart.cs" t="Include" />
+                    </e>
+                    <e p="ISceneOperator.cs" t="Include" />
+                    <e p="Objects" t="Include">
+                      <e p="SceneLoadRequest.cs" t="Include" />
+                      <e p="SceneParams.cs" t="Include" />
+                      <e p="SceneWrap.cs" t="Include" />
+                    </e>
+                    <e p="SceneActivateAssistant.cs" t="Include" />
+                    <e p="SceneLoadAssistant.cs" t="Include" />
+                  </e>
+                  <e p="Mono" t="Include">
+                    <e p="CallbackSceneOperator.cs" t="Include" />
+                    <e p="SceneParamsInjector.cs" t="Include" />
+                  </e>
+                </e>
               </e>
-              <e p="Scene" t="Include">
+              <e p="Events" t="Include">
+                <e p="CallBack.cs" t="Include" />
+                <e p="EventBus" t="Include">
+                  <e p="CriticalEventBus.cs" t="Include" />
+                  <e p="EventBus.cs" t="Include" />
+                  <e p="IEventBus.cs" t="Include" />
+                  <e p="TypedBus.cs" t="Include" />
+                </e>
+                <e p="EventContext" t="Include">
+                  <e p="IContext.cs" t="Include" />
+                  <e p="IContextEntity.cs" t="Include" />
+                  <e p="IContextEntityDetector.cs" t="Include" />
+                  <e p="Mono" t="Include">
+                    <e p="Context.cs" t="Include" />
+                    <e p="ContextMonoBehaviour.cs" t="Include" />
+                  </e>
+                </e>
+                <e p="WeakEvent" t="Include">
+                  <e p="Closure.cs" t="Include" />
+                  <e p="WeakDelegateHandle.cs" t="Include" />
+                  <e p="WeakEvent.cs" t="Include" />
+                </e>
+              </e>
+              <e p="Exceptions" t="Include">
+                <e p="LazyInstanceException.cs" t="Include" />
+                <e p="SceneDuplicateException.cs" t="Include" />
+              </e>
+              <e p="Extensions" t="Include">
+                <e p="BoolExtensions.cs" t="Include" />
+                <e p="Collections" t="Include">
+                  <e p="Grid.cs" t="Include" />
+                  <e p="GridExtensions.cs" t="Include" />
+                  <e p="IGridLinkable.cs" t="Include" />
+                  <e p="LinkedGrid.cs" t="Include" />
+                </e>
+                <e p="ColorExtensions.cs" t="Include" />
+                <e p="FileSystemExtensions.cs" t="Include" />
+                <e p="FloatExtensions.cs" t="Include" />
+                <e p="Graphs" t="Include">
+                  <e p="2D" t="Include">
+                    <e p="Vertex2D.cs" t="Include" />
+                  </e>
+                  <e p="Edge.cs" t="Include" />
+                  <e p="Graph.cs" t="Include" />
+                  <e p="Vertex.cs" t="Include" />
+                </e>
+                <e p="LinkedListExtensions.cs" t="Include" />
+                <e p="LinqExtensions.cs" t="Include" />
+                <e p="Mono" t="Include">
+                  <e p="CameraExtensions.cs" t="Include" />
+                  <e p="ComponentExtensions.cs" t="Include" />
+                </e>
+                <e p="QuaternionExtensions.cs" t="Include" />
+                <e p="TransformExtensions.cs" t="Include" />
+              </e>
+              <e p="Files" t="Include">
+                <e p="Storage" t="Include">
+                  <e p="DataProfile.cs" t="Include" />
+                  <e p="DataProvider.cs" t="Include" />
+                  <e p="PropertyFileProxy.cs" t="Include" />
+                  <e p="Serializers" t="Include">
+                    <e p="ISerializer.cs" t="Include" />
+                    <e p="UnitySerializer.cs" t="Include" />
+                  </e>
+                  <e p="Storage.cs" t="Include" />
+                </e>
+              </e>
+              <e p="Objects" t="Include">
+                <e p="Classes" t="Include">
+                  <e p="Promise.cs" t="Include" />
+                </e>
+                <e p="Structs" t="Include">
+                  <e p="MinMaxFloat.cs" t="Include" />
+                  <e p="MinMaxInt.cs" t="Include" />
+                  <e p="Operation.cs" t="Include" />
+                  <e p="Option.cs" t="Include" />
+                </e>
+              </e>
+              <e p="Other" t="Include">
+                <e p="Coroutiner.cs" t="Include" />
+                <e p="Curve.cs" t="Include" />
+                <e p="HourTimer.cs" t="Include" />
+              </e>
+              <e p="Pathfinding" t="Include">
+                <e p="Alghoritms" t="Include">
+                  <e p="Graph" t="Include">
+                    <e p="GraphPathFinder.cs" t="Include" />
+                  </e>
+                  <e p="LinkedJastar" t="Include">
+                    <e p="LinkedAPoint.cs" t="Include" />
+                    <e p="LinkedJastar.cs" t="Include" />
+                    <e p="LinkedPathNode.cs" t="Include" />
+                  </e>
+                </e>
                 <e p="Core" t="Include">
-                  <e p="Exceptions" t="Include">
-                    <e p="SceneParamsException.cs" t="Include" />
+                  <e p="IPath.cs" t="Include" />
+                  <e p="IPathProvider.cs" t="Include" />
+                  <e p="Path.cs" t="Include" />
+                  <e p="PathFuncs.cs" t="Include" />
+                  <e p="Response" t="Include">
+                    <e p="IPathResponse.cs" t="Include" />
+                    <e p="PathRequestToken.cs" t="Include" />
+                    <e p="PathResponse.cs" t="Include" />
+                    <e p="PathResponseSync.cs" t="Include" />
                   </e>
-                  <e p="GameSceneManager" t="Include">
-                    <e p="GameSceneManager.cs" t="Include" />
-                    <e p="GameSceneManagerUtilsPart.cs" t="Include" />
+                </e>
+              </e>
+              <e p="Physics" t="Include">
+                <e p="Entities" t="Include">
+                  <e p="IMonoPhysicsEntity.cs" t="Include" />
+                  <e p="IPhysicsEntity.cs" t="Include" />
+                  <e p="PhysicsObstacle2D.cs" t="Include" />
+                </e>
+                <e p="Force.cs" t="Include" />
+                <e p="Physics2DExtensions.cs" t="Include" />
+                <e p="PhysicsEntityExtensions.cs" t="Include" />
+                <e p="Triggers" t="Include">
+                  <e p="2D" t="Include">
+                    <e p="BoxTrigger2D.cs" t="Include" />
+                    <e p="CircleTrigger2D.cs" t="Include" />
+                    <e p="Trigger2D.cs" t="Include" />
                   </e>
-                  <e p="ISceneOperator.cs" t="Include" />
-                  <e p="Objects" t="Include">
-                    <e p="SceneLoadRequest.cs" t="Include" />
-                    <e p="SceneParams.cs" t="Include" />
-                    <e p="SceneWrap.cs" t="Include" />
+                  <e p="ITrigger.cs" t="Include" />
+                  <e p="Trigg.cs" t="Include" />
+                  <e p="TriggerBase.cs" t="Include" />
+                </e>
+              </e>
+              <e p="Pooling" t="Include">
+                <e p="IPoolContainer.cs" t="Include" />
+                <e p="IPoolContainerGeneric.cs" t="Include" />
+                <e p="IPoolObject.cs" t="Include" />
+                <e p="PoolManager.cs" t="Include" />
+                <e p="SinglePoolContainer.cs" t="Include" />
+              </e>
+              <e p="Random" t="Include">
+                <e p="RandomUtils.cs" t="Include" />
+                <e p="WeightedList.cs" t="Include" />
+              </e>
+              <e p="Rework" t="Include">
+                <e p="RandomList.cs" t="Include" />
+              </e>
+              <e p="Structure" t="Include">
+                <e p="Singleton.cs" t="Include" />
+                <e p="SingletonRaw.cs" t="Include" />
+              </e>
+              <e p="Ui" t="Include">
+                <e p="Containers" t="Include">
+                  <e p="IContainer.cs" t="Include" />
+                  <e p="TransformContainer.cs" t="Include" />
+                </e>
+                <e p="Handlers" t="Include">
+                  <e p="PointDownHandler.cs" t="Include" />
+                </e>
+                <e p="Visuals" t="Include">
+                  <e p="Context" t="Include">
+                    <e p="ContextVisual.cs" t="Include" />
+                    <e p="IContextVisual.cs" t="Include" />
+                    <e p="View.cs" t="Include" />
                   </e>
-                  <e p="SceneActivateAssistant.cs" t="Include" />
-                  <e p="SceneLoadAssistant.cs" t="Include" />
-                </e>
-                <e p="Mono" t="Include">
-                  <e p="CallbackSceneOperator.cs" t="Include" />
-                  <e p="SceneParamsInjector.cs" t="Include" />
+                  <e p="IVisual.cs" t="Include" />
+                  <e p="Visual.cs" t="Include" />
+                  <e p="VisualElement.cs" t="Include" />
                 </e>
               </e>
-            </e>
-            <e p="Events" t="Include">
-              <e p="CallBack.cs" t="Include" />
-              <e p="EventBus" t="Include">
-                <e p="CriticalEventBus.cs" t="Include" />
-                <e p="EventBus.cs" t="Include" />
-                <e p="IEventBus.cs" t="Include" />
-                <e p="TypedBus.cs" t="Include" />
-              </e>
-              <e p="EventContext" t="Include">
-                <e p="IContext.cs" t="Include" />
-                <e p="IContextEntity.cs" t="Include" />
-                <e p="IContextEntityDetector.cs" t="Include" />
-                <e p="Mono" t="Include">
-                  <e p="Context.cs" t="Include" />
-                  <e p="ContextMonoBehaviour.cs" t="Include" />
+              <e p="Utilities" t="Include">
+                <e p="GameObjectUtils.cs" t="Include" />
+                <e p="MathUtils.cs" t="Include" />
+                <e p="Mesh" t="Include">
+                  <e p="MeshUtils.cs" t="Include" />
+                  <e p="PropertyBlockProxy.cs" t="Include" />
+                  <e p="RendererObject.cs" t="Include" />
                 </e>
               </e>
-              <e p="WeakEvent" t="Include">
-                <e p="Closure.cs" t="Include" />
-                <e p="WeakDelegateHandle.cs" t="Include" />
-                <e p="WeakEvent.cs" t="Include" />
-              </e>
-            </e>
-            <e p="Exceptions" t="Include">
-              <e p="LazyInstanceException.cs" t="Include" />
-              <e p="SceneDuplicateException.cs" t="Include" />
-            </e>
-            <e p="Extensions" t="Include">
-              <e p="BoolExtensions.cs" t="Include" />
-              <e p="Collections" t="Include">
-                <e p="Grid.cs" t="Include" />
-                <e p="GridExtensions.cs" t="Include" />
-                <e p="IGridLinkable.cs" t="Include" />
-                <e p="LinkedGrid.cs" t="Include" />
-              </e>
-              <e p="ColorExtensions.cs" t="Include" />
-              <e p="FileSystemExtensions.cs" t="Include" />
-              <e p="FloatExtensions.cs" t="Include" />
-              <e p="Graphs" t="Include">
-                <e p="2D" t="Include">
-                  <e p="Vertex2D.cs" t="Include" />
-                </e>
-                <e p="Edge.cs" t="Include" />
-                <e p="Graph.cs" t="Include" />
-                <e p="Vertex.cs" t="Include" />
-              </e>
-              <e p="LinkedListExtensions.cs" t="Include" />
-              <e p="LinqExtensions.cs" t="Include" />
-              <e p="Mono" t="Include">
-                <e p="CameraExtensions.cs" t="Include" />
-                <e p="ComponentExtensions.cs" t="Include" />
-              </e>
-              <e p="QuaternionExtensions.cs" t="Include" />
-              <e p="TransformExtensions.cs" t="Include" />
-            </e>
-            <e p="Files" t="Include">
-              <e p="Storage" t="Include">
-                <e p="DataProfile.cs" t="Include" />
-                <e p="DataProvider.cs" t="Include" />
-                <e p="PropertyFileProxy.cs" t="Include" />
-                <e p="Serializers" t="Include">
-                  <e p="ISerializer.cs" t="Include" />
-                  <e p="UnitySerializer.cs" t="Include" />
-                </e>
-                <e p="Storage.cs" t="Include" />
-              </e>
-            </e>
-            <e p="Objects" t="Include">
-              <e p="Classes" t="Include">
-                <e p="Promise.cs" t="Include" />
-              </e>
-              <e p="Structs" t="Include">
-                <e p="MinMaxFloat.cs" t="Include" />
-                <e p="MinMaxInt.cs" t="Include" />
-                <e p="Operation.cs" t="Include" />
-                <e p="Option.cs" t="Include" />
-              </e>
-            </e>
-            <e p="Other" t="Include">
-              <e p="Coroutiner.cs" t="Include" />
-              <e p="Curve.cs" t="Include" />
-              <e p="HourTimer.cs" t="Include" />
-            </e>
-            <e p="Pathfinding" t="Include">
-              <e p="Alghoritms" t="Include">
-                <e p="Graph" t="Include">
-                  <e p="GraphPathFinder.cs" t="Include" />
-                </e>
-                <e p="LinkedJastar" t="Include">
-                  <e p="LinkedAPoint.cs" t="Include" />
-                  <e p="LinkedJastar.cs" t="Include" />
-                  <e p="LinkedPathNode.cs" t="Include" />
-                </e>
-              </e>
-              <e p="Core" t="Include">
-                <e p="IPath.cs" t="Include" />
-                <e p="IPathProvider.cs" t="Include" />
-                <e p="Path.cs" t="Include" />
-                <e p="PathFuncs.cs" t="Include" />
-                <e p="Response" t="Include">
-                  <e p="IPathResponse.cs" t="Include" />
-                  <e p="PathRequestToken.cs" t="Include" />
-                  <e p="PathResponse.cs" t="Include" />
-                  <e p="PathResponseSync.cs" t="Include" />
-                </e>
-              </e>
-            </e>
-            <e p="Physics" t="Include">
-              <e p="Entities" t="Include">
-                <e p="IMonoPhysicsEntity.cs" t="Include" />
-                <e p="IPhysicsEntity.cs" t="Include" />
-                <e p="PhysicsObstacle2D.cs" t="Include" />
-              </e>
-              <e p="Force.cs" t="Include" />
-              <e p="Physics2DExtensions.cs" t="Include" />
-              <e p="PhysicsEntityExtensions.cs" t="Include" />
-              <e p="Triggers" t="Include">
-                <e p="2D" t="Include">
-                  <e p="BoxTrigger2D.cs" t="Include" />
-                  <e p="CircleTrigger2D.cs" t="Include" />
-                  <e p="Trigger2D.cs" t="Include" />
-                </e>
-                <e p="ITrigger.cs" t="Include" />
-                <e p="Trigg.cs" t="Include" />
-                <e p="TriggerBase.cs" t="Include" />
-              </e>
-            </e>
-            <e p="Pooling" t="Include">
-              <e p="IPoolContainer.cs" t="Include" />
-              <e p="IPoolContainerGeneric.cs" t="Include" />
-              <e p="IPoolObject.cs" t="Include" />
-              <e p="PoolManager.cs" t="Include" />
-              <e p="SinglePoolContainer.cs" t="Include" />
-            </e>
-            <e p="Random" t="Include">
-              <e p="RandomUtils.cs" t="Include" />
-              <e p="WeightedList.cs" t="Include" />
-            </e>
-            <e p="Rework" t="Include">
-              <e p="RandomList.cs" t="Include" />
-            </e>
-            <e p="Structure" t="Include">
-              <e p="Singleton.cs" t="Include" />
-              <e p="SingletonRaw.cs" t="Include" />
-            </e>
-            <e p="Ui" t="Include">
-              <e p="Containers" t="Include">
-                <e p="IContainer.cs" t="Include" />
-                <e p="TransformContainer.cs" t="Include" />
-              </e>
-              <e p="Handlers" t="Include">
-                <e p="PointDownHandler.cs" t="Include" />
-              </e>
-              <e p="Visuals" t="Include">
-                <e p="Context" t="Include">
-                  <e p="ContextVisual.cs" t="Include" />
-                  <e p="IContextVisual.cs" t="Include" />
-                  <e p="View.cs" t="Include" />
-                </e>
-                <e p="IVisual.cs" t="Include" />
-                <e p="Visual.cs" t="Include" />
-                <e p="VisualElement.cs" t="Include" />
-              </e>
-            </e>
-            <e p="Utilities" t="Include">
-              <e p="GameObjectUtils.cs" t="Include" />
-              <e p="MathUtils.cs" t="Include" />
-              <e p="Mesh" t="Include">
-                <e p="MeshUtils.cs" t="Include" />
-                <e p="PropertyBlockProxy.cs" t="Include" />
-                <e p="RendererObject.cs" t="Include" />
-              </e>
-            </e>
-          </e>
-          <e p="Package-Unity-Odin" t="Include">
-            <e p="Editor" t="Include">
-              <e p="OdinInspectorAndSerializerDefine.cs" t="Include" />
-            </e>
-            <e p="Files" t="Include">
-              <e p="OdinSerializer.cs" t="Include" />
-            </e>
-            <e p="Graph" t="Include">
-              <e p="GraphAdapter.cs" t="Include" />
-              <e p="VertexAdapter.cs" t="Include" />
-            </e>
-            <e p="Scenes" t="Include">
-              <e p="SceneInspectorParamsInjector.cs" t="Include" />
-            </e>
-            <e p="Singletons" t="Include">
-              <e p="SerializedSingleton.cs" t="Include" />
-            </e>
-            <e p="Visual" t="Include">
-              <e p="SerializedContextVisual.cs" t="Include" />
-              <e p="SerializedVisual.cs" t="Include" />
             </e>
           </e>
         </e>
