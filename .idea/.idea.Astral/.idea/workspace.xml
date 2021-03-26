@@ -20,11 +20,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="52a2c8e9-c056-44b6-b833-90f660bc5b6d" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.gitmodules" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/SubModules.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/SubModules/Package-Unity" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/SubModules/Package-Unity-Odin.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/SubModules/Package-Unity.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/SubModules/Package-EGSP/Package-Unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/SubModules/Package-EGSP/Package-Unity" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
