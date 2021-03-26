@@ -14,6 +14,7 @@ namespace Game
         public void InitHealth()
         {
             _health = GetComponent<Health>();
+            _health.ManualAwake();
         }
     }
 }

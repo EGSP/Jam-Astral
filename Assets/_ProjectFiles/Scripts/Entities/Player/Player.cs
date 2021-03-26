@@ -57,8 +57,6 @@ namespace Game
 
         protected override void Awake()
         {
-            base.Awake();
-            
             _rig = GetComponent<Rigidbody2D>();
             _col = GetComponent<Collider2D>();
             _filter = new ContactFilter2D();
@@ -67,6 +65,9 @@ namespace Game
             AbilityReadiness = _allowAbility.ToInt();
             
             InitHealth();
+            
+            // Вызываю после, т.к. вызывается событие о создании экземпляра.
+            base.Awake();
         }
 
         private void Update()

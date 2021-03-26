@@ -16,7 +16,10 @@ namespace Game.Visuals
             var health = _player.Health;
 
             if (health.IsSome)
+            {
                 healthVisual.Accept(health.Value);
+            }else
+                Debug.Log("[UI] Player's health not initialized.");
         }
 
         private void Update()

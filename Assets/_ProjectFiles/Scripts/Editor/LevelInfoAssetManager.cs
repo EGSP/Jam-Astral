@@ -40,12 +40,12 @@ public partial class LevelInfoAssetManager
         CreateLevelMetaData(scene.name);
     }
     
-    private static void CreateLevelMetaData(string sceneName)
+    private static void CreateLevelMetaData(string sceneName, int orderId = 0)
     {
         if (string.IsNullOrWhiteSpace(sceneName))
             return;
-        
-        var levelInfo = new LevelInfo(sceneName);
+
+        var levelInfo = new LevelInfo(sceneName, orderId);
         var serializedData = SerializationUtility.SerializeValue(levelInfo, DataFormat.JSON);
 
         var absolutePath = Path.GetFullPath($"{LevelsDirectoryPath}/Meta");

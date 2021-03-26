@@ -18,8 +18,7 @@ namespace Game.Entities
     {
         [SerializeField] private int health;
         [SerializeField] private int immuneTime;
-        
-        
+
         private Tween _immuneTween;
 
         public TypedBus<IHealthListener> HealthPointsBus = new TypedBus<IHealthListener>();
@@ -33,7 +32,17 @@ namespace Game.Entities
 
         private void Awake()
         {
+            ManualAwake();
+        }
+
+        private bool _manualyAwaked;
+        public void ManualAwake()
+        {
+            if (_manualyAwaked)
+                return;
             HealthPoints = new HealthPoint(health);
+
+            _manualyAwaked = true;
         }
 
         public void Heal(HealthPoint healthPoint)

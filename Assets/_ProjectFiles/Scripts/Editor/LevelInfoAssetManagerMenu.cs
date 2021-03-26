@@ -65,7 +65,7 @@ public partial class LevelInfoAssetManager
         
         for (var i = 0; i < fileInfos.Length; i++)
         {
-            CreateLevelMetaData(fileInfos[i].GetNameOnly());
+            CreateLevelMetaData(fileInfos[i].GetNameOnly(), i);
         }
     }
 }

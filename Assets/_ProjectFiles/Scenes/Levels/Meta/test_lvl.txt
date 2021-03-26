@@ -1,5 +1,6 @@
 {
     "$type": "0|Game.Levels.LevelInfo, Assembly-CSharp",
     "LevelName": "test_lvl",
-    "Completed": false
+    "Completed": false,
+    "OrderId": 2
 }

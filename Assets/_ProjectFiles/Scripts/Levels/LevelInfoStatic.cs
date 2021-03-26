@@ -1,4 +1,5 @@
 ﻿using System.Collections.Generic;
+using System.Linq;
 using System.Threading.Tasks;
 using Egsp.Core;
 using Egsp.Extensions.Collections;
@@ -117,7 +118,15 @@ namespace Game.Levels
 
                     await ao.Task;
 
-                    return _levelInfos;
+                    var ordered = _levelInfos.OrderBy(x => x.OrderId);
+                    var orderedList = new LinkedList<LevelInfo>();
+                    foreach (var levelInfo in ordered)
+                    {
+                        orderedList.AddLast(levelInfo);
+                    }
+
+                    _levelInfos.Clear();
+                    return orderedList;
                 }
 
                 public void OnTextLoaded(TextAsset asset)

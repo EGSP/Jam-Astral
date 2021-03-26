@@ -1,4 +1,5 @@
-﻿using System.Linq;
+﻿using System;
+using System.Linq;
 using Egsp.Core;
 
 namespace Game.Levels
@@ -8,12 +9,27 @@ namespace Game.Levels
         public string LevelName;
         public bool Completed;
 
+        /// <summary>
+        /// Это значение нужно только для упорядочивания загрузки уровней.
+        /// </summary>
+        public readonly int OrderId;
+
         public bool IsDefault => string.IsNullOrWhiteSpace(LevelName);
 
         public LevelInfo(string levelName)
         {
             LevelName = levelName;
             Completed = false;
+            
+            OrderId = 0;
+        }
+
+        public LevelInfo(string levelName, int orderId)
+        {
+            LevelName = levelName;
+            Completed = false;
+            
+            OrderId = orderId;
         }
 
         public override bool Equals(object obj)
