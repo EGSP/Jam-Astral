@@ -28,6 +28,8 @@
       <Path>.idea</Path>
       <Path>Library</Path>
       <Path>Logs</Path>
+      <Path>Package-Unity</Path>
+      <Path>Package-Unity-Odin</Path>
       <Path>Temp</Path>
       <Path>obj</Path>
     </explicitExcludes>

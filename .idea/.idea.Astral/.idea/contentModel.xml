@@ -1120,6 +1120,28 @@
                 </e>
               </e>
             </e>
+            <e p="Package-Unity-Odin" t="Include">
+              <e p="Editor" t="Include">
+                <e p="OdinInspectorAndSerializerDefine.cs" t="Include" />
+              </e>
+              <e p="Files" t="Include">
+                <e p="OdinSerializer.cs" t="Include" />
+              </e>
+              <e p="Graph" t="Include">
+                <e p="GraphAdapter.cs" t="Include" />
+                <e p="VertexAdapter.cs" t="Include" />
+              </e>
+              <e p="Scenes" t="Include">
+                <e p="SceneInspectorParamsInjector.cs" t="Include" />
+              </e>
+              <e p="Singletons" t="Include">
+                <e p="SerializedSingleton.cs" t="Include" />
+              </e>
+              <e p="Visual" t="Include">
+                <e p="SerializedContextVisual.cs" t="Include" />
+                <e p="SerializedVisual.cs" t="Include" />
+              </e>
+            </e>
           </e>
         </e>
       </e>

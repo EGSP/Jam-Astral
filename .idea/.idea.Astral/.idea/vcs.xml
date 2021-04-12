@@ -2,7 +2,11 @@
 <project version="4">
   <component name="VcsDirectoryMappings">
     <mapping directory="$PROJECT_DIR$" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/Assets/SubModules/Package-EGSP/Package-Unity" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/Assets/SubModules/Package-EGSP/Package-Unity-Odin" vcs="Git" />
     <mapping directory="$PROJECT_DIR$/Assets/SubModules/Package-Unity" vcs="Git" />
     <mapping directory="$PROJECT_DIR$/Assets/SubModules/Package-Unity-Odin" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/Package-Unity" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/Package-Unity-Odin" vcs="Git" />
   </component>
 </project>
