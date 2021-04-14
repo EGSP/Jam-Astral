@@ -20,13 +20,13 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="52a2c8e9-c056-44b6-b833-90f660bc5b6d" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.Astral/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Astral/.idea/contentModel.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.Astral/.idea/indexLayout.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Astral/.idea/indexLayout.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.Astral/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Astral/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.Astral/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Astral/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/StreamingAssets.meta" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/SubModules/Package-EGSP/Package-Unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/SubModules/Package-EGSP/Package-Unity" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/SubModules/Package-EGSP/Package-Unity/Engine/Scene/Mono/Odin.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_ProjectFiles/Scenes/MainMenu.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_ProjectFiles/Scenes/MainMenu.unity" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Package-Unity/.gitignore" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/Package-Unity/Attributes.meta" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/Package-Unity/Attributes/LazyInstanceAttribute.cs" beforeDir="false" />
@@ -192,6 +192,8 @@
       <change beforePath="$PROJECT_DIR$/Package-Unity/Utilities/Mesh/MeshUtils.cs" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/Package-Unity/Utilities/Mesh/PropertyBlockProxy.cs" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/Package-Unity/Utilities/Mesh/RendererObject.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Packages/manifest.json" beforeDir="false" afterPath="$PROJECT_DIR$/Packages/manifest.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Packages/packages-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/Packages/packages-lock.json" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -200,6 +202,7 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="ROOT_SYNC" value="DONT_SYNC" />
   </component>
   <component name="GitSEFilterConfiguration">
     <file-type-list>
@@ -241,9 +244,6 @@
   </component>
   <component name="IdeDocumentHistory">
     <changedPaths>
-      <option value="$PROJECT_DIR$/Assets/SubModules/Package-Unity/Ui/Containers/TransformContainer.cs" />
-      <option value="$PROJECT_DIR$/Assets/_ProjectFiles/Scripts/PlayerAttackVisual.cs" />
-      <option value="$PROJECT_DIR$/Assets/SubModules/Package-Unity/Files/Storage/PropertyFileProxy.cs" />
       <option value="$PROJECT_DIR$/Assets/SubModules/Package-Unity/Files/Storage/Serializers/ISerializer.cs" />
       <option value="$PROJECT_DIR$/Assets/SubModules/Package-Unity-Odin/Files/OdinSerializer.cs" />
       <option value="$PROJECT_DIR$/Assets/SubModules/Package-Unity/Files/Storage/Serializers/UnitySerializer.cs" />
@@ -292,6 +292,9 @@
       <option value="$PROJECT_DIR$/Assets/_ProjectFiles/Scripts/Visuals/CameraFit.cs" />
       <option value="$PROJECT_DIR$/Assets/_ProjectFiles/Scripts/Visuals/CameraOrtoFit.cs" />
       <option value="$PROJECT_DIR$/Assets/_ProjectFiles/Scripts/Visuals/CameraOrtoFitter.cs" />
+      <option value="$PROJECT_DIR$/Assets/_ProjectFiles/Scripts/Ads/AdsManagerInitialization.cs" />
+      <option value="$PROJECT_DIR$/Assets/_ProjectFiles/Scripts/Ads/AdsManager.cs" />
+      <option value="$PROJECT_DIR$/Assets/_ProjectFiles/Scripts/Ads/AdsManagerRuntime.cs" />
     </changedPaths>
   </component>
   <component name="ProjectId" id="1nh6WxHjpf1Psnz9jTfr1rYEgO0" />
@@ -306,13 +309,13 @@
   </component>
   <component name="PropertiesComponent">
     <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
-    <property name="DebuggerViewTab_PTCS_FirstProportionKey" value="0.42138866" />
-    <property name="DebuggerViewTab_PTCS_LastProportionKey" value="0.30007982" />
+    <property name="DebuggerViewTab_PTCS_FirstProportionKey" value="0.12027158" />
+    <property name="DebuggerViewTab_PTCS_LastProportionKey" value="0.29970902" />
     <property name="Discover.Launch.Via.Unity" value="true" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="XThreadsFramesViewSplitterKey" value="0.41573033" />
+    <property name="XThreadsFramesViewSplitterKey" value="0.3902439" />
     <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Mappings" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
@@ -361,7 +364,8 @@
       <workItem from="1616500963378" duration="17338000" />
       <workItem from="1616583124875" duration="10247000" />
       <workItem from="1616765363849" duration="4209000" />
-      <workItem from="1618220651671" duration="803000" />
+      <workItem from="1618220651671" duration="8457000" />
+      <workItem from="1618399899012" duration="3526000" />
     </task>
     <servers />
   </component>
