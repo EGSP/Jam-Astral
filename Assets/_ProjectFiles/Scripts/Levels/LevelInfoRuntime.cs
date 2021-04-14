@@ -1,7 +1,9 @@
 ﻿using System;
 using System.Linq;
 using Egsp.Core;
+using Egsp.Extensions.Collections;
 using Egsp.Extensions.Linq;
+using UnityEngine;
 
 namespace Game.Levels
 {
@@ -58,9 +60,32 @@ namespace Game.Levels
             return levelInfo;
         }
 
+        /// <summary>
+        /// Помечает текущий уровень как завершенный. Сохранения не происходит.
+        /// </summary>
+        public static void CompleteCurrentLevel()
+        {
+            var level = GetCurrentLevel();
+            
+            if (level.IsSome)
+            {
+                var levelInfo = level.Value;
+                levelInfo.Completed = true;
+
+                LinkedListExtensions.Apply(LevelInfos, x => x.LevelName == levelInfo.LevelName,
+                    n => n.Value = levelInfo);
+                
+                Debug.Log($"Уровень {levelInfo.LevelName} помечен как завершенный!");
+            }
+            else
+            {
+                Debug.Log("Не удалось завершить уровень.");
+            }
+        }
+
         private static bool LevelListed(string name)
         {
-            var coincidence = LevelInfos.FirstOrNone(x => x.LevelName == name);
+            var coincidence = LinqExtensions.FirstOrNone(LevelInfos, x => x.LevelName == name);
             return coincidence.IsSome;
         }
     }

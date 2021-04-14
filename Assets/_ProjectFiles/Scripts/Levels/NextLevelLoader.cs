@@ -16,6 +16,9 @@ namespace Game.Levels
 
         public void LoadScene()
         {
+            // Помечаем текущий уровень.
+            LevelInfo.CompleteCurrentLevel();
+            
             var nextLevel = LevelInfo.GetNextLevel();
             if (!nextLevel.IsSome)
             {

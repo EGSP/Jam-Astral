@@ -1,6 +1,6 @@
 {
     "$id": 0,
     "$type": "1|Game.Levels.LevelInfo, Assembly-CSharp",
-    "LevelName": "SampleScene",
-    "Completed": false
+    "LevelName": "SampleScene_lvl",
+    "Completed": true
 }

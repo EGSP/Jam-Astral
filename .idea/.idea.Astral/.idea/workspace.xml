@@ -20,13 +20,16 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="52a2c8e9-c056-44b6-b833-90f660bc5b6d" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.Astral/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Astral/.idea/contentModel.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.Astral/.idea/indexLayout.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Astral/.idea/indexLayout.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.Astral/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Astral/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Storage/Global/Levels/levelInfos.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Storage/Global/Levels/levelInfos.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/SubModules/Package-EGSP/Package-Unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/SubModules/Package-EGSP/Package-Unity" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/SubModules/Package-EGSP/Package-Unity/Engine/Scene/Mono/Odin.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/SubModules/Package-EGSP/Package-Unity/Extensions/LinkedListExtensions.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/SubModules/Package-EGSP/Package-Unity/Extensions/LinkedListExtensions.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/SubModules/Package-EGSP/Package-Unity/Files/Storage/Storage.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/SubModules/Package-EGSP/Package-Unity/Files/Storage/Storage.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/_ProjectFiles/Scenes/MainMenu.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_ProjectFiles/Scenes/MainMenu.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_ProjectFiles/Scripts/Levels/LevelInfoRuntime.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_ProjectFiles/Scripts/Levels/LevelInfoRuntime.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_ProjectFiles/Scripts/Levels/LevelInfoStatic.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_ProjectFiles/Scripts/Levels/LevelInfoStatic.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_ProjectFiles/Scripts/Levels/NextLevelLoader.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_ProjectFiles/Scripts/Levels/NextLevelLoader.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Package-Unity/.gitignore" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/Package-Unity/Attributes.meta" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/Package-Unity/Attributes/LazyInstanceAttribute.cs" beforeDir="false" />
@@ -192,8 +195,6 @@
       <change beforePath="$PROJECT_DIR$/Package-Unity/Utilities/Mesh/MeshUtils.cs" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/Package-Unity/Utilities/Mesh/PropertyBlockProxy.cs" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/Package-Unity/Utilities/Mesh/RendererObject.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Packages/manifest.json" beforeDir="false" afterPath="$PROJECT_DIR$/Packages/manifest.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Packages/packages-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/Packages/packages-lock.json" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -244,8 +245,6 @@
   </component>
   <component name="IdeDocumentHistory">
     <changedPaths>
-      <option value="$PROJECT_DIR$/Assets/SubModules/Package-Unity/Files/Storage/Serializers/ISerializer.cs" />
-      <option value="$PROJECT_DIR$/Assets/SubModules/Package-Unity-Odin/Files/OdinSerializer.cs" />
       <option value="$PROJECT_DIR$/Assets/SubModules/Package-Unity/Files/Storage/Serializers/UnitySerializer.cs" />
       <option value="$PROJECT_DIR$/Assets/SubModules/Package-Unity/Files/Storage/DataProfile.cs" />
       <option value="$PROJECT_DIR$/Assets/SubModules/Package-Unity-Odin/OdinInspectorAndSerializerDefine.cs" />
@@ -267,23 +266,19 @@
       <option value="$PROJECT_DIR$/Assets/_ProjectFiles/Scripts/Visuals/Level/LevelInfoEvent.cs" />
       <option value="$PROJECT_DIR$/Assets/SubModules/Package-Unity/Engine/Scene/Core/GameSceneManager/GameSceneManagerUtilsPart.cs" />
       <option value="$PROJECT_DIR$/Assets/SubModules/Package-Unity/Engine/Scene/Core/GameSceneManager/GameSceneManager.cs" />
-      <option value="$PROJECT_DIR$/Assets/Storage/Global/Levels/levelInfos.txt" />
       <option value="$PROJECT_DIR$/Assets/_ProjectFiles/Scripts/Visuals/Level/LevelIcon.cs" />
       <option value="$PROJECT_DIR$/Assets/SubModules/Package-Unity/Extensions/FileSystemExtensions.cs" />
       <option value="$PROJECT_DIR$/Assets/SubModules/Package-Unity/Files/Storage/Storage.cs" />
       <option value="$PROJECT_DIR$/Assets/SubModules/Package-Unity/Objects/Structs/Promise.cs" />
       <option value="$PROJECT_DIR$/Assets/_ProjectFiles/Scripts/Scenes/AssignedSceneLoader.cs" />
       <option value="$PROJECT_DIR$/Assets/SubModules/Package-Unity/Extensions/LinqExtensions.cs" />
-      <option value="$PROJECT_DIR$/Assets/_ProjectFiles/Scripts/Levels/LevelInfoRuntime.cs" />
       <option value="$PROJECT_DIR$/Assets/_ProjectFiles/Scripts/Scenes/ISceneLoader.cs" />
-      <option value="$PROJECT_DIR$/Assets/_ProjectFiles/Scripts/Levels/NextLevelLoader.cs" />
       <option value="$PROJECT_DIR$/Assets/_ProjectFiles/Scripts/Levels/LevelLoader.cs" />
       <option value="$PROJECT_DIR$/Assets/_ProjectFiles/Scripts/Visuals/Level/LevelBoard.cs" />
       <option value="$PROJECT_DIR$/Assets/SubModules/Package-Unity/Engine/Application/ApplicationManager.cs" />
       <option value="$PROJECT_DIR$/Assets/_ProjectFiles/Scripts/Editor/LevelInfoAssetManager.cs" />
       <option value="$PROJECT_DIR$/Assets/_ProjectFiles/Scripts/Editor/LevelInfoAssetManagerMenu.cs" />
       <option value="$PROJECT_DIR$/Assets/_ProjectFiles/Scripts/Levels/LevelInfo.cs" />
-      <option value="$PROJECT_DIR$/Assets/_ProjectFiles/Scripts/Levels/LevelInfoStatic.cs" />
       <option value="$PROJECT_DIR$/Assets/_ProjectFiles/Scripts/Entities/Player/PlayerHealthLogic.cs" />
       <option value="$PROJECT_DIR$/Assets/_ProjectFiles/Scripts/Entities/Player/Player.cs" />
       <option value="$PROJECT_DIR$/Assets/_ProjectFiles/Scripts/Visuals/HealthVisual.cs" />
@@ -295,6 +290,12 @@
       <option value="$PROJECT_DIR$/Assets/_ProjectFiles/Scripts/Ads/AdsManagerInitialization.cs" />
       <option value="$PROJECT_DIR$/Assets/_ProjectFiles/Scripts/Ads/AdsManager.cs" />
       <option value="$PROJECT_DIR$/Assets/_ProjectFiles/Scripts/Ads/AdsManagerRuntime.cs" />
+      <option value="$PROJECT_DIR$/Assets/_ProjectFiles/Scripts/Levels/LevelInfoStatic.cs" />
+      <option value="$PROJECT_DIR$/Assets/SubModules/Package-EGSP/Package-Unity/Files/Storage/Storage.cs" />
+      <option value="$PROJECT_DIR$/Assets/Storage/Global/Levels/levelInfos.txt" />
+      <option value="$PROJECT_DIR$/Assets/SubModules/Package-EGSP/Package-Unity/Extensions/LinkedListExtensions.cs" />
+      <option value="$PROJECT_DIR$/Assets/_ProjectFiles/Scripts/Levels/LevelInfoRuntime.cs" />
+      <option value="$PROJECT_DIR$/Assets/_ProjectFiles/Scripts/Levels/NextLevelLoader.cs" />
     </changedPaths>
   </component>
   <component name="ProjectId" id="1nh6WxHjpf1Psnz9jTfr1rYEgO0" />
@@ -309,8 +310,8 @@
   </component>
   <component name="PropertiesComponent">
     <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
-    <property name="DebuggerViewTab_PTCS_FirstProportionKey" value="0.12027158" />
-    <property name="DebuggerViewTab_PTCS_LastProportionKey" value="0.29970902" />
+    <property name="DebuggerViewTab_PTCS_FirstProportionKey" value="0.12034632" />
+    <property name="DebuggerViewTab_PTCS_LastProportionKey" value="0.2995671" />
     <property name="Discover.Launch.Via.Unity" value="true" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
@@ -329,10 +330,10 @@
       </option>
       <method v="2" />
     </configuration>
-    <configuration name="Attach to Unity Editor" type="UNITY_DEBUG_RUN_CONFIGURATION" factoryName="Unity Debug" show_console_on_std_err="false" show_console_on_std_out="false" port="50000" address="localhost">
+    <configuration name="Attach to Unity Editor" type="UNITY_DEBUG_RUN_CONFIGURATION" factoryName="Unity Debug" show_console_on_std_err="false" show_console_on_std_out="false" port="50000" address="localhost" ignored-value-for-modified-check="255336">
       <option name="allowRunningInParallel" value="false" />
       <option name="listenPortForConnections" value="false" />
-      <option name="pid" />
+      <option name="pid" value="255336" />
       <option name="selectedOptions">
         <list />
       </option>
@@ -365,7 +366,7 @@
       <workItem from="1616583124875" duration="10247000" />
       <workItem from="1616765363849" duration="4209000" />
       <workItem from="1618220651671" duration="8457000" />
-      <workItem from="1618399899012" duration="3526000" />
+      <workItem from="1618399899012" duration="7803000" />
     </task>
     <servers />
   </component>

@@ -3,6 +3,7 @@ using System.Linq;
 using System.Threading.Tasks;
 using Egsp.Core;
 using Egsp.Extensions.Collections;
+using Egsp.Extensions.Linq;
 using Egsp.Files;
 using UnityEngine;
 using UnityEngine.AddressableAssets;
@@ -33,20 +34,6 @@ namespace Game.Levels
             ReloadLevelInfos();
         }
 
-        public static void LoadLevelInfosToExisting(LevelsSource source, LoadMode loadMode = LoadMode.Overwrite)
-        {
-            var promise = LoadLevelInfos(source);
-
-            promise.GetResult(x =>
-            {
-                Debug.Log($"Levels loaded: {x.Count}");
-                if (loadMode == LoadMode.Add)
-                    LevelInfos.Join(x);
-                else
-                    LevelInfos = x;
-            });
-        }
-
         /// <summary>
         /// Загрузка уровней из источника.
         /// </summary>
@@ -71,15 +58,60 @@ namespace Game.Levels
 
             AlreadyLoaded = true;
         }
+        
+        public static void LoadLevelInfosToExisting(LevelsSource source, LoadMode loadMode = LoadMode.Overwrite)
+        {
+            var promise = LoadLevelInfos(source);
+
+            promise.GetResult(x =>
+            {
+                Debug.Log($"Levels loaded: {x.Count}");
+                if (loadMode == LoadMode.Add)
+                    LevelInfos.Join(x);
+                else
+                    LevelInfos = x;
+                
+                LoadLevelsProgress();
+            });
+        }
 
         /// <summary>
         /// Сохраняет данные об уровнях. Данные будут сохранены в отдельных файлах прогресса.
         /// </summary>
-        public static void SaveLevelInfos(IEnumerable<LevelInfo> levelInfos)
+        public static void SaveLevelInfosProgress(IEnumerable<LevelInfo> levelInfos)
         {
             Storage.Global.SaveObjectsByFiles("Levels", levelInfos,
                 x => x.LevelName);
         }
+
+        /// <summary>
+        /// Загружает данные об уровнях. 
+        /// </summary>
+        public static LinkedList<LevelInfo> LoadLevelInfosProgress()
+        {
+            var linkedList = Storage.Global.LoadObjectsFromDirectory<LevelInfo>("Levels");
+            return linkedList;
+        }
+
+        private static void LoadLevelsProgress()
+        {
+            var list = LoadLevelInfosProgress();
+
+            foreach (var levelProgress in list)
+            {
+                var actualLevelObject =
+                    LevelInfos.FirstOrNone(x => x.LevelName == levelProgress.LevelName);
+
+                if (actualLevelObject.IsSome)
+                {
+                    actualLevelObject.Value.Value = levelProgress;
+                }
+                else
+                {
+                    Debug.Log($"Не найдено загруженного уровня для установки прогресса {levelProgress.LevelName}");
+                }
+            }
+        } 
         
         public enum LoadMode
         {
