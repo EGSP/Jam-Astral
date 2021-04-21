@@ -7,6 +7,7 @@ using Egsp.Extensions.Linq;
 using Egsp.Files;
 using UnityEngine;
 using UnityEngine.AddressableAssets;
+using UnityEngine.ResourceManagement.ResourceLocations;
 
 namespace Game.Levels
 {
@@ -31,6 +32,7 @@ namespace Game.Levels
         private static void StaticConstructor()
         {
             LevelInfos = new LinkedList<LevelInfo>();
+            LevelsSource.DisplayAllLevelsLocations();
             ReloadLevelInfos();
         }
 
@@ -123,20 +125,18 @@ namespace Game.Levels
         {
             public abstract Task<LinkedList<LevelInfo>> LoadLevels();
 
-            public class LevelsFromDirectory : LevelsSource
+            public static async Task DisplayAllLevelsLocations()
             {
-                private readonly string _directory;
+                var locations = await GetAllLocations();
+                foreach (var resourceLocation in locations)
+                {
+                    Debug.Log(resourceLocation.PrimaryKey);
+                }
+            }
 
-                public LevelsFromDirectory(string directory)
-                {
-                    _directory = directory;
-                }
-                
-                public override async Task<LinkedList<LevelInfo>> LoadLevels()
-                {
-                    var linkedList = Storage.Global.LoadObjectsFromDirectory<LevelInfo>(_directory);
-                    return linkedList;
-                }
+            public static async Task<IList<IResourceLocation>> GetAllLocations()
+            {
+                return await Addressables.LoadResourceLocationsAsync("level_meta").Task;
             }
 
             public class LevelsFromAddressables : LevelsSource
@@ -150,6 +150,10 @@ namespace Game.Levels
 
                     await ao.Task;
 
+                    var locations = await GetAllLocations();
+                    var texts = await 
+                        Addressables.LoadAssetsAsync<TextAsset>(locations, x => Debug.Log(x.name)).Task;
+                    
                     var ordered = _levelInfos.OrderBy(x => x.OrderId);
                     var orderedList = new LinkedList<LevelInfo>();
                     foreach (var levelInfo in ordered)
@@ -165,6 +169,8 @@ namespace Game.Levels
                 {
                     var levelInfo = Storage.DefaultSerializer.Deserialize<LevelInfo>(asset.bytes);
 
+                    Debug.Log(asset.text);
+                    
                     if (levelInfo.IsSome)
                         _levelInfos.AddLast(levelInfo.Value);
                 }

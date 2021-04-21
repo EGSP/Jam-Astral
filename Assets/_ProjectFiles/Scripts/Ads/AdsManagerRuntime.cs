@@ -34,11 +34,16 @@ namespace Game.Ads
             var unitId = GetUnitId(AdType.Rewarded);
             var rewardedAd = new RewardedAd(unitId);
             rewardedAd.LoadAd(new AdRequest.Builder().Build());
-            
+
             return rewardedAd;
         }
 
-        private static void InterOnAdFailedToLoad(object sender, AdFailedToLoadEventArgs e)
+        private static void FailedToLoadHandler(object sender, AdFailedToLoadEventArgs e)
+        {
+            MonoBehaviour.print(e.Message);
+        }
+        
+        private static void ErrorHandler(object sender, AdErrorEventArgs e)
         {
             MonoBehaviour.print(e.Message);
         }

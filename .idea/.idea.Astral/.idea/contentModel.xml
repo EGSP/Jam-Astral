@@ -20,6 +20,7 @@
           </e>
           <e p="Scripts" t="Include">
             <e p="Ads" t="Include">
+              <e p="AdsInterface.cs" t="Include" />
               <e p="AdsManager.cs" t="Include" />
               <e p="AdsManagerRuntime.cs" t="Include" />
             </e>
@@ -956,8 +957,40 @@
             </e>
             <e p="readme.txt" t="Include" />
           </e>
+          <e p="IngameDebugConsole" t="Include">
+            <e p="Android" t="Include">
+              <e p="DebugLogLogcatListener.cs" t="Include" />
+            </e>
+            <e p="Editor" t="Include">
+              <e p="DebugLogManagerEditor.cs" t="Include" />
+              <e p="IngameDebugConsole.Editor.asmdef" t="Include" />
+            </e>
+            <e p="IngameDebugConsole.Runtime.asmdef" t="Include" />
+            <e p="readme.txt" t="Include" />
+            <e p="Scripts" t="Include">
+              <e p="CircularBuffer.cs" t="Include" />
+              <e p="Commands" t="Include">
+                <e p="PlayerPrefsCommands.cs" t="Include" />
+                <e p="SceneCommands.cs" t="Include" />
+                <e p="TimeCommands.cs" t="Include" />
+              </e>
+              <e p="ConsoleMethodAttribute.cs" t="Include" />
+              <e p="DebugLogConsole.cs" t="Include" />
+              <e p="DebugLogEntry.cs" t="Include" />
+              <e p="DebugLogIndexList.cs" t="Include" />
+              <e p="DebugLogItem.cs" t="Include" />
+              <e p="DebugLogManager.cs" t="Include" />
+              <e p="DebugLogPopup.cs" t="Include" />
+              <e p="DebugLogRecycledListView.cs" t="Include" />
+              <e p="DebugLogResizeListener.cs" t="Include" />
+              <e p="DebugsOnScrollListener.cs" t="Include" />
+            </e>
+          </e>
           <e p="Sirenix" t="Include">
             <e p="Assemblies" t="Include">
+              <e p="AOT" t="Include">
+                <e p="link.xml" t="Include" />
+              </e>
               <e p="link.xml" t="Include" />
               <e p="Sirenix.OdinInspector.Attributes.xml" t="Include" />
               <e p="Sirenix.OdinInspector.Editor.xml" t="Include" />
@@ -1272,6 +1305,8 @@
       <e p="Astral.sln" t="IncludeFlat" />
       <e p="GoogleMobileAds.csproj" t="IncludeRecursive" />
       <e p="GoogleMobileAds.Editor.csproj" t="IncludeRecursive" />
+      <e p="IngameDebugConsole.Editor.csproj" t="IncludeRecursive" />
+      <e p="IngameDebugConsole.Runtime.csproj" t="IncludeRecursive" />
       <e p="obj" t="ExcludeRecursive" />
       <e p="Packages" t="ExcludeRecursive" />
       <e p="Sirenix.OdinInspector.CompatibilityLayer.csproj" t="IncludeRecursive" />

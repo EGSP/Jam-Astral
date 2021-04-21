@@ -20,16 +20,16 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="52a2c8e9-c056-44b6-b833-90f660bc5b6d" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.Astral/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Astral/.idea/contentModel.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.Astral/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Astral/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Storage/Global/Levels/levelInfos.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Storage/Global/Levels/levelInfos.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/AddressableAssetsData/Android/addressables_content_state.bin" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/AddressableAssetsData/Android/addressables_content_state.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Android/androidx.work.work-runtime-2.1.0.aar" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Plugins/Android/androidx.work.work-runtime-2.1.0.aar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Android/com.google.android.gms.play-services-ads-lite-19.5.0.aar" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Plugins/Android/com.google.android.gms.play-services-ads-lite-19.5.0.aar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Sirenix/Odin Inspector/Config/Editor/AOTGenerationConfig.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Plugins/Sirenix/Odin Inspector/Config/Editor/AOTGenerationConfig.asset" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/SubModules/Package-EGSP/Package-Unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/SubModules/Package-EGSP/Package-Unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/SubModules/Package-EGSP/Package-Unity/Engine/Scene/Mono/Odin.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/SubModules/Package-EGSP/Package-Unity/Extensions/LinkedListExtensions.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/SubModules/Package-EGSP/Package-Unity/Extensions/LinkedListExtensions.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/SubModules/Package-EGSP/Package-Unity/Files/Storage/Storage.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/SubModules/Package-EGSP/Package-Unity/Files/Storage/Storage.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/_ProjectFiles/Scenes/MainMenu.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_ProjectFiles/Scenes/MainMenu.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_ProjectFiles/Scripts/Levels/LevelInfoRuntime.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_ProjectFiles/Scripts/Levels/LevelInfoRuntime.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_ProjectFiles/Scripts/Ads/AdsManagerRuntime.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_ProjectFiles/Scripts/Ads/AdsManagerRuntime.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/_ProjectFiles/Scripts/Levels/LevelInfoStatic.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_ProjectFiles/Scripts/Levels/LevelInfoStatic.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_ProjectFiles/Scripts/Levels/NextLevelLoader.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_ProjectFiles/Scripts/Levels/NextLevelLoader.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Package-Unity/.gitignore" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/Package-Unity/Attributes.meta" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/Package-Unity/Attributes/LazyInstanceAttribute.cs" beforeDir="false" />
@@ -195,6 +195,7 @@
       <change beforePath="$PROJECT_DIR$/Package-Unity/Utilities/Mesh/MeshUtils.cs" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/Package-Unity/Utilities/Mesh/PropertyBlockProxy.cs" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/Package-Unity/Utilities/Mesh/RendererObject.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProjectSettings/ProjectSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/ProjectSettings.asset" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -220,6 +221,7 @@
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/14E3453B-740B-4BD6-90E8-D4E5A013A715/ca/27cd38b5/LinkedListNode`1.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://C:/Program Files/Unity/Hub/Editor/2019.4.11f1/Editor/Data/Resources/PackageManager/BuiltInPackages/com.unity.ugui/Runtime/UI/Core/MaskableGraphic.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/FB001E01-371B-4ADC-A200-13E0AC763896/0b/d1677a14/Delegate.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/38F5BF63-E91B-4A34-8166-06844FEE3A05/c3/509fd09d/AndroidJavaObject.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/FB001E01-371B-4ADC-A200-13E0AC763896/a9/ac2cedd6/AsyncTaskCache.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/BC8E7B41-D288-4C8D-900A-2DEB12DC9189/ec/5b3ed91d/Enumerable.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/4AF5BEA1-B7B2-4424-94FD-73F6F9B3D7F4/28/0712ef50/CanvasRenderer.cs" root0="SKIP_HIGHLIGHTING" />
@@ -245,7 +247,6 @@
   </component>
   <component name="IdeDocumentHistory">
     <changedPaths>
-      <option value="$PROJECT_DIR$/Assets/SubModules/Package-Unity/Files/Storage/Serializers/UnitySerializer.cs" />
       <option value="$PROJECT_DIR$/Assets/SubModules/Package-Unity/Files/Storage/DataProfile.cs" />
       <option value="$PROJECT_DIR$/Assets/SubModules/Package-Unity-Odin/OdinInspectorAndSerializerDefine.cs" />
       <option value="$PROJECT_DIR$/Assets/_ProjectFiles/Scripts/Levels/LevelInfoLoader.cs" />
@@ -289,13 +290,14 @@
       <option value="$PROJECT_DIR$/Assets/_ProjectFiles/Scripts/Visuals/CameraOrtoFitter.cs" />
       <option value="$PROJECT_DIR$/Assets/_ProjectFiles/Scripts/Ads/AdsManagerInitialization.cs" />
       <option value="$PROJECT_DIR$/Assets/_ProjectFiles/Scripts/Ads/AdsManager.cs" />
-      <option value="$PROJECT_DIR$/Assets/_ProjectFiles/Scripts/Ads/AdsManagerRuntime.cs" />
-      <option value="$PROJECT_DIR$/Assets/_ProjectFiles/Scripts/Levels/LevelInfoStatic.cs" />
       <option value="$PROJECT_DIR$/Assets/SubModules/Package-EGSP/Package-Unity/Files/Storage/Storage.cs" />
       <option value="$PROJECT_DIR$/Assets/Storage/Global/Levels/levelInfos.txt" />
       <option value="$PROJECT_DIR$/Assets/SubModules/Package-EGSP/Package-Unity/Extensions/LinkedListExtensions.cs" />
       <option value="$PROJECT_DIR$/Assets/_ProjectFiles/Scripts/Levels/LevelInfoRuntime.cs" />
       <option value="$PROJECT_DIR$/Assets/_ProjectFiles/Scripts/Levels/NextLevelLoader.cs" />
+      <option value="$PROJECT_DIR$/Assets/_ProjectFiles/Scripts/Levels/LevelInfoStatic.cs" />
+      <option value="$PROJECT_DIR$/Assets/_ProjectFiles/Scripts/Ads/AdsManagerRuntime.cs" />
+      <option value="$PROJECT_DIR$/Assets/_ProjectFiles/Scripts/Ads/AdsInterface.cs" />
     </changedPaths>
   </component>
   <component name="ProjectId" id="1nh6WxHjpf1Psnz9jTfr1rYEgO0" />
@@ -330,10 +332,10 @@
       </option>
       <method v="2" />
     </configuration>
-    <configuration name="Attach to Unity Editor" type="UNITY_DEBUG_RUN_CONFIGURATION" factoryName="Unity Debug" show_console_on_std_err="false" show_console_on_std_out="false" port="50000" address="localhost" ignored-value-for-modified-check="255336">
+    <configuration name="Attach to Unity Editor" type="UNITY_DEBUG_RUN_CONFIGURATION" factoryName="Unity Debug" show_console_on_std_err="false" show_console_on_std_out="false" port="50000" address="localhost">
       <option name="allowRunningInParallel" value="false" />
       <option name="listenPortForConnections" value="false" />
-      <option name="pid" value="255336" />
+      <option name="pid" />
       <option name="selectedOptions">
         <list />
       </option>
@@ -366,7 +368,9 @@
       <workItem from="1616583124875" duration="10247000" />
       <workItem from="1616765363849" duration="4209000" />
       <workItem from="1618220651671" duration="8457000" />
-      <workItem from="1618399899012" duration="7803000" />
+      <workItem from="1618399899012" duration="8457000" />
+      <workItem from="1618844392035" duration="3415000" />
+      <workItem from="1619012938920" duration="8961000" />
     </task>
     <servers />
   </component>
