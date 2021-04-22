@@ -16,12 +16,12 @@ namespace Game.Entities
     
     public class Health : MonoBehaviour
     {
+        public TypedBus<IHealthListener> HealthPointsBus = new TypedBus<IHealthListener>();
+        
         [SerializeField] private int health;
         [SerializeField] private int immuneTime;
 
         private Tween _immuneTween;
-
-        public TypedBus<IHealthListener> HealthPointsBus = new TypedBus<IHealthListener>();
 
         public HealthPoint HealthPoints { get; private set; }
         
@@ -83,8 +83,6 @@ namespace Game.Entities
                     HealthPointsBus.Raise(x => x.OnDamaged(this, hitInfo));
                 }
             }
-            
-            Debug.Log(HealthPoints.count);
         }
 
         private void Kill()
@@ -122,7 +120,7 @@ namespace Game.Entities
             return new HealthPoint(healthPoint.count - damagePoint.count);
         }
     }
-
+    
     [Serializable]
     public struct DamagePoint
     {
@@ -137,6 +135,9 @@ namespace Game.Entities
         }
     }
 
+    /// <summary>
+    /// Информация о нанесении урона.
+    /// </summary>
     [Serializable]
     public struct HitInfo
     {

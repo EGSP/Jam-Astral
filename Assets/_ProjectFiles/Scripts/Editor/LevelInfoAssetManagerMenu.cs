@@ -35,6 +35,7 @@ public partial class LevelInfoAssetManager
     }
 
     [MenuItem("Tools/Game/Scenes/ConvertToLevel")]
+    // Премещает сцену в нужную папку, переименовывает ее и создает мета-данные.
     public static void ConvertToLevel()
     {
         var scene = SceneManager.GetActiveScene();

@@ -3,7 +3,6 @@ using System.Linq;
 using System.Threading.Tasks;
 using Egsp.Core;
 using Egsp.Extensions.Collections;
-using Egsp.Extensions.Linq;
 using Egsp.Files;
 using UnityEngine;
 using UnityEngine.AddressableAssets;
@@ -11,7 +10,7 @@ using UnityEngine.ResourceManagement.ResourceLocations;
 
 namespace Game.Levels
 {
-    // STATIC METHODS
+    // Здесь определена логика загрузки информации об уровнях.
     public partial struct LevelInfo
     {
         private static LinkedList<LevelInfo> _levelInfos;

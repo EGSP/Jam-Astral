@@ -2,6 +2,9 @@
 
 namespace Game
 {
+    /// <summary>
+    /// Базовый интерфейс для группы объектов, которые перемещает параллакс.
+    /// </summary>
     public interface IParallaxGroup
     {
         /// <summary>
@@ -13,11 +16,6 @@ namespace Game
         /// Глубина группы.
         /// </summary>
         float Depth { get; }
-        
-        /// <summary>
-        /// Множитель движения объектов группы.
-        /// </summary>
-        float Ratio { get; }
 
         /// <summary>
         /// Находится ли объект в пределах параллакса.

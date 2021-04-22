@@ -7,6 +7,7 @@ using UnityEngine;
 
 namespace Game.Levels
 {
+    // Здесь определены методы для глобального доступа к информации об уровнях.
     public partial struct LevelInfo
     {
         /// <summary>

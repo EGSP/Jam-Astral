@@ -1,9 +1,11 @@
-﻿using Game.Levels;
+﻿using System;
+using Game.Levels;
 using Sirenix.OdinInspector;
 using UnityEngine;
 
 namespace Game.Visuals.Level
 {
+    [Obsolete]
     public class TestLevelBoard : SerializedMonoBehaviour
     {
         [SerializeField] private LevelBoard levelBoard;

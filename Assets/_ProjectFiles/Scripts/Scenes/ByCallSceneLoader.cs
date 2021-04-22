@@ -2,6 +2,9 @@
 
 namespace Egsp.Core
 {
+    /// <summary>
+    /// Компонент загружает сцену по переданному названию. Используется вместе с UnityEvents.
+    /// </summary>
     public class ByCallSceneLoader : MonoBehaviour, ISceneLoader
     {
         public State State { get; private set; } = State.WaitingForActivation;

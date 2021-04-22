@@ -23,6 +23,7 @@ public class CameraOrtoFitter : MonoBehaviour
     }
 
 #if UNITY_EDITOR
+    // Данный функционал требуется только в редакторе, т.к. экраны можно менять постоянно.
     private Resolution _oldResolution;
     private void Update()
     {
@@ -35,6 +36,26 @@ public class CameraOrtoFitter : MonoBehaviour
     }
 #endif
 
+#if ODIN_INSPECTOR
+    [Button("Change screen")]
+#endif
+    private void ChangeScreenSize()
+    {
+        var _camera = GetComponent<Camera>();
+        if (_camera == null)
+            return;
+        
+        switch (fitMode)
+        {
+            case FitMode.Width:
+                _camera.orthographicSize = ScreenFitFunctions.GetSizeByWidth(units, Camera.main);
+                break;
+            case FitMode.Height:
+                _camera.orthographicSize = ScreenFitFunctions.GetSizeByHeight(units);
+                break;
+        }
+    }
+    
     private void OnDrawGizmos()
     {
         if (fitMode == FitMode.Width)
@@ -52,29 +73,12 @@ public class CameraOrtoFitter : MonoBehaviour
             Gizmos.DrawLine(transform.position, transform.position - Vector3.up * heightHalf);
         }
     }
-
-#if ODIN_INSPECTOR
-    [Button("Change screen")]
-#endif
-    private void ChangeScreenSize()
-    {
-        var _camera = GetComponent<Camera>();
-        if (_camera == null)
-            return;
-        
-        switch (fitMode)
-        {
-            case FitMode.Width:
-                _camera.orthographicSize = ScreenFitter.GetSizeByWidth(units, Camera.main);
-                break;
-            case FitMode.Height:
-                _camera.orthographicSize = ScreenFitter.GetSizeByHeight(units);
-                break;
-        }
-    }
 }
-
-public static class ScreenFitter
+// TODO: перенести в пакет EGSP
+/// <summary>
+/// Здесь определены функции для вычисления размеров камеры в зависимости от желаемых высоты и ширины относительно мира.
+/// </summary>
+public static class ScreenFitFunctions
 {
     // WIDTH
     // Width = height * aspectRatio

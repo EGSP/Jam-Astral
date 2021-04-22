@@ -5,6 +5,9 @@ using UnityEngine;
 
 namespace Game.Visuals
 {
+    /// <summary>
+    /// Компонент отрисовывающий текущее состояние здоровья игрока.
+    /// </summary>
     public class HealthVisual : Visual, IHealthListener
     {
         [SerializeField] private Transform healthPointPrefab;

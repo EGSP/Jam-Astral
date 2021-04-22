@@ -3,6 +3,9 @@ using UnityEngine;
 
 namespace Game
 {
+    /// <summary>
+    /// Базовый интерфейс для всех объектов-параллаксов.
+    /// </summary>
     public interface IParallax
     {
         [CanBeNull] Transform Target { set; }

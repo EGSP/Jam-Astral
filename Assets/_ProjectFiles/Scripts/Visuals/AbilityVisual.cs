@@ -2,6 +2,9 @@
 using UnityEngine;
 using UnityEngine.UI;
 
+/// <summary>
+/// Визуальное отображение состояния готовности способности игрока.
+/// </summary>
 [RequireComponent(typeof(CanvasRenderer))]
 public class AbilityVisual : Visual
 {

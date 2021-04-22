@@ -13,6 +13,7 @@ namespace Game
         
         private void Awake()
         {
+            // Ждем создания игрока и после проводим настройку.
             Player.OnInstanceCreated.Subscribe(OnPlayerAssigned);
         }
 

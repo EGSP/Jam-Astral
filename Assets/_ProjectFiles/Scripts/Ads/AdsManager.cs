@@ -8,6 +8,9 @@ namespace Game.Ads
         Publish
     }
     
+    /// <summary>
+    /// Содержит функционал запроса рекламы и предоставления данных для ее инициализации.
+    /// </summary>
     public static partial class AdsManager
     {
         public const string UnexpectedPlatformUnitId = "unexpected_platform";

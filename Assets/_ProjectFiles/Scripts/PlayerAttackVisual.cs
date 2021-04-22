@@ -4,6 +4,9 @@ using UnityEngine;
 
 namespace Game
 {
+    /// <summary>
+    /// Компонент визуального отображения направления атаки игрока. Находится в пространстве объектов, а не интерфейса.
+    /// </summary>
     public class PlayerAttackVisual : SerializedMonoBehaviour
     {
         [TitleGroup("Attack")] [SerializeField] private Transform attackVisual;

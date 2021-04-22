@@ -4,6 +4,7 @@ using UnityEngine.SceneManagement;
 
 namespace Game.Levels
 {
+    // Триггер, который загружает следующий уровень при активации игроком.
     public class NextLevelLoader : CircleTrigger2D, ISceneLoader
     {
         public State State { get; private set; } = State.WaitingForActivation;

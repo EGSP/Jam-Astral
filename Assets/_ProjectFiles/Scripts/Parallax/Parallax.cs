@@ -6,6 +6,9 @@ using UnityEngine;
 
 namespace Game
 {
+    /// <summary>
+    /// Базовый класс параллакса, в котором определен стандартный функционал
+    /// </summary>
     public abstract class Parallax : MonoBehaviour, IParallax
     {
         public static readonly Color GizmosColor = new Color(0.960f, 0.878f, 0.152f);
@@ -76,7 +79,7 @@ namespace Game
             if (Target == null)
                 return;
             
-            MoveGroups(-CalculateDifference());
+            MoveGroups(-CalculateMoveDelta());
 
             oldTargetPosition = target.position;
         }
@@ -103,7 +106,10 @@ namespace Game
             }
         }
 
-        protected abstract Vector3 CalculateDifference();
+        /// <summary>
+        /// Вычисление дельты перемещения цели.
+        /// </summary>
+        protected abstract Vector3 CalculateMoveDelta();
         
 
         protected virtual void OnDrawGizmosSelected()

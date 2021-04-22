@@ -2,6 +2,10 @@
 
 namespace Game.Visuals
 {
+    /// <summary>
+    /// Корневой компонент для UI, связанного с игроком. Производит первоначальную настройку.
+    /// Требует вызова извне.
+    /// </summary>
     public class PlayerControllerUi : MonoBehaviour
     {
         [SerializeField] private AbilityVisual abilityVisual;

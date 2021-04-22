@@ -8,6 +8,9 @@ using UnityEngine.UI;
 
 namespace Game.Visuals.Level
 {
+    /// <summary>
+    /// Кликабельная иконка, которая содержит базовую информацию об уровне.
+    /// </summary>
     [RequireComponent(typeof(Image))]
     public class LevelIcon : Visual, IPointerDownHandler
     {
@@ -15,27 +18,12 @@ namespace Game.Visuals.Level
         [SerializeField] private TMP_Text text;
 
         private LevelInfo _levelInfo;
-        
-        public WeakEvent<LevelIcon> Clicked = new WeakEvent<LevelIcon>();
 
-        public bool Completed
-        {
-            get => _levelInfo.Completed;
-            private set
-            {
-                if(value)
-                    image.color = Color.green;
-                else
-                    image.color = Color.yellow;
-            }
-        }
+        public WeakEvent<LevelIcon> Clicked { get; private set; } = new WeakEvent<LevelIcon>();
 
-        public string Name
-        {
-            get => _levelInfo.LevelName;
-            private set => text.text = value;
-        }
-
+        /// <summary>
+        /// Переданный уровень.
+        /// </summary>
         public LevelInfo LevelInfo
         {
             get => _levelInfo;
@@ -45,6 +33,24 @@ namespace Game.Visuals.Level
                 Completed = _levelInfo.Completed;
                 Name = _levelInfo.LevelName;
             }
+        }
+        
+        private bool Completed
+        {
+            get => _levelInfo.Completed; 
+            set
+            {
+                if(value)
+                    image.color = Color.green;
+                else
+                    image.color = Color.yellow;
+            }
+        }
+
+        private string Name
+        {
+            get => _levelInfo.LevelName; 
+            set => text.text = value;
         }
 
         private void Awake()

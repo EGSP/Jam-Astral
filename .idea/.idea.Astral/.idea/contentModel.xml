@@ -58,9 +58,9 @@
             <e p="PlayerAttackVisual.cs" t="Include" />
             <e p="PlayerController.cs" t="Include" />
             <e p="Scenes" t="Include">
-              <e p="AssignedSceneLoader.cs" t="Include" />
               <e p="ByCallSceneLoader.cs" t="Include" />
               <e p="ISceneLoader.cs" t="Include" />
+              <e p="ISceneLoadTrigger.cs" t="Include" />
             </e>
             <e p="Visuals" t="Include">
               <e p="AbilityVisual.cs" t="Include" />
@@ -1117,11 +1117,12 @@
                   <e p="IContextEntityDetector.cs" t="Include" />
                   <e p="Mono" t="Include">
                     <e p="Context.cs" t="Include" />
-                    <e p="ContextMonoBehaviour.cs" t="Include" />
+                    <e p="ContextedMonoBehaviour.cs" t="Include" />
                   </e>
                 </e>
                 <e p="WeakEvent" t="Include">
                   <e p="Closure.cs" t="Include" />
+                  <e p="DelegateTarget.cs" t="Include" />
                   <e p="WeakDelegateHandle.cs" t="Include" />
                   <e p="WeakEvent.cs" t="Include" />
                 </e>
@@ -1209,6 +1210,14 @@
                     <e p="PathResponseSync.cs" t="Include" />
                   </e>
                 </e>
+                <e p="CoreNonAlloc" t="Include">
+                  <e p="IPathProvider.cs" t="Include" />
+                  <e p="IPathResponse.cs" t="Include" />
+                  <e p="Path.cs" t="Include" />
+                  <e p="PathFuncs.cs" t="Include" />
+                  <e p="PathRequestToken.cs" t="Include" />
+                  <e p="PathResponse.cs" t="Include" />
+                </e>
               </e>
               <e p="Physics" t="Include">
                 <e p="Entities" t="Include">
@@ -1258,13 +1267,12 @@
                 </e>
                 <e p="Visuals" t="Include">
                   <e p="Context" t="Include">
-                    <e p="ContextVisual.cs" t="Include" />
-                    <e p="IContextVisual.cs" t="Include" />
+                    <e p="ContextedVisual.cs" t="Include" />
+                    <e p="IContextedVisual.cs" t="Include" />
                     <e p="View.cs" t="Include" />
                   </e>
                   <e p="IVisual.cs" t="Include" />
                   <e p="Visual.cs" t="Include" />
-                  <e p="VisualElement.cs" t="Include" />
                 </e>
               </e>
               <e p="Utilities" t="Include">
@@ -1295,7 +1303,7 @@
                 <e p="SerializedSingleton.cs" t="Include" />
               </e>
               <e p="Visual" t="Include">
-                <e p="SerializedContextVisual.cs" t="Include" />
+                <e p="SerializedContextedVisual.cs" t="Include" />
                 <e p="SerializedVisual.cs" t="Include" />
               </e>
             </e>

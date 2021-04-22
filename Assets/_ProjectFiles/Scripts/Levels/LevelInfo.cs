@@ -4,6 +4,7 @@ using Egsp.Core;
 
 namespace Game.Levels
 {
+    // Здесь описаны данные одного экземпляра.
     public partial struct LevelInfo
     {
         public string LevelName;

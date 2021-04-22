@@ -6,6 +6,9 @@ using UnityEngine.UI;
 
 namespace Game.Ads
 {
+    /// <summary>
+    /// Компонент нужен для запроса рекламы с помощью UI и UnityEvents.
+    /// </summary>
     public class AdsInterface : MonoBehaviour
     {
         [SerializeField] private Button bannerButton;
@@ -19,19 +22,22 @@ namespace Game.Ads
         private InterstitialAd _interstitialAd;
         private RewardedAd _rewardedAd;
 
+        /// <summary>
+        /// Очередь действий. Гугл реклама исполняется в отдельных потоках.
+        /// </summary>
         private Queue<Action> _actions = new Queue<Action>();
         
         private void Update()
         {
-            EventQueue();
+            ActionQueue();
         }
 
-        private void EventQueue()
+        private void ActionQueue()
         {
             if (_actions.Count <= 0)
                 return;
 
-            // Сделано через цикл, т.к. происходит запись из другого потока (потока рекламы).
+            // Сделано через цикл, т.к. происходит запись из другого потока (потока рекламы)
             while (_actions.Count > 0)
             {
                 var action = _actions.Dequeue();
@@ -58,7 +64,6 @@ namespace Game.Ads
             }
         }
         
-        // Событие баннера не вызывается при тестовом режиме.
         void BannerOnAdClosed(object sender, EventArgs e)
         {
             var banner = sender as BannerView;
@@ -127,10 +132,7 @@ namespace Game.Ads
                 _interstitialAd = null;
             }
 
-            if (_rewardedAd != null)
-            {
-                _rewardedAd = null;
-            }
+            _rewardedAd = null;
             
             UnlockAllButtons();
         }

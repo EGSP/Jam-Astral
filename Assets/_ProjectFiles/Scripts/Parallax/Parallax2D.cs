@@ -10,7 +10,8 @@ namespace Game
 
         protected override float MaxDepth => maxDepth;
 
-        protected override Vector3 CalculateDifference()
+        // Не учитываются Y & Z плоскости.
+        protected override Vector3 CalculateMoveDelta()
         {
             if (Target == null)
                 return oldTargetPosition;

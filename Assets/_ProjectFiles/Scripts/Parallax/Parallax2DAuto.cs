@@ -29,7 +29,7 @@ namespace Game
 
         protected override float MaxDepth => maxDepth;
 
-        protected override Vector3 CalculateDifference()
+        protected override Vector3 CalculateMoveDelta()
         {
             if (Target == null)
                 return oldTargetPosition;

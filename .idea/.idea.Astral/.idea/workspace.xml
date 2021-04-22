@@ -22,14 +22,39 @@
     <list default="true" id="52a2c8e9-c056-44b6-b833-90f660bc5b6d" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/.idea.Astral/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Astral/.idea/contentModel.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.Astral/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Astral/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/AddressableAssetsData/Android/addressables_content_state.bin" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/AddressableAssetsData/Android/addressables_content_state.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Android/androidx.work.work-runtime-2.1.0.aar" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Plugins/Android/androidx.work.work-runtime-2.1.0.aar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Android/com.google.android.gms.play-services-ads-lite-19.5.0.aar" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Plugins/Android/com.google.android.gms.play-services-ads-lite-19.5.0.aar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Sirenix/Odin Inspector/Config/Editor/AOTGenerationConfig.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Plugins/Sirenix/Odin Inspector/Config/Editor/AOTGenerationConfig.asset" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/SubModules/Package-EGSP/Package-Unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/SubModules/Package-EGSP/Package-Unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_ProjectFiles/Scenes/MainMenu.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_ProjectFiles/Scenes/MainMenu.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_ProjectFiles/Scripts/Ads/AdsManagerRuntime.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_ProjectFiles/Scripts/Ads/AdsManagerRuntime.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/SubModules/Package-EGSP/Package-Unity-Odin" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/SubModules/Package-EGSP/Package-Unity-Odin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/SubModules/Package-EGSP/Package-Unity-Odin/Visual/SerializedContextVisual.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/SubModules/Package-EGSP/Package-Unity-Odin/Visual/SerializedContextedVisual.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/SubModules/Package-EGSP/Package-Unity-Odin/Visual/SerializedContextVisual.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/SubModules/Package-EGSP/Package-Unity-Odin/Visual/SerializedContextedVisual.cs.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_ProjectFiles/Scripts/Ads/AdsInterface.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_ProjectFiles/Scripts/Ads/AdsInterface.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_ProjectFiles/Scripts/Ads/AdsManager.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_ProjectFiles/Scripts/Ads/AdsManager.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_ProjectFiles/Scripts/Editor/LevelInfoAssetManager.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_ProjectFiles/Scripts/Editor/LevelInfoAssetManager.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_ProjectFiles/Scripts/Editor/LevelInfoAssetManagerMenu.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_ProjectFiles/Scripts/Editor/LevelInfoAssetManagerMenu.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_ProjectFiles/Scripts/Entities/Health.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_ProjectFiles/Scripts/Entities/Health.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_ProjectFiles/Scripts/Entities/Player/Player.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_ProjectFiles/Scripts/Entities/Player/Player.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_ProjectFiles/Scripts/FollowCamera.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_ProjectFiles/Scripts/FollowCamera.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_ProjectFiles/Scripts/Levels/LevelInfo.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_ProjectFiles/Scripts/Levels/LevelInfo.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_ProjectFiles/Scripts/Levels/LevelInfoRuntime.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_ProjectFiles/Scripts/Levels/LevelInfoRuntime.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/_ProjectFiles/Scripts/Levels/LevelInfoStatic.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_ProjectFiles/Scripts/Levels/LevelInfoStatic.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_ProjectFiles/Scripts/Levels/LevelLoader.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_ProjectFiles/Scripts/Levels/LevelLoader.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_ProjectFiles/Scripts/Levels/NextLevelLoader.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_ProjectFiles/Scripts/Levels/NextLevelLoader.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_ProjectFiles/Scripts/Parallax/IParallax.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_ProjectFiles/Scripts/Parallax/IParallax.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_ProjectFiles/Scripts/Parallax/IParallaxGroup.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_ProjectFiles/Scripts/Parallax/IParallaxGroup.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_ProjectFiles/Scripts/Parallax/Parallax.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_ProjectFiles/Scripts/Parallax/Parallax.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_ProjectFiles/Scripts/Parallax/Parallax2D.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_ProjectFiles/Scripts/Parallax/Parallax2D.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_ProjectFiles/Scripts/Parallax/Parallax2DAuto.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_ProjectFiles/Scripts/Parallax/Parallax2DAuto.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_ProjectFiles/Scripts/Parallax/ParallaxGroup.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_ProjectFiles/Scripts/Parallax/ParallaxGroup.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_ProjectFiles/Scripts/Scenes/AssignedSceneLoader.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_ProjectFiles/Scripts/Scenes/AssignedSceneLoader.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_ProjectFiles/Scripts/Scenes/ByCallSceneLoader.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_ProjectFiles/Scripts/Scenes/ByCallSceneLoader.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_ProjectFiles/Scripts/Scenes/ISceneLoader.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_ProjectFiles/Scripts/Scenes/ISceneLoader.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_ProjectFiles/Scripts/Visuals/AbilityVisual.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_ProjectFiles/Scripts/Visuals/AbilityVisual.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_ProjectFiles/Scripts/Visuals/CameraOrtoFitter.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_ProjectFiles/Scripts/Visuals/CameraOrtoFitter.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_ProjectFiles/Scripts/Visuals/HealthVisual.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_ProjectFiles/Scripts/Visuals/HealthVisual.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_ProjectFiles/Scripts/Visuals/Level/LevelBoard.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_ProjectFiles/Scripts/Visuals/Level/LevelBoard.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_ProjectFiles/Scripts/Visuals/Level/LevelIcon.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_ProjectFiles/Scripts/Visuals/Level/LevelIcon.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_ProjectFiles/Scripts/Visuals/Level/TestLevelBoard.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_ProjectFiles/Scripts/Visuals/Level/TestLevelBoard.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_ProjectFiles/Scripts/Visuals/PlayerControllerUi.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_ProjectFiles/Scripts/Visuals/PlayerControllerUi.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Package-Unity/.gitignore" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/Package-Unity/Attributes.meta" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/Package-Unity/Attributes/LazyInstanceAttribute.cs" beforeDir="false" />
@@ -195,7 +220,6 @@
       <change beforePath="$PROJECT_DIR$/Package-Unity/Utilities/Mesh/MeshUtils.cs" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/Package-Unity/Utilities/Mesh/PropertyBlockProxy.cs" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/Package-Unity/Utilities/Mesh/RendererObject.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProjectSettings/ProjectSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/ProjectSettings.asset" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -217,9 +241,14 @@
   <component name="HighlightingSettingsPerFile">
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/BA0DAC83-1D00-4D16-ABB3-DA2D502DBBD8/9b/b79241ec/MethodInfo.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/FB001E01-371B-4ADC-A200-13E0AC763896/14/0c58f934/String.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/SubModules/Package-EGSP/Package-Unity/Pathfinding/CoreNonAlloc/IPathResponse.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/8691AD70-05ED-4755-A182-8378FF0B52B1/a7/b2adbb99/Object.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/14E3453B-740B-4BD6-90E8-D4E5A013A715/ca/27cd38b5/LinkedListNode`1.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/SubModules/Package-EGSP/Package-Unity/Pathfinding/CoreNonAlloc/PathFuncs.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/SubModules/Package-EGSP/Package-Unity/Pathfinding/CoreNonAlloc/IPathProvider.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/SubModules/Package-EGSP/Package-Unity/Pathfinding/CoreNonAlloc/Path.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://C:/Program Files/Unity/Hub/Editor/2019.4.11f1/Editor/Data/Resources/PackageManager/BuiltInPackages/com.unity.ugui/Runtime/UI/Core/MaskableGraphic.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/SubModules/Package-EGSP/Package-Unity/Pathfinding/CoreNonAlloc/PathResponse.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/FB001E01-371B-4ADC-A200-13E0AC763896/0b/d1677a14/Delegate.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/38F5BF63-E91B-4A34-8166-06844FEE3A05/c3/509fd09d/AndroidJavaObject.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/FB001E01-371B-4ADC-A200-13E0AC763896/a9/ac2cedd6/AsyncTaskCache.cs" root0="SKIP_HIGHLIGHTING" />
@@ -247,57 +276,57 @@
   </component>
   <component name="IdeDocumentHistory">
     <changedPaths>
-      <option value="$PROJECT_DIR$/Assets/SubModules/Package-Unity/Files/Storage/DataProfile.cs" />
-      <option value="$PROJECT_DIR$/Assets/SubModules/Package-Unity-Odin/OdinInspectorAndSerializerDefine.cs" />
-      <option value="$PROJECT_DIR$/Assets/_ProjectFiles/Scripts/Levels/LevelInfoLoader.cs" />
-      <option value="$PROJECT_DIR$/Assets/SubModules/Package-Unity/Ui/Containers/IContainer.cs" />
-      <option value="$PROJECT_DIR$/Assets/_ProjectFiles/Scripts/Visuals/Level/TestLevelBoard.cs" />
-      <option value="$PROJECT_DIR$/Assets/SubModules/Package-Unity/Events/CallBack.cs" />
-      <option value="$PROJECT_DIR$/Assets/SubModules/Package-Unity/Events/WeakDelegate.cs" />
-      <option value="$PROJECT_DIR$/Assets/SubModules/Package-Unity/Events/WeakEvent.cs" />
-      <option value="$PROJECT_DIR$/Assets/_ProjectFiles/Scripts/WeakEventTest.cs" />
-      <option value="$PROJECT_DIR$/Assets/SubModules/Package-Unity/Events/WeakEvent/WeakDelegateHandle.cs" />
-      <option value="$PROJECT_DIR$/Assets/SubModules/Package-Unity/Events/WeakEvent/Closure.cs" />
-      <option value="$PROJECT_DIR$/Assets/SubModules/Package-Unity/Events/WeakEvent/WeakEvent.cs" />
-      <option value="$PROJECT_DIR$/Assets/_ProjectFiles/Scripts/PlayerController.cs" />
-      <option value="$PROJECT_DIR$/Assets/SubModules/Package-Unity/Ui/Visuals/Visual.cs" />
-      <option value="$PROJECT_DIR$/Assets/SubModules/Package-Unity/Files/Storage/DataProvider.cs" />
-      <option value="$PROJECT_DIR$/Assets/SubModules/Package-Unity/Extensions/LinkedListExtensions.cs" />
-      <option value="$PROJECT_DIR$/Assets/SubModules/Package-Unity/Engine/ApplicationManager.cs" />
-      <option value="$PROJECT_DIR$/Assets/_ProjectFiles/Scripts/Visuals/Level/LevelInfoEvent.cs" />
-      <option value="$PROJECT_DIR$/Assets/SubModules/Package-Unity/Engine/Scene/Core/GameSceneManager/GameSceneManagerUtilsPart.cs" />
-      <option value="$PROJECT_DIR$/Assets/SubModules/Package-Unity/Engine/Scene/Core/GameSceneManager/GameSceneManager.cs" />
-      <option value="$PROJECT_DIR$/Assets/_ProjectFiles/Scripts/Visuals/Level/LevelIcon.cs" />
-      <option value="$PROJECT_DIR$/Assets/SubModules/Package-Unity/Extensions/FileSystemExtensions.cs" />
-      <option value="$PROJECT_DIR$/Assets/SubModules/Package-Unity/Files/Storage/Storage.cs" />
-      <option value="$PROJECT_DIR$/Assets/SubModules/Package-Unity/Objects/Structs/Promise.cs" />
-      <option value="$PROJECT_DIR$/Assets/_ProjectFiles/Scripts/Scenes/AssignedSceneLoader.cs" />
-      <option value="$PROJECT_DIR$/Assets/SubModules/Package-Unity/Extensions/LinqExtensions.cs" />
-      <option value="$PROJECT_DIR$/Assets/_ProjectFiles/Scripts/Scenes/ISceneLoader.cs" />
-      <option value="$PROJECT_DIR$/Assets/_ProjectFiles/Scripts/Levels/LevelLoader.cs" />
-      <option value="$PROJECT_DIR$/Assets/_ProjectFiles/Scripts/Visuals/Level/LevelBoard.cs" />
-      <option value="$PROJECT_DIR$/Assets/SubModules/Package-Unity/Engine/Application/ApplicationManager.cs" />
+      <option value="$PROJECT_DIR$/Assets/SubModules/Package-EGSP/Package-Unity/Physics/Entities/IPhysicsEntity.cs" />
+      <option value="$PROJECT_DIR$/Assets/SubModules/Package-EGSP/Package-Unity/Physics/Entities/PhysicsObstacle2D.cs" />
+      <option value="$PROJECT_DIR$/Assets/SubModules/Package-EGSP/Package-Unity/Physics/Entities/IMonoPhysicsEntity.cs" />
+      <option value="$PROJECT_DIR$/Assets/SubModules/Package-EGSP/Package-Unity/Physics/Triggers/ITrigger.cs" />
+      <option value="$PROJECT_DIR$/Assets/SubModules/Package-EGSP/Package-Unity/Physics/Triggers/Trigg.cs" />
+      <option value="$PROJECT_DIR$/Assets/SubModules/Package-EGSP/Package-Unity/Physics/Triggers/TriggerBase.cs" />
+      <option value="$PROJECT_DIR$/Assets/SubModules/Package-EGSP/Package-Unity/Physics/Triggers/2D/Trigger2D.cs" />
+      <option value="$PROJECT_DIR$/Assets/SubModules/Package-EGSP/Package-Unity/Physics/Force.cs" />
+      <option value="$PROJECT_DIR$/Assets/SubModules/Package-EGSP/Package-Unity/Rework/RandomList.cs" />
+      <option value="$PROJECT_DIR$/Assets/SubModules/Package-EGSP/Package-Unity/Structure/Singleton.cs" />
+      <option value="$PROJECT_DIR$/Assets/SubModules/Package-EGSP/Package-Unity/Structure/SingletonRaw.cs" />
+      <option value="$PROJECT_DIR$/Assets/SubModules/Package-EGSP/Package-Unity/Ui/Containers/IContainer.cs" />
+      <option value="$PROJECT_DIR$/Assets/SubModules/Package-EGSP/Package-Unity/Ui/Containers/TransformContainer.cs" />
+      <option value="$PROJECT_DIR$/Assets/SubModules/Package-EGSP/Package-Unity/Ui/Handlers/PointDownHandler.cs" />
+      <option value="$PROJECT_DIR$/Assets/SubModules/Package-EGSP/Package-Unity/Ui/Visuals/IVisual.cs" />
+      <option value="$PROJECT_DIR$/Assets/SubModules/Package-EGSP/Package-Unity/Ui/Visuals/Visual.cs" />
+      <option value="$PROJECT_DIR$/Assets/SubModules/Package-EGSP/Package-Unity/Ui/Visuals/VisualElement.cs" />
+      <option value="$PROJECT_DIR$/Assets/SubModules/Package-EGSP/Package-Unity/Ui/Visuals/Context/ContextVisual.cs" />
+      <option value="$PROJECT_DIR$/Assets/SubModules/Package-EGSP/Package-Unity/Ui/Visuals/Context/ContextedVisual.cs" />
+      <option value="$PROJECT_DIR$/Assets/SubModules/Package-EGSP/Package-Unity/Ui/Visuals/Context/IContextedVisual.cs" />
+      <option value="$PROJECT_DIR$/Assets/SubModules/Package-EGSP/Package-Unity/Ui/Visuals/Context/View.cs" />
+      <option value="$PROJECT_DIR$/Assets/SubModules/Package-EGSP/Package-Unity/Utilities/Mesh/PropertyBlockProxy.cs" />
+      <option value="$PROJECT_DIR$/Assets/SubModules/Package-EGSP/Package-Unity/Utilities/Mesh/RendererObject.cs" />
+      <option value="$PROJECT_DIR$/Assets/SubModules/Package-EGSP/Package-Unity/Utilities/GameObjectUtils.cs" />
+      <option value="$PROJECT_DIR$/Assets/_ProjectFiles/Scripts/Ads/AdsInterface.cs" />
+      <option value="$PROJECT_DIR$/Assets/_ProjectFiles/Scripts/Ads/AdsManager.cs" />
       <option value="$PROJECT_DIR$/Assets/_ProjectFiles/Scripts/Editor/LevelInfoAssetManager.cs" />
       <option value="$PROJECT_DIR$/Assets/_ProjectFiles/Scripts/Editor/LevelInfoAssetManagerMenu.cs" />
-      <option value="$PROJECT_DIR$/Assets/_ProjectFiles/Scripts/Levels/LevelInfo.cs" />
-      <option value="$PROJECT_DIR$/Assets/_ProjectFiles/Scripts/Entities/Player/PlayerHealthLogic.cs" />
       <option value="$PROJECT_DIR$/Assets/_ProjectFiles/Scripts/Entities/Player/Player.cs" />
+      <option value="$PROJECT_DIR$/Assets/_ProjectFiles/Scripts/Entities/Health.cs" />
+      <option value="$PROJECT_DIR$/Assets/_ProjectFiles/Scripts/Levels/LevelInfo.cs" />
+      <option value="$PROJECT_DIR$/Assets/_ProjectFiles/Scripts/Levels/LevelInfoRuntime.cs" />
+      <option value="$PROJECT_DIR$/Assets/_ProjectFiles/Scripts/Levels/LevelInfoStatic.cs" />
+      <option value="$PROJECT_DIR$/Assets/_ProjectFiles/Scripts/Levels/LevelLoader.cs" />
+      <option value="$PROJECT_DIR$/Assets/_ProjectFiles/Scripts/Levels/NextLevelLoader.cs" />
+      <option value="$PROJECT_DIR$/Assets/_ProjectFiles/Scripts/Parallax/IParallax.cs" />
+      <option value="$PROJECT_DIR$/Assets/_ProjectFiles/Scripts/Parallax/Parallax.cs" />
+      <option value="$PROJECT_DIR$/Assets/_ProjectFiles/Scripts/Parallax/Parallax2D.cs" />
+      <option value="$PROJECT_DIR$/Assets/_ProjectFiles/Scripts/Parallax/IParallaxGroup.cs" />
+      <option value="$PROJECT_DIR$/Assets/_ProjectFiles/Scripts/Parallax/ParallaxGroup.cs" />
+      <option value="$PROJECT_DIR$/Assets/_ProjectFiles/Scripts/Scenes/ByCallSceneLoader.cs" />
+      <option value="$PROJECT_DIR$/Assets/_ProjectFiles/Scripts/Scenes/ISceneLoader.cs" />
+      <option value="$PROJECT_DIR$/Assets/_ProjectFiles/Scripts/Scenes/ISceneLoadTrigger.cs" />
+      <option value="$PROJECT_DIR$/Assets/_ProjectFiles/Scripts/Visuals/Level/LevelBoard.cs" />
+      <option value="$PROJECT_DIR$/Assets/_ProjectFiles/Scripts/Visuals/Level/LevelIcon.cs" />
+      <option value="$PROJECT_DIR$/Assets/_ProjectFiles/Scripts/Visuals/Level/TestLevelBoard.cs" />
+      <option value="$PROJECT_DIR$/Assets/_ProjectFiles/Scripts/Visuals/AbilityVisual.cs" />
+      <option value="$PROJECT_DIR$/Assets/_ProjectFiles/Scripts/Visuals/CameraOrtoFitter.cs" />
       <option value="$PROJECT_DIR$/Assets/_ProjectFiles/Scripts/Visuals/HealthVisual.cs" />
       <option value="$PROJECT_DIR$/Assets/_ProjectFiles/Scripts/Visuals/PlayerControllerUi.cs" />
-      <option value="$PROJECT_DIR$/Assets/_ProjectFiles/Scripts/Entities/Health.cs" />
-      <option value="$PROJECT_DIR$/Assets/_ProjectFiles/Scripts/Visuals/CameraFit.cs" />
-      <option value="$PROJECT_DIR$/Assets/_ProjectFiles/Scripts/Visuals/CameraOrtoFit.cs" />
-      <option value="$PROJECT_DIR$/Assets/_ProjectFiles/Scripts/Visuals/CameraOrtoFitter.cs" />
-      <option value="$PROJECT_DIR$/Assets/_ProjectFiles/Scripts/Ads/AdsManagerInitialization.cs" />
-      <option value="$PROJECT_DIR$/Assets/_ProjectFiles/Scripts/Ads/AdsManager.cs" />
-      <option value="$PROJECT_DIR$/Assets/SubModules/Package-EGSP/Package-Unity/Files/Storage/Storage.cs" />
-      <option value="$PROJECT_DIR$/Assets/Storage/Global/Levels/levelInfos.txt" />
-      <option value="$PROJECT_DIR$/Assets/SubModules/Package-EGSP/Package-Unity/Extensions/LinkedListExtensions.cs" />
-      <option value="$PROJECT_DIR$/Assets/_ProjectFiles/Scripts/Levels/LevelInfoRuntime.cs" />
-      <option value="$PROJECT_DIR$/Assets/_ProjectFiles/Scripts/Levels/NextLevelLoader.cs" />
-      <option value="$PROJECT_DIR$/Assets/_ProjectFiles/Scripts/Levels/LevelInfoStatic.cs" />
-      <option value="$PROJECT_DIR$/Assets/_ProjectFiles/Scripts/Ads/AdsManagerRuntime.cs" />
-      <option value="$PROJECT_DIR$/Assets/_ProjectFiles/Scripts/Ads/AdsInterface.cs" />
+      <option value="$PROJECT_DIR$/Assets/_ProjectFiles/Scripts/FollowCamera.cs" />
     </changedPaths>
   </component>
   <component name="ProjectId" id="1nh6WxHjpf1Psnz9jTfr1rYEgO0" />
@@ -371,6 +400,7 @@
       <workItem from="1618399899012" duration="8457000" />
       <workItem from="1618844392035" duration="3415000" />
       <workItem from="1619012938920" duration="8961000" />
+      <workItem from="1619081173861" duration="14824000" />
     </task>
     <servers />
   </component>

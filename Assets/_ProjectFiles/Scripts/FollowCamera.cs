@@ -3,11 +3,17 @@ using UnityEngine;
 
 namespace Game
 {
+    /// <summary>
+    /// Представление точки в пространстве.
+    /// </summary>
     public interface IPoint
     {
         Vector3 Coordinates { get; }
     }
 
+    /// <summary>
+    /// Точка равна позиции объекта компонента.
+    /// </summary>
     public class TransformPoint : IPoint
     {
         private Transform transform;
@@ -34,6 +40,9 @@ namespace Game
         }
     }
 
+    /// <summary>
+    /// Точка равна позиции объекта компонента. Однако учитывает особенности двумерного пространства.
+    /// </summary>
     public class Transform2DPoint : IPoint
     {
         private readonly float zCoord;
@@ -67,6 +76,9 @@ namespace Game
         }
     }
 
+    /// <summary>
+    /// Точка является простым вектором.
+    /// </summary>
     public class Vector3Point : IPoint
     {
         private readonly Vector3 point;
@@ -78,6 +90,9 @@ namespace Game
         }
     }
     
+    /// <summary>
+    /// Компонент камеры следующий за точкой, при ее наличии.
+    /// </summary>
     [RequireComponent(typeof(Camera))]
     public class FollowCamera : MonoBehaviour
     {
@@ -86,8 +101,11 @@ namespace Game
 
         [CanBeNull] public IPoint Target { get; set; }
 
+        // Данный способ вычисления скорости/времени передвжиения подходит для Lerp функции.
+        // Чем больше времени, тем меньше будет число и медленнее интерполяция.
         private float InversedTime => 1f / timeToTarget;
 
+        // Данный режим обновления выбран из-за того, что игрок движется с помощью физики.
         private void FixedUpdate()
         {
             MoveToPoint();
@@ -103,6 +121,5 @@ namespace Game
 
             transform.position = newPosition;
         }
-        
     }
 }

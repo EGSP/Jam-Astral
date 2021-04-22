@@ -21,6 +21,8 @@ public partial class LevelInfoAssetManager
         EditorSceneManager.sceneSaved += EditorSceneManagerOnSceneSaved;
     }
 
+    // Перемещает сцены типа уровня в предназначенные для уровней папки.
+    // Также создает мета-данные уровня.
     private static void EditorSceneManagerOnSceneSaved(Scene scene)
     {
         if (IsLevel(scene.name))

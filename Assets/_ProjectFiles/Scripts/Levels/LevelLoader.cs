@@ -4,6 +4,9 @@ using UnityEngine.SceneManagement;
 
 namespace Game.Levels
 {
+    /// <summary>
+    /// Компонент просто загружает переданный уровень.
+    /// </summary>
     public class LevelLoader : MonoBehaviour
     {
         [SerializeField] private LoadSceneMode mode;
@@ -12,6 +15,5 @@ namespace Game.Levels
         {
             GameSceneManager.Instance.LoadScene(levelInfo.LevelName, mode);
         }
-        
     }
 }

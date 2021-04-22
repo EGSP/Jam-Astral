@@ -24,14 +24,13 @@ namespace Game
         [TitleGroup("Ability")] [OdinSerialize] public float AbilityDelay { get; private set; }
 
         [TitleGroup("Common")][SerializeField] private LayerMask groundMask;
-        
-        private Rigidbody2D _rig;
-        private Collider2D _col;
 
         // Runtime values
         private Vector3 _moveVelocity;
 
         // Physics
+        private Rigidbody2D _rig;
+        private Collider2D _col;
         private ContactFilter2D _filter;
 
         // Tweens
@@ -112,9 +111,9 @@ namespace Game
 
         public void StopMove() => _moveVelocity = Vector3.zero;
 
-        // Position
-        
-        // Узнаем о наличии препятствия перед объектом.
+        /// <summary>
+        /// Определяет наличие препятствия по заданному направлению.
+        /// </summary>
         private bool DetectGround(Vector3 direction, float distance, float deltaTime = 1f)
         {
             var array = new RaycastHit2D[2];
@@ -127,6 +126,9 @@ namespace Game
             return false;
         }
 
+        /// <summary>
+        /// Проверяет состояние положения игрока.
+        /// </summary>
         private void CheckGroundState()
         {
             if (DetectGround(Vector3.down, 0.1f))
@@ -159,14 +161,13 @@ namespace Game
         {
             if (!_allowAbility)
                 return;
-
-            // Physics
+            
             var raycastHit2D = Physics2D.CircleCast(transform.position, AbilityRadius,
                 LookDirection, AbilityDistance - AbilityRadius);
             
             if (raycastHit2D.collider != null)
             {
-
+                // Кривая мощности была убрана из-за ненадобности.
                 // var abilityEndPower = (1 - raycastHit2D.distance / AbilityDistance) * AbilityPower;
                 var abilityEndPower = AbilityPower;
 
@@ -174,15 +175,16 @@ namespace Game
                 if (raycastHit2D.collider.IsPhysicsEntity(out physicsEntity))
                 {
                     BlockMovement();
+                    // Передаем силу на физический объект.
                     physicsEntity.ApplyForce(
                         new Force(LookDirection * abilityEndPower, ForceMode.VelocityChange), this);
                 }
                 else
                 {
+                    // Используем силу для прыжка.
                     ApplyForceInternal(
                         new Force(-LookDirection * abilityEndPower, ForceMode.VelocityChange), true); 
                 }
-                
                 
                 _allowAbility = false;
                 _abilityDelayTween = DOVirtual.DelayedCall(AbilityDelay, () =>
@@ -190,6 +192,7 @@ namespace Game
                     _allowAbility = true;
                 });
 
+                // Твинер не кешируется в данном классе, но кешируется в машине твинов.
                 var _abilityReadinessTweener = DOVirtual.Float(0, 1, AbilityDelay,
                     f => AbilityReadiness = f);
             }
@@ -212,8 +215,6 @@ namespace Game
             var mousePos = InputExtensions.GetMouseWorldPosition();
             LookDirection = (mousePos - transform.position).normalized;
         }
-        
-        // Physics
 
         public void ApplyForce(Force force, IPhysicsEntity actor = null)
         {
