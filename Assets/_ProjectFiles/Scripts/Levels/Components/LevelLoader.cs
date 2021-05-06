@@ -13,7 +13,7 @@ namespace Game.Levels
         
         public void LoadLevel(LevelInfo levelInfo)
         {
-            GameSceneManager.Instance.LoadScene(levelInfo.LevelName, mode);
+            LevelInfo.LoadLevel(levelInfo);
         }
 
         /// <summary>
@@ -21,15 +21,7 @@ namespace Game.Levels
         /// </summary>
         public void LoadNextLevel()
         {
-            var nextLevel = LevelInfo.GetNextLevel();
-            if (!nextLevel.IsSome)
-            {
-                Debug.Log("Следующий уровень не был найден.");
-                return;
-            }
-
-            var nextSceneName = nextLevel.Value.LevelName;
-            GameSceneManager.Instance.LoadScene(nextSceneName, LoadSceneMode.Single);
+            LevelInfo.LoadNextLevel();
         }
     }
 }

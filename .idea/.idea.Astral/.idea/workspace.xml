@@ -20,29 +20,16 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="52a2c8e9-c056-44b6-b833-90f660bc5b6d" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/Assets/_ProjectFiles/Scripts/Levels/Components/LevelCompleter.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/_ProjectFiles/Scripts/Levels/Components/LevelLoader.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.Astral/.idea/contentModel.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.Astral/.idea/indexLayout.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Astral/.idea/indexLayout.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.Astral/.idea/modules.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.Astral/.idea/riderModule.iml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.Astral/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Astral/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.Astral/riderModule.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Storage/Global/Levels/levelInfos.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Storage/Global/Levels/levelInfos.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/SubModules/Package-EGSP/Package-Unity-Odin" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/SubModules/Package-EGSP/Package-Unity-Odin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/SubModules/Package-EGSP/Package-Unity-Odin/Visual/SerializedContextVisual.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/SubModules/Package-EGSP/Package-Unity-Odin/Visual/SerializedContextedVisual.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/SubModules/Package-EGSP/Package-Unity-Odin/Visual/SerializedContextVisual.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/SubModules/Package-EGSP/Package-Unity-Odin/Visual/SerializedContextedVisual.cs.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/SubModules/Package-EGSP/Package-Unity/Events/WeakEvent/WeakEvent.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/SubModules/Package-EGSP/Package-Unity/Events/WeakEvent/WeakEvent.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_ProjectFiles/Prefabs/Ui/[PlayerSystems].prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_ProjectFiles/Prefabs/Ui/[PlayerSystems].prefab" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_ProjectFiles/Scenes/Levels/SampleScene_lvl.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_ProjectFiles/Scenes/Levels/SampleScene_lvl.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_ProjectFiles/Scripts/Ads/AdsInterface.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_ProjectFiles/Scripts/Ads/AdsInterface.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/SubModules/Package-EGSP/Package-Unity/Engine/Scene/Core/GameSceneManager/GameSceneManager.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/SubModules/Package-EGSP/Package-Unity/Engine/Scene/Core/GameSceneManager/GameSceneManager.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/SubModules/Package-EGSP/Package-Unity/Engine/Scene/Core/Objects/SceneLoadRequest.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/SubModules/Package-EGSP/Package-Unity/Engine/Scene/Core/Objects/SceneLoadRequest.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/SubModules/Package-EGSP/Package-Unity/Engine/Scene/Core/SceneActivateAssistant.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/SubModules/Package-EGSP/Package-Unity/Engine/Scene/Core/SceneActivateHandler.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/SubModules/Package-EGSP/Package-Unity/Engine/Scene/Core/SceneLoadAssistant.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/SubModules/Package-EGSP/Package-Unity/Engine/Scene/Core/SceneLoadHandler.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/_ProjectFiles/Scripts/Levels/Components/LevelLoader.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_ProjectFiles/Scripts/Levels/Components/LevelLoader.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/_ProjectFiles/Scripts/Levels/LevelInfoRuntime.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_ProjectFiles/Scripts/Levels/LevelInfoRuntime.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_ProjectFiles/Scripts/Levels/LevelLoader.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_ProjectFiles/Scripts/Levels/LevelLoader.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_ProjectFiles/Scripts/Levels/Components/LevelLoader.cs.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_ProjectFiles/Scripts/Levels/NextLevelLoader.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_ProjectFiles/Scripts/Levels/NextLevelLoader.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_ProjectFiles/Scripts/Levels/Components/LevelCompleter.cs.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_ProjectFiles/Scripts/Visuals/Level/LevelInfoEvent.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_ProjectFiles/Scripts/Unity/Events/LevelInfoEvent.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/_ProjectFiles/Scripts/Visuals/Level/LevelInfoEvent.cs.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/_ProjectFiles/Scripts/Unity/Events/LevelInfoEvent.cs.meta" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Package-Unity/.gitignore" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/Package-Unity/Attributes.meta" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/Package-Unity/Attributes/LazyInstanceAttribute.cs" beforeDir="false" />
@@ -208,10 +195,6 @@
       <change beforePath="$PROJECT_DIR$/Package-Unity/Utilities/Mesh/MeshUtils.cs" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/Package-Unity/Utilities/Mesh/PropertyBlockProxy.cs" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/Package-Unity/Utilities/Mesh/RendererObject.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Packages/manifest.json" beforeDir="false" afterPath="$PROJECT_DIR$/Packages/manifest.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Packages/packages-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/Packages/packages-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProjectSettings/ProjectSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/ProjectSettings.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProjectSettings/UnityConnectSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/UnityConnectSettings.asset" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -232,6 +215,7 @@
   </component>
   <component name="HighlightingSettingsPerFile">
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/FB001E01-371B-4ADC-A200-13E0AC763896/c6/5ec63530/MulticastDelegate.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/SubModules/Package-EGSP/Package-Unity/Objects/Classes/Decorator/Component.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/SubModules/Package-EGSP/Package-Unity/Pathfinding/CoreNonAlloc/PathFuncs.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/BC8E7B41-D288-4C8D-900A-2DEB12DC9189/ec/5b3ed91d/Enumerable.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://C:/Program Files/Unity/Hub/Editor/2019.4.11f1/Editor/Data/Resources/PackageManager/BuiltInPackages/com.unity.ugui/Runtime/UI/Core/Graphic.cs" root0="SKIP_HIGHLIGHTING" />
@@ -268,12 +252,6 @@
   </component>
   <component name="IdeDocumentHistory">
     <changedPaths>
-      <option value="$PROJECT_DIR$/Assets/SubModules/Package-EGSP/Package-Unity/Structure/SingletonRaw.cs" />
-      <option value="$PROJECT_DIR$/Assets/SubModules/Package-EGSP/Package-Unity/Ui/Containers/IContainer.cs" />
-      <option value="$PROJECT_DIR$/Assets/SubModules/Package-EGSP/Package-Unity/Ui/Containers/TransformContainer.cs" />
-      <option value="$PROJECT_DIR$/Assets/SubModules/Package-EGSP/Package-Unity/Ui/Handlers/PointDownHandler.cs" />
-      <option value="$PROJECT_DIR$/Assets/SubModules/Package-EGSP/Package-Unity/Ui/Visuals/IVisual.cs" />
-      <option value="$PROJECT_DIR$/Assets/SubModules/Package-EGSP/Package-Unity/Ui/Visuals/Visual.cs" />
       <option value="$PROJECT_DIR$/Assets/SubModules/Package-EGSP/Package-Unity/Ui/Visuals/VisualElement.cs" />
       <option value="$PROJECT_DIR$/Assets/SubModules/Package-EGSP/Package-Unity/Ui/Visuals/Context/ContextVisual.cs" />
       <option value="$PROJECT_DIR$/Assets/SubModules/Package-EGSP/Package-Unity/Ui/Visuals/Context/ContextedVisual.cs" />
@@ -313,12 +291,18 @@
       <option value="$PROJECT_DIR$/Assets/_ProjectFiles/Scripts/Levels/NextLevelLoader.cs" />
       <option value="$PROJECT_DIR$/Assets/_ProjectFiles/Scripts/Levels/LevelCompleter.cs" />
       <option value="$PROJECT_DIR$/Assets/_ProjectFiles/Scripts/Levels/Components/LevelCompleter.cs" />
-      <option value="$PROJECT_DIR$/Assets/_ProjectFiles/Scripts/Levels/Components/LevelLoader.cs" />
       <option value="$PROJECT_DIR$/Assets/Storage/Global/Levels/levelInfos.txt" />
       <option value="$PROJECT_DIR$/Assets/_ProjectFiles/Scripts/Levels/Components/MenuLoader.cs" />
       <option value="$PROJECT_DIR$/Assets/_ProjectFiles/Scripts/Levels/Components/LevelCompleteHandler.cs" />
       <option value="$PROJECT_DIR$/Assets/SubModules/Package-EGSP/Package-Unity/Events/WeakEvent/WeakEvent.cs" />
+      <option value="$PROJECT_DIR$/Assets/SubModules/Package-EGSP/Package-Unity/Objects/Classes/Decorator/Decorator.cs" />
+      <option value="$PROJECT_DIR$/Assets/SubModules/Package-EGSP/Package-Unity/Objects/Classes/Decorator/DecoratorBase.cs" />
+      <option value="$PROJECT_DIR$/Assets/SubModules/Package-EGSP/Package-Unity/Objects/Classes/Decorator/Component.cs" />
+      <option value="$PROJECT_DIR$/Assets/SubModules/Package-EGSP/Package-Unity/Engine/Scene/Core/Objects/SceneLoadRequest.cs" />
+      <option value="$PROJECT_DIR$/Assets/SubModules/Package-EGSP/Package-Unity/Engine/Scene/Core/GameSceneManager/GameSceneManager.cs" />
+      <option value="$PROJECT_DIR$/Assets/_ProjectFiles/Scripts/Levels/Components/LevelLoader.cs" />
       <option value="$PROJECT_DIR$/Assets/_ProjectFiles/Scripts/Levels/LevelInfoRuntime.cs" />
+      <option value="$PROJECT_DIR$/Assets/SubModules/Package-EGSP/Package-Unity/Engine/Scene/Core/SceneLoadHandler.cs" />
     </changedPaths>
   </component>
   <component name="ProjectId" id="1nh6WxHjpf1Psnz9jTfr1rYEgO0" />
@@ -400,7 +384,7 @@
       <workItem from="1619012938920" duration="8961000" />
       <workItem from="1619081173861" duration="15917000" />
       <workItem from="1619184160740" duration="6711000" />
-      <workItem from="1620305503549" duration="3332000" />
+      <workItem from="1620305503549" duration="7218000" />
     </task>
     <servers />
   </component>

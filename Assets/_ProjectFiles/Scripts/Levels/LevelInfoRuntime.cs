@@ -4,6 +4,7 @@ using Egsp.Core;
 using Egsp.Extensions.Collections;
 using Egsp.Extensions.Linq;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 namespace Game.Levels
 {
@@ -123,6 +124,45 @@ namespace Game.Levels
         {
             LogAlreadyCompleted();
             OnLevelRecomplete.RaiseOnce(levelInfo);
+        }
+
+        public static void LoadLevel(LevelInfo levelInfo)
+        {
+            LoadLevelInternal(levelInfo.LevelName);
+        }
+
+        public static void LoadNextLevel()
+        {
+            var nextLevel = LevelInfo.GetNextLevel();
+            if (!nextLevel.IsSome)
+            {
+                Debug.Log("Следующий уровень не был найден.");
+                return;
+            }
+
+            var nextSceneName = nextLevel.Value.LevelName;
+            LoadLevelInternal(nextSceneName);
+        }
+
+        private static void LoadLevelInternal(string levelName)
+        {
+            var proxyO = GameSceneManager.Instance.LoadScene(levelName, LoadSceneMode.Single);
+            if (proxyO.IsSome)
+            {
+                // Добавляем действия после загрузки уровня.
+                var proxy = proxyO.Value;
+                var actions = new ActionsComponent();
+                
+                actions.Actions.Enqueue(LoadGameSystemsToScene);
+                
+                proxy.AddComponent(actions);
+            }
+            
+        }
+
+        private static void LoadGameSystemsToScene()
+        {
+            GameSceneManager.Instance.LoadSceneAdditive("GameSystems", false);
         }
         
         private static void LogAlreadyCompleted() => Debug.Log("Уровень уже помечен как завершенный.");
