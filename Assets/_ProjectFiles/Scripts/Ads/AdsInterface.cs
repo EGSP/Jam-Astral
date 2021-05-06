@@ -51,6 +51,7 @@ namespace Game.Ads
             _bannerView.OnAdLoaded += BannerViewOnAdLoaded;
             LockButton(bannerButton);
             
+            // Локальный метод, т.к. больше нигде не используется.
             void BannerViewOnAdLoaded(object sender, EventArgs e)
             {
                 var banner = sender as BannerView;
@@ -82,10 +83,10 @@ namespace Game.Ads
                 LockButton(closeBunnerButton);
                 UnlockButton(bannerButton);
                 _bannerView.OnAdClosed -= BannerOnAdClosed;
+                
+                _bannerView.Hide();
+                _bannerView.Destroy();
             }
-            
-            _bannerView?.Hide();
-            _bannerView?.Destroy();
         }
 
         private void LockButton(Button button)

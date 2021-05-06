@@ -10,6 +10,15 @@ namespace Game.Levels
     // Здесь определены методы для глобального доступа к информации об уровнях.
     public partial struct LevelInfo
     {
+        public static WeakEvent<(LevelInfo, LevelCompleteType)> OnLevelComplete { get; private set; }
+            = new WeakEvent<(LevelInfo, LevelCompleteType)>();
+
+        /// <summary>
+        /// Вызывается в том случае, если уровень уже был помечен как завершенный, но был пройден снова.
+        /// </summary>
+        public static WeakEvent<LevelInfo> OnLevelRecomplete { get; private set; }
+            = new WeakEvent<LevelInfo>();
+
         /// <summary>
         /// Возвращает следующий уровень.
         /// Если текущая сцена не в списке уровней, то вернется первый уровень в списке.
@@ -17,7 +26,7 @@ namespace Game.Levels
         /// </summary>
         public static Option<LevelInfo> GetNextLevel()
         {
-            var sceneAsLevel = GetCurrentLevel();
+            var sceneAsLevel = GetCurrentLevel().Item2;
             // Сцена является уровнем.
             if (sceneAsLevel.IsSome)
             {
@@ -52,37 +61,71 @@ namespace Game.Levels
         /// Получение текущего уровня на основе открытой сцены.
         /// Если сцена не является игровым уровнем, то return Option.None.
         /// </summary>
-        public static Option<LevelInfo> GetCurrentLevel()
+        public static ValueTuple<string,Option<LevelInfo>> GetCurrentLevel()
         {
             var scene = GameSceneManager.GetActiveScene();
             var levelInfo = LevelInfos.FirstOrDefault(x => x.LevelName == scene.name);
             if (levelInfo.IsDefault)
-                return Option<LevelInfo>.None;
-            return levelInfo;
+                return ("Текущая активная сцена не является уровнем.",Option<LevelInfo>.None);
+            return (String.Empty, levelInfo);
         }
 
         /// <summary>
-        /// Помечает текущий уровень как завершенный. Сохранения не происходит.
+        /// Помечает текущий уровень в системе контроля как завершенный в игровом процесса.
         /// </summary>
         public static void CompleteCurrentLevel()
         {
-            var level = GetCurrentLevel();
+            var tuple = GetCurrentLevel();
+            var level = tuple.Item2;
             
             if (level.IsSome)
             {
+                if (level.Value.Completed)
+                {
+                    RecompleteLevel(level.Value);
+                    return;
+                }
+            
                 var levelInfo = level.Value;
-                levelInfo.Completed = true;
-
-                LinkedListExtensions.Apply(LevelInfos, x => x.LevelName == levelInfo.LevelName,
-                    n => n.Value = levelInfo);
-                
-                Debug.Log($"Уровень {levelInfo.LevelName} помечен как завершенный!");
+                CompleteLevel(levelInfo, LevelCompleteType.Ingame);
             }
             else
             {
-                Debug.Log("Не удалось завершить уровень.");
+                Debug.Log($"Не удалось завершить уровень по причине: {tuple.Item1}");
             }
         }
+
+        /// <summary>
+        /// Помечает уровень в системе контроля как завершенный.
+        /// </summary>
+        public static void CompleteLevel(LevelInfo levelInfo, LevelCompleteType completeType)
+        {
+            if (levelInfo.Completed == true)
+            {
+                RecompleteLevel(levelInfo);
+                return;
+            }
+            
+            levelInfo.Completed = true;
+
+            LinkedListExtensions.Apply(LevelInfos, x => x.LevelName == levelInfo.LevelName,
+                n => n.Value = levelInfo);
+            
+            // Сохраняем прогресс.
+            SaveLevelInfosProgress(_levelInfos);
+
+            // Оповещаем о завершении уровня.
+            OnLevelComplete.RaiseOnce((levelInfo, completeType));
+            Debug.Log($"Уровень {levelInfo.LevelName} помечен как завершенный!");
+        }
+
+        private static void RecompleteLevel(LevelInfo levelInfo)
+        {
+            LogAlreadyCompleted();
+            OnLevelRecomplete.RaiseOnce(levelInfo);
+        }
+        
+        private static void LogAlreadyCompleted() => Debug.Log("Уровень уже помечен как завершенный.");
 
         private static bool LevelListed(string name)
         {
